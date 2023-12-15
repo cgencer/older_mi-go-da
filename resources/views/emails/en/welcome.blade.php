@@ -1,0 +1,68 @@
+@extends('emails.layouts.master')
+@section('content')
+    <tr>
+        <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:0;word-break:break-word;">
+            <div style="font-family:Arial, sans-serif;font-size:16px;line-height:1;text-align:left;color:#6d6f7e;">
+                <h1 class="header-title">Welcome to Migoda, <br> {{ $name }} </h1>
+                <h3 class="inner-step">1</h3>
+                <h3 class="inner-title">Register</h3>
+                <p>Register the Coupon either by logging in to your already existing account or if you are new customer please register for an account with us. Then you can start redeeming your Coupon.</p>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:0;word-break:break-word;">
+            <div style="font-family:Arial, sans-serif;font-size:16px;line-height:1;text-align:left;color:#6d6f7e;">
+                <h3 class="inner-step">2</h3>
+                <h3 class="inner-title">1 Coupon 1 Night</h3>
+                <p>One Hotel Coupon enables you to stay in a hotel room one night for two people. You only need to pay for the meal package the hotel provides, and your travel cost to the hotel. It is the hotels decision to provide the free room upon availability.</p>
+                <p class="note-text">Note the Coupon is valid for 18 months after registration.</p>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:0;word-break:break-word;">
+            <div style="font-family:Arial, sans-serif;font-size:16px;line-height:1;text-align:left;color:#6d6f7e;">
+                <h3 class="inner-step">3</h3>
+                <h3 class="inner-title">Collect Coupons</h3>
+                <p>In your account you can collect Coupons to redeem them for <span class="strong">a longer trip, transfer the Coupon to
+                                                                Loved Ones, give them as a gift to somebody you love.</span>
+                </p>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:0;word-break:break-word;">
+            <div style="font-family:Arial, sans-serif;font-size:16px;line-height:1;text-align:left;color:#6d6f7e;">
+                <h3 class="inner-step">4</h3>
+                <h3 class="inner-title">Discover your Destination</h3>
+
+                <p> Now you can choose your favorite location for a <span class="strong">free night(s)</span>  experience from our
+                    <span class="strong">2,000 + hotels in 30 countries worldwide from 1 star to 5 stars.
+                                                                </span> Select your preferred dates and send a booking request. Ensure that you have enough Coupons for the night(s) you booked. Keep in mind that for each night a Coupon will be set against your booking and deleted once the booking is finalized. Waiting confirmation from the hotels might take up to 24 hours to 48 hours.
+                </p>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:0;word-break:break-word;">
+            <div style="font-family:Arial, sans-serif;font-size:16px;line-height:1;text-align:left;color:#6d6f7e;">
+                <h3 class="inner-step">5</h3>
+                <h3 class="inner-title">Enjoy your Stay!</h3>
+                <p>After we received confirmation from the hotel, you will receive notice from us to finalize the booking. You will be asked to pay, check-out and then you can look forward to enjoy your hotel stay.</p> <br>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" vertical-align="middle" style="font-size:0px;padding:40px 10px 40px 10px;word-break:break-word;">
+            <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:separate;width:100%;line-height:100%;">
+                <tr>
+                    <td align="center" bgcolor="#fa3440" role="presentation" class="main-button-holder" valign="middle">
+                     <br>   <a href="{{ env('APP_URL') }}/destinations" class="main-button" target="_blank">Discover Destinations</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+
+@endsection

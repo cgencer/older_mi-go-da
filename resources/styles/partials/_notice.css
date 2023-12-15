@@ -1,0 +1,29 @@
+.notice {
+    background: url("../images/pages/notice-bg.png") no-repeat top left transparent;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    color: #fff;
+    position: relative;
+    background-size: cover;
+}
+
+.notice ul {
+    margin-bottom: 0;
+}
+
+.notice ul li {
+    margin-bottom: 2rem;
+}
+
+.notice ul li:last-child {
+    margin-bottom: 0;
+}
+
+.notice .notice-button {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 25px;
+    color: #fff;
+}

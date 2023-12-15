@@ -1,0 +1,9 @@
+.migoda-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.migoda-alert p {
+    margin-bottom: 0.75rem;
+}

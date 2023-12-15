@@ -1,0 +1,3613 @@
+/* old/boot.css */
+/* old/bootstrap.css */
+/* old/bootstrap-datepicker.css */
+/* old/fontawesome.css */
+/* old/select2.css */
+/* old/slider.css */
+/* old/lightgallery.css */
+/* old/datepicker.css */
+/* old/fonts.css */
+/* old/icomoon.css */
+
+.migoda-alert {
+  border-radius: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.migoda-alert p {
+  margin-bottom: 0.75rem;
+}
+
+div.input-text {
+  position: relative;
+}
+
+div.input-text > span {
+  position: absolute;
+  left: 0;
+  color: #afafaf;
+  font-size: 1.25rem;
+  line-height: 4.5rem;
+  float: left;
+  margin: 0.25rem 1.5rem;
+}
+
+div.input-text > span img {
+  width: 1.8rem;
+}
+
+div.input-text > input {
+  padding-left: 4.5rem;
+  width: 100%;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  display: block;
+  float: left;
+  margin: 0.25rem 0;
+  font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.25rem;
+  color: #666666;
+  outline: none;
+  border: 1px solid #ededed;
+}
+
+div.input-text > textarea {
+  font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.25rem;
+  padding: 1.5rem 1.5rem 1.5rem 4.5rem;
+  width: 100%;
+  height: 15rem;
+  color: #666666;
+  border: 1px solid #ededed;
+  outline: none;
+  resize: none;
+}
+ul.header-links
+{
+  white-space:nowrap;
+  float:left;
+}
+.mg-primary-button, .mg-primary-button__disabled, .mg-primary-button__passive, .mobile-menu ul.header-links li.menu-login a, .signup-login ul.header-links_mobile li.menu-login a {
+  background-repeat: repeat-x;
+  background-image: linear-gradient(45deg, #e13773, #ec5937);
+  background-color: #ec5937;
+  outline: none;
+  color: #fff;
+  width: 15.5rem;
+  height: auto;
+  font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 3rem;
+  font-size: 1.5rem;
+  right: 0.25rem;
+  top: 0.25rem;
+  border: 2px solid #e54545;
+}
+
+.mg-primary-button__disabled {
+  background: #afafaf none;
+  border: 2px solid #afafaf;
+}
+
+.mg-primary-button__passive {
+  background: #666666 none;
+  border: 2px solid #666666;
+}
+
+.mg-primary-button_intext {
+  height: 4rem;
+}
+
+.mg-primary-button__aligned {
+  position: relative;
+  text-align: left;
+  left: 0;
+  top: 0;
+  padding-left: 5%;
+}
+
+.mg-primary-button__aligned svg {
+  position: absolute;
+  right: 10%;
+  top: 35%;
+}
+
+.mg-secondary-button {
+  border: 2px solid #e54545;
+  color: #e54545;
+  display: inline-block;
+  line-height: 2.5rem;
+  padding: 0 1.4rem;
+  background-color: #fff;
+}
+
+.mg-tertiary-button {
+  color: #fff;
+  background-color: #6d6f7e;
+  display: inline-block;
+  line-height: 3.6rem;
+  padding: 0 1.4rem;
+  font-size: 1rem;
+  width: 14rem;
+  position: relative;
+}
+
+.mg-tertiary-button svg {
+  position: absolute;
+  right: 10%;
+  top: 35%;
+}
+
+.mg-tertiary-button:hover {
+  color: #fff;
+  background-color: #666666;
+}
+
+.mg-tertiary-button_active {
+  background-repeat: repeat-x;
+  background-image: linear-gradient(45deg, #e13773, #ec5937);
+  background-color: #ec5937;
+  outline: none;
+}
+
+.mg-tertiary-button_passive {
+  background-color: #afafaf;
+}
+
+.stars {
+  width: 8rem;
+  height: 1.8rem;
+  overflow: hidden;
+  margin-bottom: 0.6rem;
+}
+
+.stars.stars_1 {
+  width: 1.6rem;
+}
+
+.stars.stars_2 {
+  width: 3.2rem;
+}
+
+.stars.stars_3 {
+  width: 4.8rem;
+}
+
+.stars.stars_4 {
+  width: 6.4rem;
+}
+
+.stars.stars_5 {
+  width: 8rem;
+}
+
+.stars span {
+  background: url("../images/svg/stars.svg") no-repeat center left transparent;
+  background-size: 8rem;
+  width: 8rem;
+  display: block;
+  height: 1.8rem;
+}
+
+#addCouponsModalCenter .modal-body {
+  text-align: center;
+}
+
+#addCouponsModalCenter .modal-body .coupon_field {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  border: 2px solid #e54545;
+  color: #6d6f7e;
+  width: 25px;
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+}
+
+#addCouponsModalCenter .modal-body .coupon_field:nth-child(4n) {
+  margin-right: 10px;
+}
+
+#addCouponsModalCenter .modal-body .coupon_field:last-child {
+  margin-right: 0;
+}
+
+#addCouponsModalCenter .modal-body .coupons_added {
+  display: none;
+}
+
+#addCouponsModalCenter .modal-body .coupons_added > div input {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  border: 2px solid #fff;
+  color: #6d6f7e;
+  width: 25px;
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+}
+
+#addCouponsModalCenter .modal-body .coupons_added > div input:nth-child(4n) {
+  margin-right: 10px;
+}
+
+#addCouponsModalCenter .modal-body .coupons_added > div input:last-child {
+  margin-right: 0;
+}
+
+#addCouponsModalCenter .modal-body .coupons_error {
+  margin: 10px 0 0;
+  display: none;
+}
+
+#addCouponsModalCenter .modal-body .invalid_coupon {
+  color: #afafaf;
+}
+
+#addCouponsModalCenter .modal-body .valid_coupon {
+  color: #28a745;
+}
+
+#addCouponsModalCenter .modal-footer button {
+  margin: 0 auto;
+}
+
+.profile-menu-bottom {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  width: 100%;
+}
+
+.profile-menu-bottom > div {
+  height: 5.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #f4f5fa;
+  position: relative;
+}
+
+.profile-menu-bottom > div .left h5 {
+  color: #666666;
+}
+
+.profile-menu-bottom > div .left a {
+  text-decoration: underline;
+}
+
+.profile-menu-bottom > div .coupon-box-inner {
+  float: right;
+  line-height: 3.2rem;
+  width: 9rem;
+  font-size: 1.8rem;
+  color: white;
+  padding-right: 0.4rem;
+  text-align: right;
+  height: 5rem;
+  position: absolute;
+  right: 0;
+  top: 0.5rem;
+  background: url("../images/coupon-active.png") no-repeat top left transparent;
+  background-size: contain;
+}
+
+.profile-menu-bottom > div .coupon-box-inner .inner {
+  width: 3.9rem;
+  text-align: center;
+  float: right;
+  line-height: 4.5rem;
+}
+
+.profile-menu-bottom > div.used-coupons .coupon-box-inner {
+  background: url("../images/coupon-passive.png") no-repeat top left transparent;
+  background-size: contain;
+}
+
+.profile-menu-bottom > div.existing-coupons .left a {
+  background: url("../images/coupon-active-add.png") no-repeat left -1px transparent;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  color: #e54545;
+  text-decoration: underline;
+}
+
+div.input-text > input.validation-error {
+  border: 1px solid #e54545 !important;
+  -webkit-box-shadow: 0 30px 40px rgba(175, 175, 175, 0.38);
+  box-shadow: 0 30px 40px rgba(175, 175, 175, 0.38);
+}
+
+.page-two-column {
+  padding: 5rem 0;
+  text-align: left;
+}
+
+.page-two-column .page-two-column-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+}
+
+.page-two-column .page-two-column-inner .two-column-left {
+  -webkit-box-flex: 1.2;
+  -ms-flex: 1.2;
+  flex: 1.2;
+  border-right: 1px solid #ededed;
+  position: relative;
+  min-height: 45rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .toggle-filter {
+  display: none;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu {
+  margin-top: 4.35rem;
+  padding-left: 0;
+  font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > a {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  padding: 0 0 0 2.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li.selected {
+  border-left: 0.5rem solid #e54545;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li.selected a {
+  color: #e54545;
+  padding: 0 0 0 2rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu {
+  margin-top: 1rem;
+  padding-left: 0;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu > li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu > li > a {
+  font-size: 1.2rem;
+  line-height: 3rem;
+  padding: 0 0 0 4.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu > li.selected {
+  border-left: 0.5rem solid #e54545;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu > li.selected a {
+  color: #e54545;
+  padding: 0 0 0 4rem;
+}
+/* search.css */
+.page-two-column .page-two-column-inner .two-column-left h2 {
+  margin: 3.7rem 9% 2rem;
+  position: relative;
+  font-size: 1.5rem;
+  padding: 0 1.5rem;
+  letter-spacing: -0.1rem;
+  color: #999999;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h2 a {
+  font-size: 0.9rem;
+  font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  position: absolute;
+  bottom: 0;
+  right: 2.2rem;
+  letter-spacing: normal;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h2 a span {
+  margin-left: 1.1rem;
+  font-size: 1.4rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h3 {
+  color: #afafaf;
+  font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 2rem 10% 1rem;
+  position: relative;
+  font-size: 1.4rem;
+  padding: 0 1.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h3.price-title {
+  font-size: 1.2rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h3.price-title > span {
+  font-size: 1rem;
+  float: right;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .search-input_wrapper {
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  padding: 2rem 0;
+  margin: 0 10%;
+}
+/* filterlist.css */
+.page-two-column .page-two-column-inner .two-column-left .filter-list {
+  margin: 0 10% 1rem;
+  position: relative;
+  font-size: 1.4rem;
+  padding: 0 0 0 1.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul {
+  padding-left: 0;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 1rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li {
+  list-style: none;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=radio], .page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox] {
+  display: none;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=radio] + label, .page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox] + label {
+  display: block;
+  padding-left: 0;
+  min-height: 18px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox] + label {
+  background: url(../images/checkbox.png) right bottom no-repeat;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox] + label:hover {
+  background: url(../images/checkbox.png) right top no-repeat;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox] + label:active {
+  background: url(../images/checkbox.png) right top no-repeat;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox]:checked + label {
+  background: url(../images/checkbox.png) right top no-repeat;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox]:checked + label:active {
+  background: url(../images/checkbox.png) right top no-repeat;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox]:disabled + label {
+  background: none left top no-repeat;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox]:disabled:checked + label {
+  background: none left top no-repeat;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li.more-filter {
+  font-size: 0.9rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li.hidden-filter {
+  display: none;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li label {
+  color: #666666;
+  font-size: 1.1rem;
+  position: relative;
+  width: 100%;
+}
+/* twocol_right.css */
+.page-two-column .page-two-column-inner .two-column-right {
+  -webkit-box-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding: 4.35rem 2%;
+}
+
+.page-two-column .page-two-column-inner .two-column-right h1 {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0 0 2rem;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.page-two-column .page-two-column-inner .two-column-right h1 span {
+  float: right;
+  font-size: 0.8rem;
+  color: #afafaf;
+  position: absolute;
+  bottom: 1.5rem;
+  right: 0;
+}
+
+.page-two-column .page-two-column-inner .two-column-right h3.submessage {
+  color: #afafaf;
+  margin-bottom: 1.5rem;
+}
+/* profile_top.css */
+.page-two-column .page-two-column-inner .two-column-right .profile-top {
+  margin: 0 0 2rem;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 2rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .profile-top a.back-btn {
+  font-size: 1.25rem;
+  line-height: 2.3rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .profile-top a.back-btn img {
+  width: 3rem;
+  vertical-align: sub;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .profile-top .action_buttons {
+  float: right;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .profile-top .action_buttons a {
+  background-repeat: repeat-x;
+  background-image: linear-gradient(45deg, #e13773, #ec5937);
+  background-color: #ec5937;
+  outline: none;
+  color: #fff;
+  height: auto;
+  font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 2.3rem;
+  font-size: 1.25rem;
+  right: 0.25rem;
+  top: 0.25rem;
+  border: 2px solid #e54545;
+  text-align: center;
+  display: inline-block;
+  width: 8rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .profile-top .action_buttons a.active-button_second {
+  background: none;
+  color: #e54545;
+}
+/* notice.css */
+.notice {
+  background: url("../images/pages/notice-bg.png") no-repeat top left transparent;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  color: #fff;
+  position: relative;
+  background-size: cover;
+}
+
+.notice ul {
+  margin-bottom: 0;
+}
+
+.notice ul li {
+  margin-bottom: 2rem;
+}
+
+.notice ul li:last-child {
+  margin-bottom: 0;
+}
+
+.notice .notice-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: #fff;
+}
+/* .css */
+.generic-form .form-input {
+  margin-bottom: 2rem;
+}
+
+.generic-form .form-input input {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #ededed;
+  font-size: 1.8rem;
+  font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.generic-form .form-input input[type=checkbox] {
+  width: auto;
+}
+
+.generic-form .form-input-double {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+
+.generic-form .form-input-double:nth-child(2n) {
+  margin-right: 0;
+}
+
+.generic-form .form-input-triple {
+  float: left;
+  width: 31%;
+  margin-right: 3.5%;
+}
+
+.generic-form .form-input-triple:nth-child(3n) {
+  margin-right: 0;
+}
+
+.generic-form .form-helpers {
+  margin-bottom: 2rem;
+}
+
+.generic-form .form-helpers .left {
+  float: left;
+}
+
+.generic-form .form-helpers .right {
+  float: right;
+}
+
+.generic-form .form-actions {
+  clear: left;
+}
+
+.generic-form .form-actions button {
+  width: 100%;
+  font-size: 1.5rem !important;
+  line-height: 4.5rem !important;
+  text-align: center;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.generic-form .form-actions.form-actions-inline button {
+  display: inline-block;
+  line-height: 4rem !important;
+  padding: 0 1.4rem;
+  font-size: 1rem;
+  width: 24rem;
+  text-align: left;
+  position: relative;
+  font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.generic-form .form-actions.form-actions-inline button svg {
+  position: absolute;
+  right: 10%;
+  top: 35%;
+}
+
+.generic-form.generic-form-smaller-text .form-input input {
+  font-size: 1.2rem;
+}
+
+.disable_text_highlighting {
+  -webkit-user-select: none;
+  /* Webkit */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE 10  */
+  /* Currently not supported in Opera but will be soon */
+  user-select: none;
+}
+/* select.css */
+.select-style {
+  margin: 0 1rem 0.6rem 1rem;
+}
+
+.select-style .select-replacement {
+  border: 1px solid #ededed;
+  padding: 1rem;
+}
+
+.select-style .select-replacement .select-replacement__line1 {
+  cursor: pointer;
+}
+
+.select-style .select-replacement .select-replacement__line1 .fa-caret-up {
+  display: none;
+}
+
+.select-style .select-replacement .select-replacement__line2 {
+  display: none;
+}
+
+.select-style .select-replacement .select-replacement__line2 a.num_up, .select-style .select-replacement .select-replacement__line2 a.num_down {
+  display: inline-block;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #e54545;
+  line-height: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+}
+
+.select-style .select-replacement .select-replacement__line2 span.num_val {
+  line-height: 2.5rem;
+  width: 1.5rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.select-style .select-replacement .select-replacement__line2 .left {
+  line-height: 2.5rem;
+}
+
+.select-style .select-replacement .right {
+  float: right;
+}
+
+.select-style .select-replacement.active {
+  border: 1px solid #e54545;
+  -webkit-box-shadow: 0px 30px 40px #ededed;
+  box-shadow: 0px 30px 40px #ededed;
+}
+
+.select-style .select-replacement.active .select-replacement__line1 {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ededed;
+  color: #e54545;
+}
+
+.select-style .select-replacement.active .select-replacement__line1 .fa-caret-up {
+  display: initial;
+}
+
+.select-style .select-replacement.active .select-replacement__line1 .fa-caret-down {
+  display: none;
+}
+
+.select-style .select-replacement.active .select-replacement__line2 {
+  display: block;
+}
+
+.select-style select {
+  padding: 12px 1rem;
+  width: 100%;
+  height: 3rem;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: none;
+  -webkit-appearance: none;
+  font-size: 1.2rem;
+}
+
+.select-style select:focus {
+  outline: none;
+}
+/* calendar.css */
+.calendar-wrapper {
+  -webkit-box-shadow: 0px 30px 40px #ededed;
+  box-shadow: 0px 30px 40px #ededed;
+  border: 1px solid #e54545;
+}
+
+.calendar-wrapper .dates-wrapper {
+  margin: 0.8rem;
+  border: 1px solid #ededed;
+  padding: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.calendar-wrapper .dates-wrapper .date {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.calendar-wrapper .dates-wrapper .date h5 {
+  font-size: 0.8rem;
+  color: #afafaf;
+}
+
+.calendar-wrapper .dates-wrapper .date h4 {
+  font-size: 1rem;
+  margin-bottom: 0;
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #afafaf;
+}
+
+.calendar-wrapper .dates-wrapper .date.date-start {
+  border-right: 1px solid #ededed;
+}
+
+.calendar-wrapper .extras {
+  margin: 1rem;
+  border-bottom: 1px solid #ededed;
+  padding: 1rem 0;
+}
+
+.calendar-wrapper .extras .extra {
+  color: #afafaf;
+}
+
+.calendar-wrapper .extras .extra .extra_title {
+  float: left;
+  font-size: 1.3rem;
+  width: 60%;
+}
+
+.calendar-wrapper .extras .extra .extra_title .extra_subtitle {
+  display: block;
+  font-size: 0.8rem;
+}
+
+.calendar-wrapper .extras .extra .extra_title .extra_subtitle span {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.calendar-wrapper .extras .extra .extra_price {
+  font-size: 2rem;
+  line-height: 3rem;
+  float: right;
+}
+
+.calendar-wrapper .extras.extras-active_color .extra_subtitle {
+  color: #e54545;
+}
+
+.calendar-wrapper .extras#total_price {
+  border-bottom: 0;
+}
+
+.calendar-wrapper .extras#total_price .extra_title {
+  color: #000;
+}
+
+.calendar-wrapper .extras#total_price .extra_price {
+  color: #e54545;
+  font-size: 2.5rem;
+}
+
+.calendar-wrapper .price {
+  border-top: 1px solid #ededed;
+  margin: 1rem;
+  padding: 2rem 0 0;
+}
+
+.calendar-wrapper .price .price_text {
+  font-size: 3rem;
+  color: #e54545;
+}
+
+.calendar-wrapper .price .price_prop {
+  color: #afafaf;
+}
+
+.calendar-wrapper > button {
+  width: 100%;
+  font-size: 1.2rem;
+  height: 4rem;
+  line-height: 4rem;
+}
+
+.calendar-wrapper > button img {
+  width: 2rem;
+  float: right;
+  margin-right: 0.5rem;
+  height: 3.8rem;
+  line-height: 4rem;
+}
+/* form_gender.css */
+.form-gender .select2-container--default .select2-selection--single, .form-date-of-birth .select2-container--default .select2-selection--single, .form-country .select2-container--default .select2-selection--single {
+  background-color: #fff;
+  border: 0 solid #ededed;
+  border-bottom-width: 1px;
+  border-radius: 0;
+  font-size: 1.2rem;
+  font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.form-gender .select2-container, .form-date-of-birth .select2-container, .form-country .select2-container {
+  width: 100% !important;
+}
+
+.form-date-of-birth .select2-container {
+  width: 33% !important;
+}
+
+.form-gender .select2-container--default .select2-selection--single, .form-date-of-birth .select2-container--default .select2-selection--single, .form-country .select2-container--default .select2-selection--single {
+  font-size: 1.8rem;
+}
+
+.form-gender .select2-container--default .select2-selection--single .select2-selection__rendered, .form-date-of-birth .select2-container--default .select2-selection--single .select2-selection__rendered, .form-country .select2-container--default .select2-selection--single .select2-selection__rendered {
+  padding-left: 0;
+}
+/* .css */
+
+.section-header {
+  margin-bottom: 1rem;
+}
+
+.registered {
+  display: none;
+}
+
+body.user_registered .registered {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 100;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+body.user_registered .registered .registered--content {
+  background: #fff;
+  max-width: 500px;
+  padding: 5rem;
+  margin: 0 auto;
+  top: 10rem;
+  position: absolute;
+  left: 20rem;
+  right: 20rem;
+  text-align: center;
+}
+
+body.user_registered .registered a.trigger_registered--close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: #e54545;
+  z-index: 101;
+}
+
+body.user_registered .registered a.mg-primary-button, body.user_registered .registered a.mg-primary-button__disabled, body.user_registered .registered a.mg-primary-button__passive, body.user_registered .registered .mobile-menu ul.header-links li.menu-login a, .mobile-menu ul.header-links li.menu-login body.user_registered .registered a, body.user_registered .registered .signup-login ul.header-links_mobile li.menu-login a, .signup-login ul.header-links_mobile li.menu-login body.user_registered .registered a {
+  display: block;
+  width: 100%;
+}
+
+body.user_registered .registered a.mg-primary-button:hover, body.user_registered .registered a.mg-primary-button__disabled:hover, body.user_registered .registered a.mg-primary-button__passive:hover, body.user_registered .registered .mobile-menu ul.header-links li.menu-login a:hover, .mobile-menu ul.header-links li.menu-login body.user_registered .registered a:hover, body.user_registered .registered .signup-login ul.header-links_mobile li.menu-login a:hover, .signup-login ul.header-links_mobile li.menu-login body.user_registered .registered a:hover {
+  color: #fff;
+}
+
+body.user_registered .registered h1 {
+  margin: 1rem 0;
+}
+
+body.user_registered .registered p {
+  color: #666666;
+  margin: 1rem 0 2rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  body.user_registered .registered {
+    background: #fff;
+  }
+
+  body.user_registered .registered .registered--content {
+    width: 100%;
+    max-width: none;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin-top: -50%;
+    bottom: 0;
+  }
+
+  body.user_registered .registered a.trigger_registered--close {
+    font-size: 3rem;
+    position: fixed;
+  }
+
+  body.user_registered .registered p {
+    font-size: 1.2rem;
+  }
+
+  #addCouponsModalCenter .modal-body .coupon_field {
+    width: 20px;
+    font-size: 15px;
+  }
+
+  #addCouponsModalCenter .modal-body .coupon_field:nth-child(4n) {
+    margin-right: 0;
+  }
+
+  .profile-menu-bottom {
+    position: initial;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .generic-form .form-input-triple,
+.generic-form .form-input-double {
+    float: none;
+    width: 100%;
+  }
+
+  .notice ul {
+    padding-left: 0;
+  }
+
+  .page-two-column .page-two-column-inner {
+    display: block;
+  }
+
+  .page-two-column .page-two-column-inner .two-column-left {
+    display: block;
+    border-right: none;
+    min-height: unset;
+  }
+
+  .page-two-column .page-two-column-inner .two-column-left h2 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .page-two-column .page-two-column-inner .two-column-left h2 a {
+    right: 0;
+  }
+
+  .page-two-column .page-two-column-inner .two-column-left h3 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  .page-two-column .page-two-column-inner .two-column-left .search-input_wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .page-two-column .page-two-column-inner .two-column-left .filter-list {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  .page-two-column .page-two-column-inner .two-column-left-filters .toggle-filter {
+    display: inline-block;
+  }
+
+  .page-two-column .page-two-column-inner .two-column-left-filters .filter_by {
+    display: none;
+  }
+
+  .page-two-column .page-two-column-inner .two-column-right {
+    display: block;
+    padding: 0;
+  }
+
+  .select-style select {
+    padding: 0 1rem;
+  }
+}
+.font-roboto {
+  font-family: "Roboto";
+}
+
+header {
+  background-color: #fff;
+}
+
+header .logo_wrapper {
+  line-height: 7.6rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header .logo_wrapper a.header-logo {
+  color: #e54545;
+}
+
+header .logo_wrapper a.header-logo img {
+  height: 3.5rem;
+}
+
+header .header-navigation_wrapper {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header .header-navigation_wrapper ul.header-navigation {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+header .header-navigation_wrapper ul.header-navigation > li {
+  line-height: 7.3rem;
+  list-style: none;
+  float: left;
+  display: inline;
+  margin-left: 4.3rem;
+  font-size: 1.1rem;
+}
+
+header .header-navigation_wrapper ul.header-navigation > li:first-child {
+  margin-left: 0;
+}
+
+header .header-navigation_wrapper ul.header-navigation > li a {
+  font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #999999;
+}
+
+header .header-navigation_wrapper ul.header-navigation > li a.active {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #e54545;
+}
+
+header .header-links_wrapper {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+header .header-links_wrapper .submenu-trigger {
+  position: relative;
+}
+
+header .header-links_wrapper .submenu-trigger > a > span .fa-caret-up {
+  display: none;
+}
+
+header .header-links_wrapper div.arrow_box {
+  display: none;
+  position: absolute;
+  width: 10rem;
+  background: #fff;
+  z-index: 20;
+  right: 0;
+  border: 2px solid #e54545;
+  left: -1rem;
+}
+
+header .header-links_wrapper div.arrow_box > a {
+  padding: 5px 15px;
+  display: block;
+}
+
+header .header-links_wrapper div.arrow_box.active {
+  display: block;
+}
+
+header .header-links_wrapper .arrow_box:after, header .header-links_wrapper .arrow_box:before {
+  bottom: 100%;
+  left: 2rem;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+header .header-links_wrapper .arrow_box:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #ffffff;
+  border-width: 7px;
+  margin-left: -7px;
+}
+
+header .header-links_wrapper .arrow_box:before {
+  border-color: rgba(229, 69, 69, 0);
+  border-bottom-color: #e54545;
+  border-width: 10px;
+  margin-left: -10px;
+}
+
+header .header-links_wrapper ul.header-links {
+  padding-left: 0;
+  margin-top: 2.6rem;
+  margin-bottom: 0;
+  float: right;
+}
+
+header .header-links_wrapper ul.header-links > li {
+  line-height: 2.6rem;
+  margin-right: 1.25rem;
+  font-size: 1.1rem;
+  list-style: none;
+  float: left;
+  display: inline;
+  margin-left: 0.625rem;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box {
+  width: 20rem;
+  right: -1rem;
+  left: auto;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box .profile-menu-bottom {
+  position: initial;
+  padding: 0;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box .profile-menu-bottom > div.existing-coupons .left h5 {
+  margin: 0;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box .profile-menu-bottom > div.existing-coupons .left a {
+  padding-bottom: 0;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box:after {
+  right: 2.25rem;
+  left: auto;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box:before {
+  right: 2rem;
+  left: auto;
+}
+
+header .header-links_wrapper ul.header-links > li:first-child {
+  margin-left: 0;
+}
+
+header .header-links_wrapper ul.header-links > li a {
+  font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #999999;
+}
+
+header .header-links_wrapper ul.header-links > li a.active {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #e54545;
+}
+/* mobile_menu.css */
+.main-content_wrapper {
+  max-width: 1920px;
+  background: #f4f5fa;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobile-menu {
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 7.6rem;
+  z-index: 10;
+  -webkit-transition: -webkit-transform 0.3s ease 0s;
+  transition: -webkit-transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+}
+
+.mobile-menu ul.header-navigation {
+  padding: 0 2.5rem;
+}
+
+.mobile-menu ul.header-navigation li {
+  line-height: 6rem;
+  list-style: none;
+}
+
+.mobile-menu ul.header-navigation li a {
+  display: block;
+  font-size: 2.5rem;
+  color: #999999;
+}
+
+.mobile-menu ul.header-navigation li a.active, .mobile-menu ul.header-navigation li a:active, .mobile-menu ul.header-navigation li a:hover {
+  text-decoration: none;
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #e54545;
+}
+
+.mobile-menu ul.header-links {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 2.5rem 2.5rem 0;
+  border-top: 1px solid #ededed;
+}
+
+.mobile-menu ul.header-links li {
+  line-height: 6rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.mobile-menu ul.header-links li.menu-login a {
+  height: auto;
+}
+
+.mobile-menu ul.header-links li a {
+  font-size: 1.5rem !important;
+  line-height: 4.5rem !important;
+  width: 100% !important;
+  text-align: center;
+  display: block;
+}
+
+.mobile-menu ul.header-links li.menu-language {
+  text-align: center;
+}
+
+.mobile-menu ul.header-links li.menu-language a {
+  display: inline-block;
+  width: auto !important;
+  line-height: 2.5rem !important;
+}
+
+.mobile-menu ul.header-links li.menu-language a > span {
+  display: none;
+}
+
+.mobile-menu ul.header-links li.menu-language > div {
+  display: inline-block;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  border-left: 1px solid #ededed;
+  line-height: 2.5rem !important;
+}
+
+a.mobile-menu-toggle, a.signup-login_close_mobile {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 2.5rem;
+  color: #e54545;
+}
+
+a.mobile-menu-toggle:active, a.mobile-menu-toggle:hover, a.signup-login_close_mobile:active, a.signup-login_close_mobile:hover {
+  color: #e54545;
+}
+
+a.mobile-menu-toggle {
+  top: 0;
+  right: 1rem;
+}
+
+a.mobile-menu-toggle .fa-times {
+  display: none;
+}
+
+html.menu-active {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+body.menu-active {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+body.menu-active .mobile-menu {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  overflow: hidden;
+}
+
+body.menu-active .fa-times {
+  display: initial;
+}
+
+body.menu-active .fa-bars {
+  display: none;
+}
+
+.signup-login {
+  -webkit-transition: -webkit-transform 0.3s ease 0s;
+  transition: -webkit-transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #fff;
+}
+
+.signup-login ul.header-links_mobile {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 2.5rem 2.5rem 0;
+  left: 0;
+  right: 0;
+}
+
+.signup-login ul.header-links_mobile li {
+  line-height: 6rem;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.signup-login ul.header-links_mobile li.menu-login a {
+  height: auto;
+}
+
+.signup-login ul.header-links_mobile li a {
+  font-size: 1.5rem !important;
+  line-height: 4.5rem !important;
+  width: 100% !important;
+  text-align: center;
+  display: block;
+}
+
+.signup-login ul.header-links_mobile li.menu-language {
+  text-align: center;
+}
+
+.signup-login ul.header-links_mobile li.menu-language a {
+  display: inline-block;
+  width: auto !important;
+  line-height: 2.5rem !important;
+}
+
+.signup-login ul.header-links_mobile li.menu-language a > span {
+  display: none;
+}
+
+.signup-login ul.header-links_mobile li.menu-language > div {
+  display: inline-block;
+  padding-left: 1rem;
+  margin-left: 1rem;
+  border-left: 1px solid #ededed;
+  line-height: 2.5rem !important;
+}
+
+.signup-login .signup-login_close_desktop {
+  float: left;
+  margin-top: 2.6rem;
+  line-height: 2.6rem;
+}
+
+.signup-login .signup-login__left {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: url("../images/pages/signup-leftimg.jpg") no-repeat center left transparent;
+  width: 100%;
+  background-size: cover;
+}
+
+.signup-login .signup-login__left h3 {
+  color: #fff;
+  font-size: 3rem;
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  bottom: 20%;
+  position: fixed;
+  left: 5rem;
+}
+
+.signup-login .signup-login__right {
+  z-index: 3;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  max-width: none;
+  padding: 0;
+}
+
+.signup-login .signup-login__right .signup-login__right-empty {
+  -webkit-box-flex: 10;
+  -ms-flex: 10;
+  flex: 10;
+}
+
+.signup-login .signup-login__right .signup-login__right-content {
+  -webkit-box-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+  background: #fff;
+  overflow-y: scroll;
+  padding-top: 5rem;
+}
+
+.signup-login .signup-login__form_wrapper {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.signup-login .signup-login__form_wrapper .signup-login__logo {
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.signup-login .signup-login__form_wrapper .login_form, .signup-login .signup-login__form_wrapper .signup_form, .signup-login .signup-login__form_wrapper .forgotten_form {
+  width: 100%;
+  text-align: left;
+}
+
+.signup-login .signup-login__form_wrapper .login_form input, .signup-login .signup-login__form_wrapper .signup_form input, .signup-login .signup-login__form_wrapper .forgotten_form input {
+  background: none;
+}
+
+.signup-login .signup-login__form_wrapper .login_form .another-coupon-action, .signup-login .signup-login__form_wrapper .signup_form .another-coupon-action, .signup-login .signup-login__form_wrapper .forgotten_form .another-coupon-action {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.signup-login .signup-login__form_wrapper .login_form .another-coupon-action a, .signup-login .signup-login__form_wrapper .signup_form .another-coupon-action a, .signup-login .signup-login__form_wrapper .forgotten_form .another-coupon-action a {
+  color: #e54545;
+  font-size: 1.1rem;
+}
+
+html.signup-active,
+html.login-active,
+html.forgotten-active {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+body.signup-active,
+body.login-active,
+body.forgotten-active {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+body.signup-active .signup-login,
+body.login-active .signup-login,
+body.forgotten-active .signup-login {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  overflow: auto;
+}
+
+body.login-active .signup_form {
+  display: none;
+}
+
+body.login-active .forgotten_form {
+  display: none;
+}
+
+body.login-active .signup_message {
+  display: none;
+}
+
+body.signup-active .login_form {
+  display: none;
+}
+
+body.signup-active .forgotten_form {
+  display: none;
+}
+
+body.signup-active .login_message {
+  display: none;
+}
+
+body.forgotten-active .login_form {
+  display: none;
+}
+
+body.forgotten-active .signup_form {
+  display: none;
+}
+
+body.forgotten-active .signup_message {
+  display: none;
+}
+
+@media only screen and (max-width: 1023px) {
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+  }
+
+  .main-content_wrapper {
+    margin-top: 7.6rem;
+  }
+
+  .logo_wrapper {
+    width: 100%;
+  }
+
+  .signup-login .signup-login_close_mobile {
+    top: 2rem;
+    right: 1rem;
+  }
+
+  .signup-login .signup-login__left {
+    display: none;
+  }
+
+  .signup-login .signup-login__right {
+    display: block;
+  }
+
+  .signup-login .signup-login__right .signup-login__right-empty {
+    display: none;
+  }
+
+  .signup-login .signup-login__right .signup-login__right-content {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5rem;
+  }
+
+  .signup-login .signup-login__form_wrapper {
+    width: auto;
+    padding-top: 0;
+    margin-top: 0;
+    position: initial;
+    top: auto;
+    bottom: auto;
+  }
+
+  .signup-login .signup-login__form_wrapper .login_form, .signup-login .signup-login__form_wrapper .signup_form, .signup-login .signup-login__form_wrapper .forgotten_form {
+    padding: 0 4rem;
+    overflow-x: hidden;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  header .header-navigation_wrapper ul.header-navigation > li {
+    margin-left: 2rem;
+  }
+
+  header .header-links_wrapper.mg-span_3_of_12 {
+    width: 32.5%;
+  }
+
+  header .header-navigation_wrapper.mg-span_6_of_12 {
+    width: 40%;
+  }
+
+  header > div {
+    zoom: 0.9 !important;
+  }
+
+  header .header-links_wrapper ul.header-links > li {
+    margin-right: 1.25rem;
+  }
+}
+@media only screen and (min-height: 767px) and (min-width: 1023px) {
+  .signup-login__right-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 0;
+  }
+}
+/* footer.css */
+footer {
+  background-color: #fff;
+}
+
+footer .footer-navigation_wrapper {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer .footer-navigation_wrapper.centered {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer .footer-navigation_wrapper ul.footer-navigation {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer .footer-navigation_wrapper ul.footer-navigation > li {
+  list-style: none;
+  float: left;
+  display: inline;
+  margin-left: 4rem;
+  line-height: 9.3rem;
+  font-size: 1.25rem;
+}
+
+footer .footer-navigation_wrapper ul.footer-navigation > li:first-child {
+  margin-left: 0;
+}
+
+footer .footer-navigation_wrapper ul.footer-navigation > li a {
+  font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #999999;
+}
+
+footer .footer-navigation_wrapper ul.footer-navigation > li a.active {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #e54545;
+}
+
+footer .footer-social_wrapper {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer .footer-social_wrapper ul.footer-social {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  float: right;
+}
+
+footer .footer-social_wrapper ul.footer-social > li {
+  list-style: none;
+  float: left;
+  display: inline;
+  margin-left: 0.625rem;
+  line-height: 9.3rem;
+}
+
+footer .footer-social_wrapper ul.footer-social > li:first-child {
+  margin-left: 0;
+}
+
+footer .footer-social_wrapper ul.footer-social > li a {
+  font-size: 1.25rem;
+  font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #afafaf;
+  padding-left: 1.25rem;
+}
+
+footer .footer-social_wrapper ul.footer-social > li a.active {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #e54545;
+}
+
+footer .footer-bottom {
+  text-align: center;
+  height: 12.5rem;
+  border-top: 1px solid rgba(237, 237, 237, 0.5);
+  padding-top: 3.125rem;
+  font-size: 0.875rem;
+  font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #999999;
+}
+
+footer .footer-bottom img {
+  height: 3rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  footer .footer-navigation_wrapper ul.footer-navigation {
+    margin-top: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 20rem;
+  }
+
+  footer .footer-navigation_wrapper ul.footer-navigation li {
+    width: 50%;
+    margin-left: 0;
+    line-height: 5rem;
+    height: 5rem;
+  }
+
+  footer .footer-social_wrapper {
+    text-align: center;
+  }
+
+  footer .footer-social_wrapper ul.footer-social {
+    float: none;
+    margin: 0 auto;
+  }
+
+  footer .footer-social_wrapper ul.footer-social li {
+    float: none;
+  }
+
+  footer .footer-social_wrapper ul.footer-social li a {
+    font-size: 2rem;
+  }
+}
+/* middle.css */
+.middle-wrapper {
+  border: 1px solid transparent;
+}
+
+.middle-wrapper h2 {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 6.5rem 0 1rem;
+}
+
+.middle-wrapper .middle-hiw_desc {
+  font-size: 1.33rem;
+}
+
+.middle-wrapper.middle-categories_wrapper h2 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.middle-wrapper.middle-contact_wrapper h2 {
+  margin-top: 5.2rem;
+  margin-bottom: 3.8rem;
+}
+
+.middle-banner_wrapper {
+  height: 42rem;
+  padding-top: 12.5rem;
+  position: relative;
+}
+
+.middle-banner_wrapper .slide {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  -webkit-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+}
+
+.middle-banner_wrapper .slide.show {
+  opacity: 1;
+}
+
+.middle-banner_wrapper .middle-banner {
+  z-index: 2;
+  position: relative;
+  text-align: center;
+}
+
+.middle-banner_wrapper .middle-banner .search-block_wrapper h1, .middle-banner_wrapper .middle-banner .redeem-block_wrapper h1 {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.middle-banner_wrapper .middle-banner .search-block_wrapper h2, .middle-banner_wrapper .middle-banner .redeem-block_wrapper h2 {
+  font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #fff;
+  opacity: 0.5;
+}
+
+.middle-banner_wrapper .middle-banner .search-block_wrapper .search-input_wrapper, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .search-input_wrapper {
+  margin-top: 2.25rem;
+  height: 4.5rem;
+  position: relative;
+}
+
+.middle-banner_wrapper .middle-banner .search-block_wrapper .search-input_wrapper form div.input-text > span.location, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .search-input_wrapper form div.input-text > span.location {
+  margin-top: 0;
+}
+
+.middle-banner_wrapper .middle-banner .search-block_wrapper .search-input_wrapper form div.input-text > button.search, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .search-input_wrapper form div.input-text > button.search {
+  width: 7rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  position: absolute;
+}
+
+.middle-banner_wrapper .middle-banner .search-block_wrapper .search-input_wrapper form div.input-text > button.search img, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .search-input_wrapper form div.input-text > button.search img {
+  width: 3rem;
+}
+
+.middle-banner_wrapper .middle-banner .search-block_wrapper .search-input_wrapper form div.input-text > input, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .search-input_wrapper form div.input-text > input {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.middle-banner_wrapper .middle-banner .redeem-block_wrapper {
+  text-align: left;
+}
+
+.middle-banner_wrapper .middle-banner .redeem-block_wrapper h1 {
+  font-size: 4rem;
+}
+
+.middle-banner_wrapper .middle-banner .redeem-block_wrapper .mg-primary-button, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .mg-primary-button__disabled, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .mg-primary-button__passive, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .mobile-menu ul.header-links li.menu-login a, .mobile-menu ul.header-links li.menu-login .middle-banner_wrapper .middle-banner .redeem-block_wrapper a, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .signup-login ul.header-links_mobile li.menu-login a, .signup-login ul.header-links_mobile li.menu-login .middle-banner_wrapper .middle-banner .redeem-block_wrapper a {
+  width: auto;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.middle-hiw_wrapper {
+  background-color: #fff;
+}
+
+.middle-hiw_wrapper .middle-hiw {
+  padding-bottom: 4.5rem;
+  border-bottom: 1px solid #ededed;
+}
+
+.middle-hiw_wrapper .middle-hiw > div {
+  height: 17.5rem;
+  padding-top: 3rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: #666666;
+}
+
+.middle-hiw_wrapper .middle-hiw > div span {
+  display: block;
+  height: 8rem;
+  color: #e54545;
+}
+
+.middle-hiw_wrapper .middle-hiw > div span.globe img {
+  width: 4.4rem;
+  margin-top: 0.9rem;
+}
+
+.middle-hiw_wrapper .middle-hiw > div span.ticket img {
+  width: 5.5rem;
+  margin-top: 1.9rem;
+}
+
+.middle-hiw_wrapper .middle-hiw > div span.calendar img {
+  width: 5rem;
+  margin-top: 1.3rem;
+}
+
+.middle-hiw_wrapper .middle-hiw > div h3 {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.middle-hiw_wrapper .middle-hiw > div p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.middle-hiw_wrapper .middle-hiw > div:hover {
+  border: 1px solid #e54545 !important;
+  -webkit-box-shadow: 0 30px 40px rgba(175, 175, 175, 0.38);
+  box-shadow: 0 30px 40px rgba(175, 175, 175, 0.38);
+}
+
+.middle-categories_wrapper {
+  background-color: #fff;
+  padding-bottom: 8rem;
+}
+
+.middle-categories_wrapper .middle-categories > div {
+  position: relative;
+}
+
+.middle-categories_wrapper .middle-categories > div .category-image img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.middle-categories_wrapper .middle-categories > div .category-content {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  color: #fff;
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.middle-categories_wrapper .middle-categories > div .category-content:before {
+  position: absolute;
+  top: 101%;
+  left: 3px;
+  bottom: 0;
+  right: 3px;
+  margin: auto;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  background-repeat: repeat-x;
+  background-image: linear-gradient(45deg, rgba(225, 55, 115, 0.5), rgba(225, 55, 115, 0.5));
+  background-color: rgba(225, 55, 115, 0.5);
+  outline: none;
+  display: block;
+  content: " ";
+  border-radius: 5px;
+  mix-blend-mode: lighten;
+}
+
+.middle-categories_wrapper .middle-categories > div .category-content h3 {
+  position: relative;
+  display: none;
+}
+
+.middle-categories_wrapper .middle-categories > div .category-content:hover h3 {
+  display: block;
+}
+
+.middle-categories_wrapper .middle-categories > div .category-content span {
+  position: relative;
+  font-size: 3.75rem;
+}
+
+.middle-categories_wrapper .middle-categories > div .category-content span img {
+  height: 4rem;
+}
+
+.middle-categories_wrapper .middle-categories > div:hover .category-content:before {
+  top: 1px;
+}
+
+.middle-contact_wrapper .contact-submit {
+  margin: 3rem auto 8rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  .middle-banner_wrapper {
+    height: 33rem;
+    padding-top: 6rem;
+  }
+
+  .middle-banner_wrapper .middle-banner .search-block_wrapper h1 {
+    padding: 0 2.5rem;
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+  .middle-banner_wrapper .middle-banner .search-block_wrapper h2 {
+    padding: 0 2.5rem;
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+  .middle-hiw_wrapper .middle-hiw > div {
+    border: 1px solid #e54545 !important;
+  }
+
+  .middle-categories_wrapper {
+    padding-bottom: 1.25rem;
+  }
+
+  .middle-contact_wrapper .contact-submit {
+    margin: 3rem auto;
+  }
+
+  .middle-contact_wrapper .contact-submit button {
+    width: 100%;
+  }
+}
+/* listing.css */
+.page-two-column .page-two-column-inner .two-column-right .listing-item {
+  border: 1px solid #ededed;
+  margin-bottom: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_left {
+  -webkit-box-flex: 0.8;
+  -ms-flex: 0.8;
+  flex: 0.8;
+  padding: 0.625rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_left img.img-mobile {
+  display: none;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_middle {
+  position: relative;
+  -webkit-box-flex: 1.4;
+  -ms-flex: 1.4;
+  flex: 1.4;
+  padding: 0.625rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_middle h2 {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_middle h2 a {
+  color: #000;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_middle h3 {
+  color: #999999;
+  font-size: 1.2rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_middle h3 strong {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_middle h3 strong .ready {
+  color: #28a745;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_middle h3 strong .waiting {
+  color: #fd7e14;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_middle h3 strong .declined {
+  color: #dc3545;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_middle h3 strong .error {
+  color: #dc3545;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_middle .listing-icons {
+  position: absolute;
+  bottom: 0;
+  max-height: 3rem;
+  overflow: hidden;
+  padding-left: 0;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_middle .listing-icons li {
+  list-style: none;
+  float: left;
+  font-size: 1.4rem;
+  color: #e54545;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_middle .listing-icons li img {
+  vertical-align: bottom;
+  height: 2rem;
+  padding-right: 0.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right {
+  position: relative;
+  -webkit-box-flex: 1.2;
+  -ms-flex: 1.2;
+  flex: 1.2;
+  padding: 0.625rem;
+  background-color: #f4f5fa;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-top-wrapper {
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ededed;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-top-wrapper::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-top-wrapper .category {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #6d6f7e;
+  font-size: 1.2rem;
+  width: 10rem;
+  line-height: 2rem;
+  border-right: 1px solid #ededed;
+  float: left;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-top-wrapper .price {
+  color: #e54545;
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.5rem;
+  line-height: 2rem;
+  float: right;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-middle-wrapper {
+  color: #999999;
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding: 0.625rem;
+  left: 0;
+  right: 0;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist.mg-secondary-button, .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist.mg-primary-button, .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist.mg-primary-button__disabled, .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist.mg-primary-button__passive, .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .mobile-menu ul.header-links li.menu-login a.add-to-wishlist, .mobile-menu ul.header-links li.menu-login .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist, .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .signup-login ul.header-links_mobile li.menu-login a.add-to-wishlist, .signup-login ul.header-links_mobile li.menu-login .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist {
+  display: inline-block;
+  line-height: 3.6rem;
+  padding: 0;
+  width: 20%;
+  border: none;
+  color: #fff;
+  background-color: #afafaf;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist.mg-secondary-button img, .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist.mg-primary-button img, .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist.mg-primary-button__disabled img, .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist.mg-primary-button__passive img, .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .mobile-menu ul.header-links li.menu-login a.add-to-wishlist img, .mobile-menu ul.header-links li.menu-login .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist img, .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .signup-login ul.header-links_mobile li.menu-login a.add-to-wishlist img, .signup-login ul.header-links_mobile li.menu-login .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist img {
+  width: 2rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .add-to-wishlist.mg-primary-button, .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .add-to-wishlist.mg-primary-button__disabled, .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .add-to-wishlist.mg-primary-button__passive, .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .mobile-menu ul.header-links li.menu-login a.add-to-wishlist, .mobile-menu ul.header-links li.menu-login .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist, .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .signup-login ul.header-links_mobile li.menu-login a.add-to-wishlist, .signup-login ul.header-links_mobile li.menu-login .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist {
+  padding: 0;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .mg-tertiary-button {
+  float: right;
+  width: 75%;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .mg-tertiary-button img {
+  width: 3rem;
+  float: right;
+  height: 3.6rem;
+  display: block;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item.listing-item_ready {
+  border-color: #e54545;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item.listing-item_passive .listing-item_top h2 {
+  color: #afafaf;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item.listing-item_passive .listing-item_top h3 {
+  color: #afafaf;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item_small .listing-item_middle {
+  -webkit-box-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item_small .listing-item_middle h3 {
+  line-height: normal;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item_small .listing-item_right {
+  background-color: transparent;
+  -webkit-box-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item_small .listing-item_right .listing-item_top {
+  padding-top: 1.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item_small .listing-item_right .listing-item_top h2 {
+  font-size: 1.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item_small .listing-item_right .right-bottom-wrapper {
+  height: 100%;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item_small .listing-item_right .right-bottom-wrapper .mg-tertiary-button {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item_small .listing-item_right .right-bottom-wrapper .mg-tertiary-button.status_waiting {
+  background: #afafaf;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item_small .listing-item_right .right-bottom-wrapper .mg-tertiary-button.status_waiting:hover {
+  background: #afafaf;
+  cursor: initial;
+  text-decoration: none;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item_small .listing-item_right .right-bottom-wrapper .mg-tertiary-button.status_ready {
+  background-repeat: repeat-x;
+  background-image: linear-gradient(45deg, #e13773, #ec5937);
+  background-color: #ec5937;
+  outline: none;
+  color: #fff;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item_small.listing-item_small_ready {
+  border-color: #e54545;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing_pagination ul {
+  padding-left: 0;
+  margin: 2rem 0;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing_pagination ul li {
+  float: left;
+  margin-right: 1rem;
+  list-style: none;
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing_pagination ul li a {
+  color: #666666;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing_pagination ul li.current {
+  position: relative;
+  margin-left: -1rem;
+  margin-right: 2rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing_pagination ul li.current:before {
+  content: " ";
+  background-color: #e54545;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 0.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing_pagination ul li.current a {
+  color: #fff;
+  z-index: 1;
+  position: absolute;
+  width: 2rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  .page-two-column .page-two-column-inner .two-column-right .listing-item {
+    display: block;
+  }
+
+  .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_left img.img-mobile {
+    display: block;
+    width: 100%;
+  }
+
+  .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_left img.img-desktop {
+    display: none;
+  }
+
+  .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_middle .listing-icons {
+    float: none;
+    position: relative;
+  }
+
+  .page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper {
+    float: none;
+    position: relative;
+    bottom: 0;
+    margin-top: 2rem;
+  }
+}
+/* page_details.css */
+.page-detail {
+  text-align: left;
+}
+
+.page-detail .page-detail-header {
+  height: 41.25rem;
+  padding-top: 12.5rem;
+  background-size: cover;
+}
+
+.page-detail .page-detail-inner {
+  margin-top: -11.5rem;
+  min-height: 20rem;
+  padding-bottom: 10rem;
+}
+
+.page-detail .page-detail-inner .migoda-verified {
+  float: left;
+  width: 15rem;
+}
+
+.page-detail .page-detail-inner .migoda-verified > * {
+  white-space: nowrap;
+}
+
+.page-detail .page-detail-inner .migoda-verified .verified-logo {
+  float: left;
+  margin-right: 1rem;
+}
+
+.page-detail .page-detail-inner .migoda-verified .verified-text {
+  text-align: left;
+  padding-top: 1rem;
+  color: #fff;
+}
+
+.page-detail .page-detail-inner .migoda-verified .verified-text h3 {
+  font-size: 1.5rem;
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.page-detail .page-detail-inner .migoda-verified .verified-text p {
+  font-size: 0.8rem;
+}
+
+.page-detail .page-detail-inner .view-photos {
+  float: right;
+  padding-right: 4.3rem;
+  background: url("../images/svg/view-photos.svg") no-repeat center right transparent;
+}
+
+.page-detail .page-detail-inner .view-photos a {
+  color: #fff;
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.2rem;
+  line-height: 5rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block {
+  background-color: #fff;
+  min-height: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem 2.5rem 0 3rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-calendar {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left {
+  -webkit-box-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding-right: 2.5rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header h1 {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 2rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header h1 .stars {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header h3 {
+  color: #afafaf;
+  font-size: 1.1rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons {
+  float: right;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-secondary-button, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button__disabled, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button__passive, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .mobile-menu ul.header-links li.menu-login a.add-to-wishlist, .mobile-menu ul.header-links li.menu-login .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons a.add-to-wishlist, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .signup-login ul.header-links_mobile li.menu-login a.add-to-wishlist, .signup-login ul.header-links_mobile li.menu-login .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons a.add-to-wishlist {
+  border: none;
+  background: #afafaf;
+  color: #fff;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  font-size: 1rem;
+  display: block;
+  padding: 0 1.4rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-secondary-button img, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button img, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button__disabled img, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button__passive img, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .mobile-menu ul.header-links li.menu-login a.add-to-wishlist img, .mobile-menu ul.header-links li.menu-login .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons a.add-to-wishlist img, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .signup-login ul.header-links_mobile li.menu-login a.add-to-wishlist img, .signup-login ul.header-links_mobile li.menu-login .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons a.add-to-wishlist img {
+  width: 2rem;
+  margin-left: 1rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button__disabled, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button__passive, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .mobile-menu ul.header-links li.menu-login a.add-to-wishlist, .mobile-menu ul.header-links li.menu-login .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons a.add-to-wishlist, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .signup-login ul.header-links_mobile li.menu-login a.add-to-wishlist, .signup-login ul.header-links_mobile li.menu-login .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons a.add-to-wishlist {
+  background: #e54545;
+  display: block;
+  width: auto;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons ul {
+  padding: 0;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons ul li {
+  float: left;
+  list-style: none;
+  text-align: center;
+  margin-right: 3rem;
+  color: #666666;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons ul li:last-child {
+  margin-right: 0;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-note {
+  border-top: 1px solid #ededed;
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  color: #afafaf;
+  padding-left: 6rem;
+  background: url("../images/svg/note.svg") no-repeat center left transparent;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-note p {
+  margin-top: 1.5rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-information {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-information h4 {
+  margin-bottom: 1rem;
+  font-size: 1.45rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-information .detail-text {
+  color: #afafaf;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-information .detail-text.cropped {
+  max-height: 4.5rem;
+  overflow: hidden;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-information .detail-text.checkin-checkout b {
+  font-weight: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.4rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-information a.detail-read-more {
+  color: #e54545;
+}
+
+.page-detail .page-detail-inner .page-detail-block .property-information {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.page-detail .page-detail-inner .page-amenities-block {
+  background-color: #fff;
+  padding: 0 3rem 3rem;
+}
+
+.page-detail .page-detail-inner .page-amenities-block .detail-amenities h4 {
+  border-bottom: 2px solid #ededed;
+  padding-bottom: 0.5rem;
+}
+
+.page-detail .page-detail-inner .page-amenities-block .detail-amenities h4 img {
+  width: 3.6rem;
+  vertical-align: baseline;
+  margin-right: 0.5rem;
+}
+
+.page-detail .page-detail-inner .page-amenities-block .detail-amenities h5 {
+  color: #e54545;
+  margin-top: 1.2rem;
+}
+
+.page-detail .page-detail-inner .page-amenities-block .detail-amenities ul {
+  margin-bottom: 2.8rem;
+  padding: 0;
+}
+
+.page-detail .page-detail-inner .page-amenities-block .detail-amenities ul li {
+  float: left;
+  list-style: none;
+  width: 25%;
+  display: block;
+  line-height: 2.5rem;
+  color: #afafaf;
+}
+
+.page-detail .page-detail-inner .page-amenities-block .detail-amenities ul li img {
+  width: 1.2rem;
+  vertical-align: baseline;
+  margin-right: 0.5rem;
+}
+
+.page-detail-body .dates-wrapper {
+  margin: 0;
+}
+
+.page-detail-body .dates-wrapper-outer {
+  position: relative;
+  margin: 0.8rem;
+}
+
+.page-detail-body .dates-wrapper-outer .datepicker-hider {
+  position: relative;
+  z-index: 999;
+  display: none;
+}
+
+.page-detail-body .dates-wrapper-outer .datepicker-hider #date-picker {
+  display: none;
+  border: none;
+  width: 1px;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+}
+
+.page-detail-body .dates-wrapper-outer .datepicker-hider .datepicker-inline {
+  width: auto;
+}
+
+.page-detail-body .dates-wrapper-outer .datepicker-hider .datepicker-inline .datepicker {
+  width: auto;
+  border: none;
+}
+
+.page-detail-body .dates-wrapper-outer.picker-visible {
+  -webkit-box-shadow: 0px 30px 40px #ededed;
+  box-shadow: 0px 30px 40px #ededed;
+}
+
+.page-detail-body .dates-wrapper-outer.picker-visible .dates-wrapper {
+  border: 2px solid #e54545;
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.page-detail-body .dates-wrapper-outer.picker-visible .datepicker-hider {
+  display: block;
+  position: absolute;
+  border: 2px solid #e54545;
+  border-top: none;
+}
+
+.page-detail-body .dates-wrapper-outer.picker-visible .date h4 {
+  color: #e54545;
+}
+
+.page-detail-body .dates-wrapper-outer.picker-visible .date h4 a {
+  color: #e54545;
+}
+
+.page-detail-body .datepicker.active {
+  width: 21rem;
+}
+
+.map-block {
+  position: relative;
+  padding-bottom: 25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.map-block iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#dates-container {
+  position: relative;
+}
+
+#dates-container .datepicker {
+  top: 0 !important;
+  left: 0 !important;
+}
+
+@media only screen and (max-width: 1023px) {
+  .page-detail .page-detail-inner {
+    max-width: none;
+    padding: 0;
+  }
+
+  .page-detail .page-detail-inner .page-detail-inner-top {
+    padding: 1rem 3rem;
+  }
+
+  .page-detail .page-detail-inner .migoda-verified .verified-logo img {
+    width: 4.5rem;
+  }
+
+  .page-detail .page-detail-inner .view-photos {
+    padding-right: 0;
+    background: none;
+  }
+
+  .page-detail .page-detail-inner .page-detail-block {
+    display: block;
+  }
+
+  .page-detail .page-detail-inner .page-detail-block .page-detail-left {
+    padding-right: 0;
+  }
+
+  .page-detail .page-detail-inner .page-detail-block .detail-note {
+    padding-left: 8rem;
+  }
+
+  .page-detail .page-detail-inner .page-detail-block .detail-note p {
+    font-size: 1.2rem;
+  }
+
+  .page-detail .page-detail-inner .page-detail-block .detail-information p {
+    font-size: 1.2rem;
+  }
+
+  .page-detail .page-detail-inner .page-detail-block .detail-information .detail-text.checkin-checkout {
+    font-size: 1.2rem;
+  }
+
+  .page-detail .page-detail-inner .page-detail-block .detail-information .detail-text.checkin-checkout b {
+    font-weight: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.8rem;
+  }
+
+  .page-detail .page-detail-inner .page-amenities-block {
+    padding-top: 2rem;
+  }
+
+  .page-detail .page-detail-inner .page-amenities-block .detail-amenities ul li {
+    width: 50%;
+  }
+
+  .map-block {
+    padding-bottom: 50%;
+  }
+}
+/* booking.css */ 
+.booking-details-outer {
+  text-align: left;
+}
+
+.booking-details-outer .select-style {
+  margin: 0;
+}
+
+.booking-details-outer h1 {
+  padding-left: 3.8rem;
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin-top: 3.7rem;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.booking-details-outer .page-two-column {
+  padding-top: 1rem;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner {
+  padding: 2rem 2rem 0 3rem;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-left {
+  padding: 0.5rem;
+  border-right: none;
+  margin-right: 2rem;
+  -webkit-box-flex: 0.85;
+  -ms-flex: 0.85;
+  flex: 0.85;
+  padding-right: 2rem;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-left .dob_date input.form-control {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  color: #000;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-left.generic-form .form-actions.form-actions-inline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-left.generic-form .form-actions.form-actions-inline button {
+  width: auto;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-left.generic-form .form-actions.form-actions-inline button img {
+  width: 2rem;
+  margin-left: 2rem;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-left.generic-form .form-actions.form-actions-inline button.backButton img {
+  margin-right: 2rem;
+  margin-left: 0;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right {
+  padding: 0;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-left: 2rem;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .two-column-right-inner {
+  border: 1px solid #e54545 !important;
+  -webkit-box-shadow: 0 30px 40px rgba(175, 175, 175, 0.38);
+  box-shadow: 0 30px 40px rgba(175, 175, 175, 0.38);
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .hotel-info {
+  background: #f4f5fa;
+  padding: 2rem;
+  position: relative;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .hotel-info .listing-icons {
+  padding-left: 0;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .hotel-info .listing-icons li {
+  list-style: none;
+  float: left;
+  font-size: 1.4rem;
+  color: #e54545;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .hotel-info .listing-icons li img {
+  vertical-align: bottom;
+  height: 2rem;
+  padding-right: 0.5rem;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .hotel-info #book-image {
+  float: right;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .hotel-info h2 {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.6rem;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .hotel-info h3 {
+  font-size: 0.9rem;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper .blocks-wrapper {
+  color: #999999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  padding: 1em 0;
+  margin: 0 2em;
+  border-bottom: 1px solid #ededed;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper .blocks-wrapper > div {
+  width: 50%;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper .blocks-wrapper h5 {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper .blocks-wrapper h4 {
+  font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.4rem;
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper .blocks-wrapper .blocks-right {
+  border-left: 1px solid #ededed;
+  padding-left: 2rem;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper .extras {
+  margin: 0 2rem;
+  padding: 0.7rem 0;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper .extras .extra {
+  color: #666666;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper .extras .extra .extra_price {
+  font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper .extras .extra .extra_title {
+  font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper .extras .extra .extra_title .extra_subtitle {
+  font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper .extras#total_price .extra .extra_title {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.7rem;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper .extras#total_price .extra .extra_price {
+  font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .book-bottom {
+  background: #666666;
+  line-height: 3rem;
+  padding-left: 2.5rem;
+  height: 3rem;
+  color: #fff;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .book-bottom.hidden {
+  display: none;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .book-bottom button {
+  float: right;
+  height: 3rem;
+  line-height: 3rem;
+  width: 6rem;
+  border-radius: unset;
+  background: #afafaf;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .book-bottom button img {
+  max-width: 1.5rem;
+  vertical-align: initial;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .book-bottom.book-bottom-active {
+  background-repeat: repeat-x;
+  background-image: linear-gradient(45deg, #e13773, #ec5937);
+  background-color: #ec5937;
+  outline: none;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .book-bottom.book-bottom-active button {
+  background: #666666;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .book-bottom.book-bottom-passive p {
+  line-height: 1.2rem;
+  margin-bottom: 0;
+  padding-top: 0.3rem;
+  margin-left: 2rem;
+  float: left;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .book-bottom.book-bottom-passive > img {
+  width: 2rem;
+  vertical-align: initial;
+  display: block;
+  padding-top: 0.6rem;
+  float: left;
+}
+
+.booking-details-outer .page-two-column .booking-details-message {
+  background-color: #fff;
+  padding: 4rem;
+}
+
+.booking-details-outer .page-two-column .booking-details-message .notice {
+  margin-bottom: 0;
+  background-color: #f4f5fa;
+  background-image: none;
+  color: #6d6f7e;
+  text-align: center;
+}
+
+.booking-complete-outer {
+  text-align: center;
+  min-height: 60rem;
+  padding-top: 12rem;
+}
+
+.booking-complete-outer h1 {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.booking-complete-outer .booking-complete-check {
+  font-size: 8rem;
+  color: #e54545;
+}
+
+@media only screen and (max-width: 1023px) {
+  .booking-details-outer h1 {
+    padding-left: 0;
+  }
+
+  .booking-details-outer .page-two-column .booking-details-message {
+    padding: 1rem;
+  }
+
+  .booking-details-outer .page-two-column .booking-details-message .notice {
+    padding: 1rem;
+  }
+
+  .booking-details-outer .page-two-column .page-two-column-inner {
+    padding: 1rem;
+  }
+
+  .booking-details-outer .page-two-column .page-two-column-inner .two-column-left {
+    padding: 0;
+    margin: 0;
+  }
+
+  .booking-details-outer .page-two-column .page-two-column-inner .two-column-right {
+    padding: 0;
+    margin: 0;
+  }
+
+  .booking-details-outer .page-two-column .page-two-column-inner .two-column-right .two-column-right-inner .hotel-info #book-image {
+    float: none;
+  }
+
+  .booking-details-outer .page-two-column .page-two-column-inner .two-column-right .two-column-right-inner .hotel-info #book-image img {
+    max-width: 100%;
+  }
+
+  .booking-details-outer .page-two-column .page-two-column-inner .two-column-right .book-bottom.book-bottom-passive p {
+    font-size: 7px;
+  }
+}
+/* howitworks.css */
+.how-it-works {
+  padding: 10em 0;
+  background: url("../images/pages/how-it-works_bg.png") no-repeat top center #fff;
+  border-bottom: 1px solid rgba(237, 237, 237, 0.5);
+}
+
+.how-it-works .content-image {
+  width: 100%;
+  max-width: 1391px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1023px) {
+  .how-it-works {
+    background: url("../images/pages/how-it-works_mobile_bg.png") no-repeat top center #fff;
+    background-size: contain;
+  }
+
+  .how-it-works .content-image {
+    width: 100%;
+    max-width: 720px;
+  }
+}
+/* content.css */
+.content-page {
+  background-color: #fff;
+  text-align: left;
+  padding-bottom: 10em;
+  border-bottom: 1px solid rgba(237, 237, 237, 0.5);
+  color: #6d6f7e;
+}
+
+.content-page p {
+  line-height: 2.5em;
+  margin-bottom: 2em;
+  font-size: 16px;
+}
+
+.content-page h2 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.content-page h4 {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.content-page .content-header {
+  background: url("../images/pages/content-banner.png") no-repeat top center #fff;
+}
+
+.content-page .content-header h1 {
+  font-size: 5em;
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #e54545;
+  margin-top: 0.5em;
+}
+
+.content-page .content-header h2 {
+  margin-top: 0;
+  margin-bottom: 4em;
+}
+/* receipt.css */
+.receipt-content {
+  color: #afafaf;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 2rem;
+  grid-column-gap: 2rem;
+  margin: 1rem 0;
+}
+
+.receipt-content .middle_left {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border: 1px solid #ededed;
+  padding: 1.2rem 0;
+}
+
+.receipt-content .middle_right_top {
+  padding: 1rem;
+  border: 1px solid #ededed;
+}
+
+.receipt-content .middle_right_top .total_row_twolines {
+  background-color: #ededed;
+}
+
+.receipt-content .middle_right_bottom {
+  padding: 1rem;
+  border: 1px solid #ededed;
+}
+
+.receipt-content .bottom_right img {
+  float: right;
+  width: 13rem;
+  opacity: 0.8;
+}
+
+.receipt-content .calendar-wrapper {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+}
+
+.receipt-content .calendar-wrapper .blocks-wrapper {
+  color: #999999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  padding: 1.5em 0;
+  margin: 0 2em;
+  border-bottom: 1px solid #ededed;
+}
+
+.receipt-content .calendar-wrapper .blocks-wrapper > div {
+  width: 50%;
+}
+
+.receipt-content .calendar-wrapper .blocks-wrapper h5 {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.receipt-content .calendar-wrapper .blocks-wrapper h4 {
+  font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.3rem;
+  margin: 0;
+  padding-top: 0.5rem;
+}
+
+.receipt-content .calendar-wrapper .blocks-wrapper .blocks-right {
+  border-left: 1px solid #ededed;
+  padding-left: 2rem;
+}
+
+.receipt-content .calendar-wrapper .extras {
+  margin: 0 2rem;
+  padding: 0.7rem 0;
+}
+
+.receipt-content .calendar-wrapper .extras .extra {
+  color: #666666;
+}
+
+.receipt-content .calendar-wrapper .extras .extra .extra_price {
+  font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+}
+
+.receipt-content .calendar-wrapper .extras .extra .extra_title {
+  font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.receipt-content .calendar-wrapper .extras .extra .extra_title .extra_subtitle {
+  font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.receipt-content .calendar-wrapper .extras#total_price .extra .extra_title {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.7rem;
+}
+
+.receipt-content .calendar-wrapper .extras#total_price .extra .extra_price {
+  font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.receipt-content .total_blocks {
+  font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.receipt-content .total_blocks > h3, .receipt-content .total_blocks > div {
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+}
+
+.receipt-content .total_blocks h3 {
+  color: #666666;
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.receipt-content .total_blocks .total_row .right {
+  float: right;
+}
+
+.receipt-content .total_blocks .total_row .right.right_larger {
+  font-size: 2rem;
+}
+
+.receipt-content .total_blocks .total_row.total_row_twolines .top, .receipt-content .total_blocks .total_row.total_row_twolines .bottom {
+  display: block;
+}
+
+.receipt-content .total_blocks .total_row.total_row_twolines .top {
+  font-size: 1rem;
+}
+
+.receipt-content .total_blocks .total_row.total_row_twolines .top.top_bolder {
+  font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #666666;
+}
+
+.receipt-content .total_blocks .total_row.total_row_twolines .bottom {
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 1023px) {
+  .receipt-content {
+    grid-template-columns: 1fr;
+  }
+}
+/* faq_panel.css */
+,
+.faq-panel .panel .panel-heading a {
+  display: inline-block;
+  width: 100%;
+  border: 2px solid #d6d6d6;
+  background-color: #ffffff;
+  padding: 35px 90px 31px 40px;
+  text-decoration: none;
+  position: relative;
+}
+
+.faq-panel .panel .panel-heading a:after {
+  position: absolute;
+  top: 44px;
+  right: 37px;
+  content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NSIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDQ1IDE3Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InJnNHhhIiB4MT0iMjkuMDEiIHgyPSIxNS45NSIgeTE9IjE2Ljk5IiB5Mj0iLjY2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZWQ1YjMzIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZTEzNjc1Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PGc+PGc+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIxLjEzMiAxNi41OTdMLjU5NiAzLjE5NkMtMS4yMjggMi4wNTcgMS4xNzYtLjE5IDMgMWM2LjM0NSA0LjE0IDEzLjA4MSA4LjY2IDE5LjQ4IDEyLjg1M0MyOC44ODUgOS42NiAzNS42NTUgNS4xNDEgNDIgMWMxLjc0NC0xLjE5IDQuMTg4IDEuMDA1IDIuMzY1IDIuMTk2LTYuODIgNC40NS0xMy42MzggOC45NTEtMjAuNDU3IDEzLjQwMS0uNDQuMjg4LS45MzYuNC0xLjQxLjM4OS0uNDY0LjAxMS0uOTQ1LS4xMDEtMS4zNjYtLjM4OXoiLz48cGF0aCBmaWxsPSJ1cmwoI3JnNHhhKSIgZD0iTTIxLjEzMiAxNi41OTdMLjU5NiAzLjE5NkMtMS4yMjggMi4wNTcgMS4xNzYtLjE5IDMgMWM2LjM0NSA0LjE0IDEzLjA4MSA4LjY2IDE5LjQ4IDEyLjg1M0MyOC44ODUgOS42NiAzNS42NTUgNS4xNDEgNDIgMWMxLjc0NC0xLjE5IDQuMTg4IDEuMDA1IDIuMzY1IDIuMTk2LTYuODIgNC40NS0xMy42MzggOC45NTEtMjAuNDU3IDEzLjQwMS0uNDQuMjg4LS45MzYuNC0xLjQxLjM4OS0uNDY0LjAxMS0uOTQ1LS4xMDEtMS4zNjYtLjM4OXoiLz48L2c+PC9nPjwvc3ZnPg== ");
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded=true] {
+  -webkit-box-shadow: 0 21px 43px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 21px 43px rgba(0, 0, 0, 0.28);
+  background-color: #ffffff;
+  background-image: linear-gradient(8deg, #ff4d1d 0%, #f30e75 100%);
+  border: 0;
+  color: #fff;
+  padding: 37px 92px 33px 40px;
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded=true]:after {
+  content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NSIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDQ1IDE2Ij48Zz48Zz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjMuODUxLjM5NGwyMC41MjIgMTMuMTJjMS44MjMgMS4xMTQtLjU4IDMuMzE0LTIuNDAyIDIuMTVDMzUuNjMgMTEuNjEgMjguODk5IDcuMTg1IDIyLjUwNCAzLjA4Yy02LjQgNC4xMDUtMTMuMTY1IDguNTI5LTE5LjUwNiAxMi41ODItMS43NDMgMS4xNjUtNC4xODUtLjk4NC0yLjM2My0yLjE1QzcuNDQ5IDkuMTU4IDE0LjI2NCA0Ljc1MiAyMS4wNzcuMzk1Yy40NC0uMjgxLjkzNi0uMzkxIDEuNDEtLjM4LjQ2My0uMDExLjk0My4wOTkgMS4zNjQuMzh6Ii8+PC9nPjwvZz48L3N2Zz4= ");
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded=true] i {
+  color: #fff;
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded=true] i i {
+  color: #fff;
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded=true] i i:before {
+  color: #fff;
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded=true] span {
+  color: #fff;
+}
+
+.faq-panel .panel .panel-heading a:hover {
+  text-decoration: none;
+}
+
+.faq-panel .panel .panel-heading a i {
+  margin-right: 20px;
+  font-size: 42px;
+  position: relative;
+  top: 6px;
+  color: #ea3f24;
+}
+
+.faq-panel .panel .panel-heading a i i {
+  margin: 0;
+  font-size: 100%;
+  top: initial;
+  position: initial;
+  color: initial;
+  font-style: normal;
+}
+
+.faq-panel .panel .panel-heading a span {
+  color: #6d6f7e;
+  font-family: "Futura ND Demibold";
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.faq-panel .panel .panel-collapse {
+  padding-bottom: 30px;
+}
+
+/* New CSS */
+.migoda-alert {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.migoda-alert .mg-section {
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+
+.g-recaptcha > div {
+  display: table;
+  margin: 0 auto;
+}
+
+.middle-categories_wrapper .middle-categories > div a {
+  text-decoration: none;
+}
+.middle-categories_wrapper .middle-categories > div a:hover {
+  text-decoration: none;
+}
+
+.flexyInput {
+  flex: 1;
+}
+
+.doSearchButton {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.floatingButton {
+  position: sticky;
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  color: #FFF;
+  font-size: 18px;
+  line-height: 48px;
+  text-align: center;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #e13773, #ec5937);
+  background-color: #ec5937;
+  border: 0;
+}
+.floatingButton:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist img {
+  position: relative;
+  top: -2px;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .mg-tertiary-button {
+  text-decoration: none;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .mg-tertiary-button img {
+  height: 48px;
+}
+
+.floatingIsland {
+  margin-top: 1rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left form {
+  position: relative;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .search-input_wrapper button {
+  color: #fff;
+  display: inline-block;
+  line-height: 34px;
+  padding: 0 16px;
+  position: relative;
+  border: 0;
+  margin: 0.25rem 0;
+  background-image: linear-gradient(45deg, #e13773, #ec5937);
+  background-color: #ec5937;
+}
+.middle-hiw_wrapper .middle-hiw > div {
+    cursor:default !important;
+}
+.switch_signup-login.handButton {
+    cursor:pointer !important;
+}
+.handButton {
+    cursor:pointer !important;
+}
+.signup-login__right input[type=text], .signup-login__right input[type=password] {
+    cursor:pointer !important;  
+}
+/* about.css */
+.main-content_wrapper.about-us{
+  background: #FFF;
+}
+.about-us-desc{
+  margin-top: 10%;
+  margin-left: 12%;
+  margin-right: 10%;
+  display: flex;
+  margin: 10% 10% 5% 12%;
+}
+.about-us-desc .col-6:nth-of-type(2){
+  text-align: left;
+}
+.about-us-desc p.bold{
+  font-family: "Futura ND";
+  font-weight: 500;
+  line-height: 27px;
+}
+.about-us-desc h2{
+  color: #6d6f7e;
+  font-family: "Futura ND Demibold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 35px;  
+}
+.about-us-desc p{
+  color: #6d6f7e;
+  font-family: "Futura ND Book";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.about-us-title{
+  text-align: left;
+  background-color: #6d6f7e;
+  background-image: linear-gradient(18deg, #ff4d1d 0%, #f30e75 100%);
+  padding-top: 38px;
+  padding-bottom: 38px;
+  margin-bottom: -5%;
+  margin-top: -5%;
+  color:#fff;
+  box-shadow: 0px 0px 5px #f30e75, 0px 0px 50px #f30e75, 0px 0px 10px #ff4d1d;
+   }
+.about-us-title h2{
+  color: #ffffff;
+  font-family: "Futura ND Light";
+  font-size: 46px;
+  font-weight: 400;
+  margin-left: 30%;
+}
+.about-us-title p{
+  font-family: "Futura ND Demibold";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 43px;
+  margin-left: 30%;
+  margin-bottom: 0;
+}
+.about-us-hero{
+  background-image: url("../images/pages/about-bg.png");
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-size: auto;
+  background-position: center;  
+}
+.about-us-hero .mg-section:first-child{
+  margin-top: 43px;
+}
+.about-us-hero h2{
+  color: #ffffff;
+  font-family: "Futura ND Demibold";
+  font-size: 50px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom:20px;
+}
+.about-us-hero p{
+  text-align: left;
+  color: #ffffff;
+  font-family: "Futura ND Book";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=styles.css.map */

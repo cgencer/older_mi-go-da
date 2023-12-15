@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "Futura ND Bold";
+    src: url("../fonts/FuturaND-Bold.woff2") format("woff2"), url("../fonts/FuturaND-Bold.woff") format("woff"), url("../fonts/FuturaND-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Bold Oblique";
+    src: url("../fonts/FuturaND-BoldOblique.woff2") format("woff2"), url("../fonts/FuturaND-BoldOblique.woff") format("woff"), url("../fonts/FuturaND-BoldOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND";
+    src: url("../fonts/FuturaND-Medium.woff2") format("woff2"), url("../fonts/FuturaND-Medium.woff") format("woff"), url("../fonts/FuturaND-Medium.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Medium Oblique";
+    src: url("../fonts/FuturaND-MediumOblique.woff2") format("woff2"), url("../fonts/FuturaND-MediumOblique.woff") format("woff"), url("../fonts/FuturaND-MediumOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Book Oblique";
+    src: url("../fonts/FuturaNDBook-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDBook-Oblique.woff") format("woff"), url("../fonts/FuturaNDBook-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Book";
+    src: url("../fonts/FuturaNDBook.woff2") format("woff2"), url("../fonts/FuturaNDBook.woff") format("woff"), url("../fonts/FuturaNDBook.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Book SCOsF Oblique";
+    src: url("../fonts/FuturaNDBookSCOsF-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDBookSCOsF-Oblique.woff") format("woff"), url("../fonts/FuturaNDBookSCOsF-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Book SCOsF";
+    src: url("../fonts/FuturaNDBookSCOsF.woff2") format("woff2"), url("../fonts/FuturaNDBookSCOsF.woff") format("woff"), url("../fonts/FuturaNDBookSCOsF.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Bold";
+    src: url("../fonts/FuturaNDCn-Bold.woff2") format("woff2"), url("../fonts/FuturaNDCn-Bold.woff") format("woff"), url("../fonts/FuturaNDCn-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Bold Oblique";
+    src: url("../fonts/FuturaNDCn-BoldOblique.woff2") format("woff2"), url("../fonts/FuturaNDCn-BoldOblique.woff") format("woff"), url("../fonts/FuturaNDCn-BoldOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Medium";
+    src: url("../fonts/FuturaNDCn-Medium.woff2") format("woff2"), url("../fonts/FuturaNDCn-Medium.woff") format("woff"), url("../fonts/FuturaNDCn-Medium.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Medium Oblique";
+    src: url("../fonts/FuturaNDCn-MediumOblique.woff2") format("woff2"), url("../fonts/FuturaNDCn-MediumOblique.woff") format("woff"), url("../fonts/FuturaNDCn-MediumOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Extrabold Oblique";
+    src: url("../fonts/FuturaNDCnExtrabold-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDCnExtrabold-Oblique.woff") format("woff"), url("../fonts/FuturaNDCnExtrabold-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Extrabold";
+    src: url("../fonts/FuturaNDCnExtrabold.woff2") format("woff2"), url("../fonts/FuturaNDCnExtrabold.woff") format("woff"), url("../fonts/FuturaNDCnExtrabold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Light Oblique";
+    src: url("../fonts/FuturaNDCnLight-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDCnLight-Oblique.woff") format("woff"), url("../fonts/FuturaNDCnLight-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Light";
+    src: url("../fonts/FuturaNDCnLight.woff2") format("woff2"), url("../fonts/FuturaNDCnLight.woff") format("woff"), url("../fonts/FuturaNDCnLight.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Light SCOsF Oblique";
+    src: url("../fonts/FuturaNDCnLightSCOsF-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDCnLightSCOsF-Oblique.woff") format("woff"), url("../fonts/FuturaNDCnLightSCOsF-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Light SCOsF";
+    src: url("../fonts/FuturaNDCnLightSCOsF.woff2") format("woff2"), url("../fonts/FuturaNDCnLightSCOsF.woff") format("woff"), url("../fonts/FuturaNDCnLightSCOsF.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn SCOsF Bold";
+    src: url("../fonts/FuturaNDCnSCOsF-Bold.woff2") format("woff2"), url("../fonts/FuturaNDCnSCOsF-Bold.woff") format("woff"), url("../fonts/FuturaNDCnSCOsF-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn SCOsF Medium";
+    src: url("../fonts/FuturaNDCnSCOsF-Medium.woff2") format("woff2"), url("../fonts/FuturaNDCnSCOsF-Medium.woff") format("woff"), url("../fonts/FuturaNDCnSCOsF-Medium.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn SCOsF Medium Oblique";
+    src: url("../fonts/FuturaNDCnSCOsF-MediumOblique.woff2") format("woff2"), url("../fonts/FuturaNDCnSCOsF-MediumOblique.woff") format("woff"), url("../fonts/FuturaNDCnSCOsF-MediumOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Demibold Oblique";
+    src: url("../fonts/FuturaNDDemibold-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDDemibold-Oblique.woff") format("woff"), url("../fonts/FuturaNDDemibold-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Demibold";
+    src: url("../fonts/FuturaNDDemibold.woff2") format("woff2"), url("../fonts/FuturaNDDemibold.woff") format("woff"), url("../fonts/FuturaNDDemibold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND ExtraBold Oblique";
+    src: url("../fonts/FuturaNDExtraBold-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDExtraBold-Oblique.woff") format("woff"), url("../fonts/FuturaNDExtraBold-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND ExtraBold";
+    src: url("../fonts/FuturaNDExtraBold.woff2") format("woff2"), url("../fonts/FuturaNDExtraBold.woff") format("woff"), url("../fonts/FuturaNDExtraBold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Light Oblique";
+    src: url("../fonts/FuturaNDLight-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDLight-Oblique.woff") format("woff"), url("../fonts/FuturaNDLight-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Light";
+    src: url("../fonts/FuturaNDLight.woff2") format("woff2"), url("../fonts/FuturaNDLight.woff") format("woff"), url("../fonts/FuturaNDLight.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Light SCOsF Oblique";
+    src: url("../fonts/FuturaNDLightSCOsF-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDLightSCOsF-Oblique.woff") format("woff"), url("../fonts/FuturaNDLightSCOsF-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Light SCOsF";
+    src: url("../fonts/FuturaNDLightSCOsF.woff2") format("woff2"), url("../fonts/FuturaNDLightSCOsF.woff") format("woff"), url("../fonts/FuturaNDLightSCOsF.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND SCOsF Bold";
+    src: url("../fonts/FuturaNDSCOsF-Bold.woff2") format("woff2"), url("../fonts/FuturaNDSCOsF-Bold.woff") format("woff"), url("../fonts/FuturaNDSCOsF-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND SCOsF Bold Oblique";
+    src: url("../fonts/FuturaNDSCOsF-BoldOblique.woff2") format("woff2"), url("../fonts/FuturaNDSCOsF-BoldOblique.woff") format("woff"), url("../fonts/FuturaNDSCOsF-BoldOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND SCOsF";
+    src: url("../fonts/FuturaNDSCOsF-Medium.woff2") format("woff2"), url("../fonts/FuturaNDSCOsF-Medium.woff") format("woff"), url("../fonts/FuturaNDSCOsF-Medium.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND SCOsF Medium Oblique";
+    src: url("../fonts/FuturaNDSCOsF-MediumOblique.woff2") format("woff2"), url("../fonts/FuturaNDSCOsF-MediumOblique.woff") format("woff"), url("../fonts/FuturaNDSCOsF-MediumOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'futurand_bold';
+    src: url("../fonts/neufville_digital_-_futura_nd_bold-webfont.woff2") format('woff2'), url("../fonts/neufville_digital_-_futura_nd_bold-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'futurand';
+    src: url("../fonts/neufville_digital_-_futura_nd_book-webfont.woff2") format('woff2'), url("../fonts/neufville_digital_-_futura_nd_book-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'futurand_semibold';
+    src: url("../fonts/neufville_digital_-_futura_nd_demibold-webfont.woff2") format('woff2'), url("../fonts/neufville_digital_-_futura_nd_demibold-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'futurand_bold_tr';
+    src: url("../fonts/FuturaND-Bold-tr.woff2") format('woff2'), url("../fonts/FuturaND-Bold-tr.woff") format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'futurand_tr';
+    src: url("../fonts/FuturaNDBook-tr.woff2") format('woff2'), url("../fonts/FuturaNDBook-tr.woff") format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'futurand_semibold_tr';
+    src: url("../fonts/FuturaNDDemibold-tr.woff2") format('woff2'), url("../fonts/FuturaNDDemibold-tr.woff") format('woff');
+    font-weight: normal;
+    font-style: normal
+}

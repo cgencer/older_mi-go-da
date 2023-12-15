@@ -1,0 +1,20 @@
+{% extends '::Email/en/000_base.html.twig' %}
+
+{% block content %}
+
+    <tr>
+        <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:0;word-break:break-word;">
+            <div style="font-family:Arial, sans-serif;font-size:16px;line-height:1;text-align:left;color:#6d6f7e;">
+                <h1 class="header-title">APPROVAL CONFIRMATION</h1>
+                <p class="strong">Cher/Chère Partenaire de Migoda Hotel!</p>
+                <p>Nous avons reçu de votre part une acceptation de la demande de réservation de M.(Mme) {{ guest_name }} aux dates {{ date_checkin }} - {{ date_checkout }}. Nous avons déjà communiqué cette acceptation à M.(Mme) {{ guest_name }} via notre système. </p>
+                <p>Nous sommes ravis! Ainsi que le client!</p>
+                <p>Dans les prochaines 48 heures, vous recevrez un autre email de notre part vous informant du paiement du client pour les dates demandées.</p>
+                <p>Nous vous tiendrons au courant! .. restez connecté!</p>
+                <p>Cordialement,</p>
+                <p>Votre Équipe Migoda</p>
+            </div>
+        </td>
+    </tr>
+
+{% endblock %}

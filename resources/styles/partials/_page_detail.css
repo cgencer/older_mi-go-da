@@ -1,0 +1,368 @@
+
+.page-detail {
+    text-align: left;
+}
+
+.page-detail .page-detail-header {
+    height: 41.25rem;
+    padding-top: 12.5rem;
+    background-size: cover;
+}
+
+.page-detail .page-detail-inner {
+    margin-top: -11.5rem;
+    min-height: 20rem;
+    padding-bottom: 10rem;
+}
+
+.page-detail .page-detail-inner .migoda-verified {
+    float: left;
+    width: 15rem;
+}
+
+.page-detail .page-detail-inner .migoda-verified > * {
+    white-space: nowrap;
+}
+
+.page-detail .page-detail-inner .migoda-verified .verified-logo {
+    float: left;
+    margin-right: 1rem;
+}
+
+.page-detail .page-detail-inner .migoda-verified .verified-text {
+    text-align: left;
+    padding-top: 1rem;
+    color: #fff;
+}
+
+.page-detail .page-detail-inner .migoda-verified .verified-text h3 {
+    font-size: 1.5rem;
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.page-detail .page-detail-inner .migoda-verified .verified-text p {
+    font-size: 0.8rem;
+}
+
+.page-detail .page-detail-inner .view-photos {
+    float: right;
+    padding-right: 0;
+    background: none;
+}
+
+.page-detail .page-detail-inner .view-photos a {
+    display: inline-block;
+    padding-right: 4.8rem;
+    color: #fff;
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.2rem;
+    line-height: 5rem;
+    background: url("../images/svg/view-photos.svg") no-repeat center right transparent;
+}
+
+.page-detail .page-detail-inner .page-detail-block {
+    background-color: #fff;
+    min-height: 40rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 3rem 2.5rem 0 3rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-calendar {
+    -webkit-box-flex: 1.3;
+    -ms-flex: 1.3;
+    flex: 1.3;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left {
+    -webkit-box-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding-right: 2.5rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header h1 {
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 2rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header h1 .stars {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header h3 {
+    color: #afafaf;
+    font-size: 1.1rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons {
+    float: right;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-secondary-button, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button__disabled, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button__passive, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .mobile-menu ul.header-links li.menu-login a.add-to-wishlist, .mobile-menu ul.header-links li.menu-login .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons a.add-to-wishlist, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .signup-login ul.header-links_mobile li.menu-login a.add-to-wishlist, .signup-login ul.header-links_mobile li.menu-login .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons a.add-to-wishlist {
+    border: none;
+    background: #afafaf;
+    color: #fff;
+    height: 3.1rem;
+    line-height: 3.1rem;
+    font-size: 1rem;
+    display: block;
+    padding: 0 1.4rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-secondary-button img, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button img, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button__disabled img, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button__passive img, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .mobile-menu ul.header-links li.menu-login a.add-to-wishlist img, .mobile-menu ul.header-links li.menu-login .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons a.add-to-wishlist img, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .signup-login ul.header-links_mobile li.menu-login a.add-to-wishlist img, .signup-login ul.header-links_mobile li.menu-login .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons a.add-to-wishlist img {
+    width: 1.8rem;
+    margin-left: 1rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button__disabled, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .add-to-wishlist.mg-primary-button__passive, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .mobile-menu ul.header-links li.menu-login a.add-to-wishlist, .mobile-menu ul.header-links li.menu-login .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons a.add-to-wishlist, .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons .signup-login ul.header-links_mobile li.menu-login a.add-to-wishlist, .signup-login ul.header-links_mobile li.menu-login .page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons a.add-to-wishlist {
+    background: #e54545;
+    display: block;
+    width: auto;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons ul {
+    padding: 0;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons ul li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    margin-right: 3rem;
+    color: #666666;
+}
+
+.page-detail .page-detail-inner .page-detail-block .page-detail-left .detail-header .detail-icons ul li:last-child {
+    margin-right: 0;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-note {
+    border-top: 1px solid #ededed;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: #afafaf;
+    padding-left: 6rem;
+    background: url("../images/svg/note.svg") no-repeat center left transparent;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-note p {
+    margin-top: 1.5rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-information {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-information h4 {
+    margin-bottom: 1rem;
+    font-size: 1.45rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-information .detail-text {
+    color: #afafaf;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-information .detail-text.cropped {
+    max-height: 4.5rem;
+    overflow: hidden;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-information .detail-text.checkin-checkout b {
+    font-weight: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.4rem;
+}
+
+.page-detail .page-detail-inner .page-detail-block .detail-information a.detail-read-more {
+    color: #e54545;
+}
+
+.page-detail .page-detail-inner .page-detail-block .property-information {
+    border-top: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.page-detail .page-detail-inner .page-amenities-block {
+    background-color: #fff;
+    padding: 0 3rem 3rem;
+}
+
+.page-detail .page-detail-inner .page-amenities-block .detail-amenities h4 {
+    border-bottom: 2px solid #ededed;
+    padding-bottom: 0.5rem;
+}
+
+.page-detail .page-detail-inner .page-amenities-block .detail-amenities h4 img {
+    width: 3.6rem;
+    vertical-align: baseline;
+    margin-right: 0.5rem;
+}
+
+.page-detail .page-detail-inner .page-amenities-block .detail-amenities h5 {
+    color: #e54545;
+    margin-top: 1.2rem;
+}
+
+.page-detail .page-detail-inner .page-amenities-block .detail-amenities ul {
+    margin-bottom: 2.8rem;
+    padding: 0;
+}
+
+.page-detail .page-detail-inner .page-amenities-block .detail-amenities ul li {
+    float: left;
+    list-style: none;
+    width: 25%;
+    display: block;
+    line-height: 2.5rem;
+    color: #afafaf;
+}
+
+.page-detail .page-detail-inner .page-amenities-block .detail-amenities ul li img {
+    width: 1.2rem;
+    vertical-align: baseline;
+    margin-right: 0.5rem;
+}
+
+.page-detail-body .dates-wrapper {
+    margin: 0;
+}
+
+.page-detail-body .dates-wrapper-outer {
+    position: relative;
+    margin: 0.8rem;
+}
+
+.page-detail-body .dates-wrapper-outer .datepicker-hider {
+    position: relative;
+    z-index: 999;
+    display: none;
+}
+
+.page-detail-body .dates-wrapper-outer .datepicker-hider #date-picker {
+    display: none;
+    border: none;
+    width: 1px;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+}
+
+.page-detail-body .dates-wrapper-outer .datepicker-hider .datepicker-inline {
+    width: auto;
+}
+
+.page-detail-body .dates-wrapper-outer .datepicker-hider .datepicker-inline .datepicker {
+    width: auto;
+    border: none;
+}
+
+.page-detail-body .dates-wrapper-outer.picker-visible {
+    -webkit-box-shadow: 0px 30px 40px #ededed;
+    box-shadow: 0px 30px 40px #ededed;
+}
+
+.page-detail-body .dates-wrapper-outer.picker-visible .dates-wrapper {
+    border: 2px solid #e54545;
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.page-detail-body .dates-wrapper-outer.picker-visible .datepicker-hider {
+    display: block;
+    position: absolute;
+    border: 2px solid #e54545;
+    border-top: none;
+}
+
+.page-detail-body .dates-wrapper-outer.picker-visible .date h4 {
+    color: #e54545;
+}
+
+.page-detail-body .dates-wrapper-outer.picker-visible .date h4 a {
+    color: #e54545;
+}
+
+.page-detail-body .datepicker.active {
+    width: 21rem;
+}
+
+
+
+.map-block {
+    position: relative;
+    padding-bottom: 25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.map-block iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#dates-container {
+    position: relative;
+}
+
+#dates-container .datepicker {
+    top: 0 !important;
+    left: 0 !important;
+}
+
+@media only screen and (max-width: 1023px) {
+    .page-detail .page-detail-inner {
+        max-width: none;
+        padding: 0;
+    }
+    .page-detail .page-detail-inner .page-detail-inner-top {
+        padding: 1rem 3rem;
+    }
+    .page-detail .page-detail-inner .migoda-verified .verified-logo img {
+        width: 4.5rem;
+    }
+    .page-detail .page-detail-inner .view-photos {
+        padding-right: 0;
+        background: none;
+    }
+    .page-detail .page-detail-inner .page-detail-block {
+        display: block;
+    }
+    .page-detail .page-detail-inner .page-detail-block .page-detail-left {
+        padding-right: 0;
+    }
+    .page-detail .page-detail-inner .page-detail-block .detail-note {
+        padding-left: 8rem;
+    }
+    .page-detail .page-detail-inner .page-detail-block .detail-note p {
+        font-size: 1.2rem;
+    }
+    .page-detail .page-detail-inner .page-detail-block .detail-information p {
+        font-size: 1.2rem;
+    }
+    .page-detail .page-detail-inner .page-detail-block .detail-information .detail-text.checkin-checkout {
+        font-size: 1.2rem;
+    }
+    .page-detail .page-detail-inner .page-detail-block .detail-information .detail-text.checkin-checkout b {
+        font-weight: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 1.8rem;
+    }
+    .page-detail .page-detail-inner .page-amenities-block {
+        padding-top: 2rem;
+    }
+    .page-detail .page-detail-inner .page-amenities-block .detail-amenities ul li {
+        width: 50%;
+    }
+    .map-block {
+        padding-bottom: 50%;
+    }
+}
+

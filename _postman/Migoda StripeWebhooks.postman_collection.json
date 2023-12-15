@@ -1,0 +1,317 @@
+{
+	"info": {
+		"_postman_id": "50717e4f-dfd5-4442-afa6-1f1173d3f3c7",
+		"name": "Migoda StripeWebhooks",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "customer.deleted",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"created\": 1326853478,\n    \"livemode\": false,\n    \"id\": \"evt_00000000000000\",\n    \"type\": \"customer.deleted\",\n    \"object\": \"event\",\n    \"request\": null,\n    \"pending_webhooks\": 1,\n    \"api_version\": \"2020-08-27\",\n    \"account\": \"acct_00000000000000\",\n    \"data\": {\n        \"object\": {\n            \"id\": \"cus_00000000000000\",\n            \"object\": \"customer\",\n            \"address\": null,\n            \"balance\": 0,\n            \"created\": 1619858959,\n            \"currency\": \"eur\",\n            \"default_source\": null,\n            \"delinquent\": false,\n            \"description\": null,\n            \"discount\": null,\n            \"email\": null,\n            \"invoice_prefix\": \"1D066BB\",\n            \"invoice_settings\": {\n                \"custom_fields\": null,\n                \"default_payment_method\": null,\n                \"footer\": null\n            },\n            \"livemode\": false,\n            \"metadata\": {},\n            \"name\": null,\n            \"phone\": null,\n            \"preferred_locales\": [],\n            \"shipping\": null,\n            \"tax_exempt\": \"none\"\n        }\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "migoda.dev/stripeWebHooks",
+					"host": [
+						"migoda",
+						"dev"
+					],
+					"path": [
+						"stripeWebHooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transfer.created",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"created\": 1326853478,\n  \"livemode\": false,\n  \"id\": \"evt_00000000000000\",\n  \"type\": \"transfer.created\",\n  \"object\": \"event\",\n  \"request\": null,\n  \"pending_webhooks\": 1,\n  \"api_version\": \"2020-08-27\",\n  \"account\": \"acct_00000000000000\",\n  \"data\": {\n\t\"object\": {\n\t  \"id\": \"tr_00000000000000\",\n\t  \"object\": \"transfer\",\n\t  \"amount\": 1100,\n\t  \"amount_reversed\": 0,\n\t  \"balance_transaction\": \"txn_00000000000000\",\n\t  \"created\": 1604574603,\n\t  \"currency\": \"eur\",\n\t  \"description\": null,\n\t  \"destination\": \"acct_1H3FdiCpynlDkhsM\",\n\t  \"destination_payment\": \"py_IKltHqV47gsQsP\",\n\t  \"livemode\": false,\n\t  \"metadata\": {\n\t  },\n\t  \"reversals\": {\n\t\t\"object\": \"list\",\n\t\t\"data\": [\n\t\t],\n\t\t\"has_more\": false,\n\t\t\"url\": \"/v1/transfers/tr_1Hk6LvCpynlDkhsMqcccUJot/reversals\"\n\t  },\n\t  \"reversed\": false,\n\t  \"source_transaction\": null,\n\t  \"source_type\": \"card\",\n\t  \"transfer_group\": null\n\t}\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "migoda.dev/stripeWebHooks",
+					"host": [
+						"migoda",
+						"dev"
+					],
+					"path": [
+						"stripeWebHooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "transfer.paid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"created\": 1326853478,\n  \"livemode\": false,\n  \"id\": \"evt_00000000000000\",\n  \"type\": \"transfer.paid\",\n  \"object\": \"event\",\n  \"request\": null,\n  \"pending_webhooks\": 1,\n  \"api_version\": \"2020-08-27\",\n  \"account\": \"acct_00000000000000\",\n  \"data\": {\n\t\"object\": {\n\t  \"id\": \"tr_00000000000000\",\n\t  \"object\": \"transfer\",\n\t  \"amount\": 1100,\n\t  \"amount_reversed\": 0,\n\t  \"balance_transaction\": \"txn_00000000000000\",\n\t  \"created\": 1604574577,\n\t  \"currency\": \"eur\",\n\t  \"description\": null,\n\t  \"destination\": \"acct_1H3FdiCpynlDkhsM\",\n\t  \"destination_payment\": \"py_IKltaJT0Wij3Ii\",\n\t  \"livemode\": false,\n\t  \"metadata\": {\n\t  },\n\t  \"reversals\": {\n\t\t\"object\": \"list\",\n\t\t\"data\": [\n\t\t],\n\t\t\"has_more\": false,\n\t\t\"url\": \"/v1/transfers/tr_1Hk6LVCpynlDkhsMexNDwx83/reversals\"\n\t  },\n\t  \"reversed\": false,\n\t  \"source_transaction\": null,\n\t  \"source_type\": \"card\",\n\t  \"transfer_group\": null\n\t}\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "migoda.dev/stripeWebHooks",
+					"host": [
+						"migoda",
+						"dev"
+					],
+					"path": [
+						"stripeWebHooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "product.created",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"created\": 1326853478,\n  \"livemode\": false,\n  \"id\": \"evt_00000000000000\",\n  \"type\": \"product.created\",\n  \"object\": \"event\",\n  \"request\": null,\n  \"pending_webhooks\": 1,\n  \"api_version\": \"2020-08-27\",\n  \"account\": \"acct_00000000000000\",\n  \"data\": {\n\t\"object\": {\n\t  \"id\": \"prod_00000000000000\",\n\t  \"object\": \"product\",\n\t  \"active\": true,\n\t  \"attributes\": [\n\t\t\"size\",\n\t\t\"gender\"\n\t  ],\n\t  \"created\": 1604574629,\n\t  \"description\": \"Comfortable gray cotton t-shirt\",\n\t  \"images\": [\n\t  ],\n\t  \"livemode\": false,\n\t  \"metadata\": {\n\t  },\n\t  \"name\": \"T-shirt\",\n\t  \"statement_descriptor\": null,\n\t  \"unit_label\": null,\n\t  \"updated\": 1604574629\n\t}\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "migoda.dev/stripeWebHooks",
+					"host": [
+						"migoda",
+						"dev"
+					],
+					"path": [
+						"stripeWebHooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "price.created",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"created\": 1326853478,\n  \"livemode\": false,\n  \"id\": \"evt_00000000000000\",\n  \"type\": \"price.created\",\n  \"object\": \"event\",\n  \"request\": null,\n  \"pending_webhooks\": 1,\n  \"api_version\": \"2020-08-27\",\n  \"account\": \"acct_00000000000000\",\n  \"data\": {\n\t\"object\": {\n\t  \"id\": \"price_00000000000000\",\n\t  \"object\": \"price\",\n\t  \"active\": true,\n\t  \"billing_scheme\": \"per_unit\",\n\t  \"created\": 1604574798,\n\t  \"currency\": \"eur\",\n\t  \"livemode\": false,\n\t  \"lookup_key\": null,\n\t  \"metadata\": {\n\t  },\n\t  \"nickname\": null,\n\t  \"product\": \"prod_00000000000000\",\n\t  \"recurring\": {\n\t\t\"aggregate_usage\": null,\n\t\t\"interval\": \"month\",\n\t\t\"interval_count\": 1,\n\t\t\"usage_type\": \"licensed\"\n\t  },\n\t  \"tiers_mode\": null,\n\t  \"transform_quantity\": null,\n\t  \"type\": \"recurring\",\n\t  \"unit_amount\": 2000,\n\t  \"unit_amount_decimal\": \"2000\"\n\t}\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "migoda.dev/stripeWebHooks",
+					"host": [
+						"migoda",
+						"dev"
+					],
+					"path": [
+						"stripeWebHooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "payout.created",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"created\": 1326853478,\n  \"livemode\": false,\n  \"id\": \"evt_00000000000000\",\n  \"type\": \"payout.created\",\n  \"object\": \"event\",\n  \"request\": null,\n  \"pending_webhooks\": 1,\n  \"api_version\": \"2020-08-27\",\n  \"account\": \"acct_00000000000000\",\n  \"data\": {\n\t\"object\": {\n\t  \"id\": \"po_00000000000000\",\n\t  \"object\": \"payout\",\n\t  \"amount\": 1100,\n\t  \"arrival_date\": 1604574858,\n\t  \"automatic\": true,\n\t  \"balance_transaction\": \"txn_00000000000000\",\n\t  \"created\": 1604574858,\n\t  \"currency\": \"eur\",\n\t  \"description\": \"STRIPE PAYOUT\",\n\t  \"destination\": \"ba_1Hk6Q2CpynlDkhsMNH3wiVdy\",\n\t  \"failure_balance_transaction\": null,\n\t  \"failure_code\": null,\n\t  \"failure_message\": null,\n\t  \"livemode\": false,\n\t  \"metadata\": {\n\t  },\n\t  \"method\": \"standard\",\n\t  \"original_payout\": null,\n\t  \"reversed_by\": null,\n\t  \"source_type\": \"card\",\n\t  \"statement_descriptor\": null,\n\t  \"status\": \"in_transit\",\n\t  \"type\": \"bank_account\"\n\t}\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "migoda.dev/stripeWebHooks",
+					"host": [
+						"migoda",
+						"dev"
+					],
+					"path": [
+						"stripeWebHooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "payout.paid",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"created\": 1326853478,\n  \"livemode\": false,\n  \"id\": \"evt_00000000000000\",\n  \"type\": \"payout.paid\",\n  \"object\": \"event\",\n  \"request\": null,\n  \"pending_webhooks\": 1,\n  \"api_version\": \"2020-08-27\",\n  \"account\": \"acct_00000000000000\",\n  \"data\": {\n\t\"object\": {\n\t  \"id\": \"po_00000000000000\",\n\t  \"object\": \"payout\",\n\t  \"amount\": 1100,\n\t  \"arrival_date\": 1604574824,\n\t  \"automatic\": true,\n\t  \"balance_transaction\": \"txn_00000000000000\",\n\t  \"created\": 1604574824,\n\t  \"currency\": \"eur\",\n\t  \"description\": \"STRIPE PAYOUT\",\n\t  \"destination\": \"ba_1Hk6PUCpynlDkhsMpdejsFlJ\",\n\t  \"failure_balance_transaction\": null,\n\t  \"failure_code\": null,\n\t  \"failure_message\": null,\n\t  \"livemode\": false,\n\t  \"metadata\": {\n\t  },\n\t  \"method\": \"standard\",\n\t  \"original_payout\": null,\n\t  \"reversed_by\": null,\n\t  \"source_type\": \"card\",\n\t  \"statement_descriptor\": null,\n\t  \"status\": \"in_transit\",\n\t  \"type\": \"bank_account\"\n\t}\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "migoda.dev/stripeWebHooks",
+					"host": [
+						"migoda",
+						"dev"
+					],
+					"path": [
+						"stripeWebHooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "payment_intent.created",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"created\": 1326853478,\n  \"livemode\": false,\n  \"id\": \"evt_00000000000000\",\n  \"type\": \"payment_intent.created\",\n  \"object\": \"event\",\n  \"request\": null,\n  \"pending_webhooks\": 1,\n  \"api_version\": \"2020-08-27\",\n  \"account\": \"acct_00000000000000\",\n  \"data\": {\n\t\"object\": {\n\t  \"id\": \"pi_00000000000000\",\n\t  \"object\": \"payment_intent\",\n\t  \"amount\": 1000,\n\t  \"amount_capturable\": 0,\n\t  \"amount_received\": 0,\n\t  \"application\": null,\n\t  \"application_fee_amount\": null,\n\t  \"canceled_at\": null,\n\t  \"cancellation_reason\": null,\n\t  \"capture_method\": \"automatic\",\n\t  \"charges\": {\n\t\t\"object\": \"list\",\n\t\t\"data\": [\n\t\t],\n\t\t\"has_more\": false,\n\t\t\"url\": \"/v1/charges?payment_intent=pi_1H7LKQCpynlDkhsMOfMQ35vU\"\n\t  },\n\t  \"client_secret\": \"pi_1H7LKQCpynlDkhsMOfMQ35vU_secret_o18ajbC10507yZuBNkpA3DojI\",\n\t  \"confirmation_method\": \"automatic\",\n\t  \"created\": 1595337378,\n\t  \"currency\": \"usd\",\n\t  \"customer\": null,\n\t  \"description\": \"Created by stripe.com/docs demo\",\n\t  \"invoice\": null,\n\t  \"last_payment_error\": null,\n\t  \"livemode\": false,\n\t  \"metadata\": {\n\t  },\n\t  \"next_action\": null,\n\t  \"on_behalf_of\": null,\n\t  \"payment_method\": null,\n\t  \"payment_method_options\": {\n\t\t\"card\": {\n\t\t  \"installments\": null,\n\t\t  \"network\": null,\n\t\t  \"request_three_d_secure\": \"automatic\"\n\t\t}\n\t  },\n\t  \"payment_method_types\": [\n\t\t\"card\"\n\t  ],\n\t  \"receipt_email\": null,\n\t  \"review\": null,\n\t  \"setup_future_usage\": null,\n\t  \"shipping\": null,\n\t  \"statement_descriptor\": null,\n\t  \"statement_descriptor_suffix\": null,\n\t  \"status\": \"requires_payment_method\",\n\t  \"transfer_data\": null,\n\t  \"transfer_group\": null\n\t}\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "migoda.dev/stripeWebHooks",
+					"host": [
+						"migoda",
+						"dev"
+					],
+					"path": [
+						"stripeWebHooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "payment_intent.succeeded",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"created\": 1326853478,\n  \"livemode\": false,\n  \"id\": \"evt_00000000000000\",\n  \"type\": \"payment_intent.succeeded\",\n  \"object\": \"event\",\n  \"request\": null,\n  \"pending_webhooks\": 1,\n  \"api_version\": \"2020-08-27\",\n  \"account\": \"acct_00000000000000\",\n  \"data\": {\n\t\"object\": {\n\t  \"id\": \"pi_00000000000000\",\n\t  \"object\": \"payment_intent\",\n\t  \"amount\": 1099,\n\t  \"amount_capturable\": 0,\n\t  \"amount_received\": 1099,\n\t  \"application\": null,\n\t  \"application_fee_amount\": null,\n\t  \"canceled_at\": null,\n\t  \"cancellation_reason\": null,\n\t  \"capture_method\": \"automatic\",\n\t  \"charges\": {\n\t\t\"object\": \"list\",\n\t\t\"data\": [\n\t\t  {\n\t\t\t\"id\": \"ch_00000000000000\",\n\t\t\t\"object\": \"charge\",\n\t\t\t\"amount\": 1099,\n\t\t\t\"amount_captured\": 1099,\n\t\t\t\"amount_refunded\": 0,\n\t\t\t\"application\": null,\n\t\t\t\"application_fee\": null,\n\t\t\t\"application_fee_amount\": null,\n\t\t\t\"balance_transaction\": null,\n\t\t\t\"billing_details\": {\n\t\t\t  \"address\": {\n\t\t\t\t\"city\": null,\n\t\t\t\t\"country\": null,\n\t\t\t\t\"line1\": null,\n\t\t\t\t\"line2\": null,\n\t\t\t\t\"postal_code\": null,\n\t\t\t\t\"state\": null\n\t\t\t  },\n\t\t\t  \"email\": null,\n\t\t\t  \"name\": null,\n\t\t\t  \"phone\": null\n\t\t\t},\n\t\t\t\"calculated_statement_descriptor\": null,\n\t\t\t\"captured\": true,\n\t\t\t\"created\": 1556603164,\n\t\t\t\"currency\": \"eur\",\n\t\t\t\"customer\": null,\n\t\t\t\"description\": \"My First Test Charge (created for API docs)\",\n\t\t\t\"disputed\": false,\n\t\t\t\"failure_code\": null,\n\t\t\t\"failure_message\": null,\n\t\t\t\"fraud_details\": {\n\t\t\t},\n\t\t\t\"invoice\": null,\n\t\t\t\"livemode\": false,\n\t\t\t\"metadata\": {\n\t\t\t},\n\t\t\t\"on_behalf_of\": null,\n\t\t\t\"order\": null,\n\t\t\t\"outcome\": null,\n\t\t\t\"paid\": true,\n\t\t\t\"payment_intent\": \"pi_00000000000000\",\n\t\t\t\"payment_method\": \"pm_00000000000000\",\n\t\t\t\"payment_method_details\": {\n\t\t\t  \"card\": {\n\t\t\t\t\"brand\": \"visa\",\n\t\t\t\t\"checks\": {\n\t\t\t\t  \"address_line1_check\": null,\n\t\t\t\t  \"address_postal_code_check\": null,\n\t\t\t\t  \"cvc_check\": null\n\t\t\t\t},\n\t\t\t\t\"country\": \"US\",\n\t\t\t\t\"exp_month\": 8,\n\t\t\t\t\"exp_year\": 2020,\n\t\t\t\t\"fingerprint\": \"9OyiQNfcCMaD1b7P\",\n\t\t\t\t\"funding\": \"credit\",\n\t\t\t\t\"installments\": null,\n\t\t\t\t\"last4\": \"4242\",\n\t\t\t\t\"network\": \"visa\",\n\t\t\t\t\"three_d_secure\": null,\n\t\t\t\t\"wallet\": null\n\t\t\t  },\n\t\t\t  \"type\": \"card\"\n\t\t\t},\n\t\t\t\"receipt_email\": null,\n\t\t\t\"receipt_number\": \"1290-2602\",\n\t\t\t\"receipt_url\": \"https://pay.stripe.com/receipts/acct_103f2E2Tb35ankTn/ch_1EUon22Tb35ankTnDCm1ZVV6/rcpt_EymLhZvasItpC61BqRKq1f6js8q2a6c\",\n\t\t\t\"refunded\": false,\n\t\t\t\"refunds\": {\n\t\t\t  \"object\": \"list\",\n\t\t\t  \"data\": [\n\t\t\t  ],\n\t\t\t  \"has_more\": false,\n\t\t\t  \"url\": \"/v1/charges/ch_1EUon22Tb35ankTnDCm1ZVV6/refunds\"\n\t\t\t},\n\t\t\t\"review\": null,\n\t\t\t\"shipping\": null,\n\t\t\t\"source_transfer\": null,\n\t\t\t\"statement_descriptor\": null,\n\t\t\t\"statement_descriptor_suffix\": null,\n\t\t\t\"status\": \"succeeded\",\n\t\t\t\"transfer_data\": null,\n\t\t\t\"transfer_group\": null\n\t\t  }\n\t\t],\n\t\t\"has_more\": false,\n\t\t\"url\": \"/v1/charges?payment_intent=pi_1EUon22Tb35ankTnu2YPQRcM\"\n\t  },\n\t  \"client_secret\": \"pi_1EUon22Tb35ankTnu2YPQRcM_secret_duH1nF5bRllBNaXCvAWwDulW1\",\n\t  \"confirmation_method\": \"automatic\",\n\t  \"created\": 1556603164,\n\t  \"currency\": \"eur\",\n\t  \"customer\": null,\n\t  \"description\": null,\n\t  \"invoice\": null,\n\t  \"last_payment_error\": null,\n\t  \"livemode\": false,\n\t  \"metadata\": {\n\t  },\n\t  \"next_action\": null,\n\t  \"on_behalf_of\": null,\n\t  \"payment_method\": \"pm_00000000000000\",\n\t  \"payment_method_options\": {\n\t  },\n\t  \"payment_method_types\": [\n\t\t\"card\"\n\t  ],\n\t  \"receipt_email\": null,\n\t  \"review\": null,\n\t  \"setup_future_usage\": null,\n\t  \"shipping\": null,\n\t  \"statement_descriptor\": null,\n\t  \"statement_descriptor_suffix\": null,\n\t  \"status\": \"succeeded\",\n\t  \"transfer_data\": null,\n\t  \"transfer_group\": null\n\t}\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "migoda.dev/stripeWebHooks",
+					"host": [
+						"migoda",
+						"dev"
+					],
+					"path": [
+						"stripeWebHooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "customer.updated",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"created\": 1326853478,\n  \"livemode\": false,\n  \"id\": \"evt_00000000000000\",\n  \"type\": \"customer.updated\",\n  \"object\": \"event\",\n  \"request\": null,\n  \"pending_webhooks\": 1,\n  \"api_version\": \"2020-08-27\",\n  \"account\": \"acct_00000000000000\",\n  \"data\": {\n\t\"object\": {\n\t  \"id\": \"cus_00000000000000\",\n\t  \"object\": \"customer\",\n\t  \"address\": null,\n\t  \"balance\": 0,\n\t  \"created\": 1604575051,\n\t  \"currency\": \"eur\",\n\t  \"default_source\": null,\n\t  \"delinquent\": false,\n\t  \"description\": null,\n\t  \"discount\": null,\n\t  \"email\": null,\n\t  \"invoice_prefix\": \"5DE1F3D\",\n\t  \"invoice_settings\": {\n\t\t\"custom_fields\": null,\n\t\t\"default_payment_method\": null,\n\t\t\"footer\": null\n\t  },\n\t  \"livemode\": false,\n\t  \"metadata\": {\n\t  },\n\t  \"name\": null,\n\t  \"next_invoice_sequence\": 1,\n\t  \"phone\": null,\n\t  \"preferred_locales\": [\n\t  ],\n\t  \"shipping\": null,\n\t  \"tax_exempt\": \"none\"\n\t},\n\t\"previous_attributes\": {\n\t  \"description\": \"Old description\"\n\t}\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "migoda.dev/stripeWebHooks",
+					"host": [
+						"migoda",
+						"dev"
+					],
+					"path": [
+						"stripeWebHooks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "account.updated",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"created\": 1326853478,\n  \"livemode\": false,\n  \"id\": \"evt_00000000000000\",\n  \"type\": \"account.updated\",\n  \"object\": \"event\",\n  \"request\": null,\n  \"pending_webhooks\": 1,\n  \"api_version\": \"2020-08-27\",\n  \"account\": \"acct_00000000000000\",\n  \"data\": {\n\t\"object\": {\n\t  \"id\": \"acct_00000000000000\",\n\t  \"object\": \"account\",\n\t  \"business_profile\": {\n\t\t\"mcc\": \"7011\",\n\t\t\"name\": \"Migoda Services GmbH\",\n\t\t\"product_description\": \"Enduser purchases a food package from www.migoda.com at the hotel he/she prefers by the help of a coupon provided in retails. Food package purchase allows her/him to stay at the hotel without accomodation cost.\",\n\t\t\"support_address\": null,\n\t\t\"support_email\": null,\n\t\t\"support_phone\": \"+4940228200160\",\n\t\t\"support_url\": null,\n\t\t\"url\": \"www.migoda.com\"\n\t  },\n\t  \"business_type\": \"company\",\n\t  \"capabilities\": {\n\t\t\"card_payments\": \"active\",\n\t\t\"transfers\": \"active\"\n\t  },\n\t  \"charges_enabled\": true,\n\t  \"company\": {\n\t\t\"address\": {\n\t\t  \"city\": \"Hamburg\",\n\t\t  \"country\": \"DE\",\n\t\t  \"line1\": \"Neuer Wall 38\",\n\t\t  \"line2\": null,\n\t\t  \"postal_code\": \"20354\",\n\t\t  \"state\": null\n\t\t},\n\t\t\"directors_provided\": true,\n\t\t\"executives_provided\": true,\n\t\t\"name\": \"Migoda Services GmbH\",\n\t\t\"owners_provided\": true,\n\t\t\"phone\": \"+4940228200166\",\n\t\t\"tax_id_provided\": true,\n\t\t\"tax_id_registrar\": \"Homburg\",\n\t\t\"vat_id_provided\": true,\n\t\t\"verification\": {\n\t\t  \"document\": {\n\t\t\t\"back\": null,\n\t\t\t\"details\": null,\n\t\t\t\"details_code\": null,\n\t\t\t\"front\": \"file_1H3GkOCpynlDkhsMoVxBuJod\"\n\t\t  }\n\t\t}\n\t  },\n\t  \"country\": \"DE\",\n\t  \"created\": 1594362198,\n\t  \"default_currency\": \"eur\",\n\t  \"details_submitted\": true,\n\t  \"email\": \"test@stripe.com\",\n\t  \"external_accounts\": {\n\t\t\"object\": \"list\",\n\t\t\"data\": [\n\t\t  {\n\t\t\t\"id\": \"ba_00000000000000\",\n\t\t\t\"object\": \"bank_account\",\n\t\t\t\"account\": \"acct_00000000000000\",\n\t\t\t\"account_holder_name\": null,\n\t\t\t\"account_holder_type\": null,\n\t\t\t\"available_payout_methods\": [\n\t\t\t  \"standard\"\n\t\t\t],\n\t\t\t\"bank_name\": \"HAMBURGER SPARKASSE AG\",\n\t\t\t\"country\": \"DE\",\n\t\t\t\"currency\": \"eur\",\n\t\t\t\"default_for_currency\": true,\n\t\t\t\"fingerprint\": \"Uo5Rx15ZxhzXZa47\",\n\t\t\t\"last4\": \"4946\",\n\t\t\t\"metadata\": {\n\t\t\t},\n\t\t\t\"routing_number\": \"HASPDEHH\",\n\t\t\t\"status\": \"new\"\n\t\t  }\n\t\t],\n\t\t\"has_more\": false,\n\t\t\"url\": \"/v1/accounts/acct_1H3FdiCpynlDkhsM/external_accounts\"\n\t  },\n\t  \"metadata\": {\n\t  },\n\t  \"payouts_enabled\": true,\n\t  \"requirements\": {\n\t\t\"current_deadline\": null,\n\t\t\"currently_due\": [\n\t\t],\n\t\t\"disabled_reason\": null,\n\t\t\"errors\": [\n\t\t],\n\t\t\"eventually_due\": [\n\t\t],\n\t\t\"past_due\": [\n\t\t],\n\t\t\"pending_verification\": [\n\t\t]\n\t  },\n\t  \"settings\": {\n\t\t\"bacs_debit_payments\": {\n\t\t},\n\t\t\"branding\": {\n\t\t  \"icon\": null,\n\t\t  \"logo\": null,\n\t\t  \"primary_color\": null,\n\t\t  \"secondary_color\": null\n\t\t},\n\t\t\"card_payments\": {\n\t\t  \"decline_on\": {\n\t\t\t\"avs_failure\": false,\n\t\t\t\"cvc_failure\": true\n\t\t  },\n\t\t  \"statement_descriptor_prefix\": null\n\t\t},\n\t\t\"dashboard\": {\n\t\t  \"display_name\": \"Migoda\",\n\t\t  \"timezone\": \"Asia/Istanbul\"\n\t\t},\n\t\t\"payments\": {\n\t\t  \"statement_descriptor\": \"WWW.MIGODA.COM\",\n\t\t  \"statement_descriptor_kana\": null,\n\t\t  \"statement_descriptor_kanji\": null\n\t\t},\n\t\t\"payouts\": {\n\t\t  \"debit_negative_balances\": true,\n\t\t  \"schedule\": {\n\t\t\t\"delay_days\": 7,\n\t\t\t\"interval\": \"daily\"\n\t\t  },\n\t\t  \"statement_descriptor\": null\n\t\t}\n\t  },\n\t  \"tos_acceptance\": {\n\t\t\"date\": 1594363789,\n\t\t\"ip\": \"94.54.173.53\",\n\t\t\"user_agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0\"\n\t  },\n\t  \"type\": \"standard\",\n\t  \"statement_descriptor\": \"TEST\"\n\t},\n\t\"previous_attributes\": {\n\t  \"verification\": {\n\t\t\"fields_needed\": [\n\t\t],\n\t\t\"due_by\": null\n\t  }\n\t}\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "migoda.dev/stripeWebHooks",
+					"host": [
+						"migoda",
+						"dev"
+					],
+					"path": [
+						"stripeWebHooks"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

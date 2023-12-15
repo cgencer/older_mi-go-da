@@ -1,0 +1,88 @@
+
+.select-style {
+    margin: 0 1rem 0.6rem 1rem;
+}
+
+.select-style .select-replacement {
+    border: 1px solid #ededed;
+    padding: 1rem;
+}
+
+.select-style .select-replacement .select-replacement__line1 {
+    cursor: pointer;
+}
+
+.select-style .select-replacement .select-replacement__line1 .fa-caret-up {
+    display: none;
+}
+
+.select-style .select-replacement .select-replacement__line2 {
+    display: none;
+}
+
+.select-style .select-replacement .select-replacement__line2 a.num_up, .select-style .select-replacement .select-replacement__line2 a.num_down {
+    display: inline-block;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #e54545;
+    line-height: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+.select-style .select-replacement .select-replacement__line2 span.num_val {
+    line-height: 2.5rem;
+    width: 1.5rem;
+    display: inline-block;
+    text-align: center;
+}
+
+.select-style .select-replacement .select-replacement__line2 .left {
+    line-height: 2.5rem;
+}
+
+.select-style .select-replacement .right {
+    float: right;
+}
+
+.select-style .select-replacement.active {
+    border: 1px solid #e54545;
+    -webkit-box-shadow: 0px 30px 40px #ededed;
+    box-shadow: 0px 30px 40px #ededed;
+}
+
+.select-style .select-replacement.active .select-replacement__line1 {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ededed;
+    color: #e54545;
+}
+
+.select-style .select-replacement.active .select-replacement__line1 .fa-caret-up {
+    display: initial;
+}
+
+.select-style .select-replacement.active .select-replacement__line1 .fa-caret-down {
+    display: none;
+}
+
+.select-style .select-replacement.active .select-replacement__line2 {
+    display: block;
+}
+
+.select-style select {
+    padding: 12px 1rem;
+    width: 100%;
+    height: 3rem;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: none;
+    -webkit-appearance: none;
+    font-size: 1.2rem;
+}
+
+.select-style select:focus {
+    outline: none;
+}

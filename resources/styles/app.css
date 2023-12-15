@@ -1,0 +1,173 @@
+@import "partials/_constrains.css";
+@import "partials/_fonts.css";
+@import "partials/_alert.css";
+@import "partials/_input.css";
+@import "partials/_buttons.css";
+@import "partials/_stars.css";
+@import "partials/_addcoupons.css";
+@import "partials/_profile_menu.css";
+@import "partials/_search.css";
+@import "partials/_filterlist.css";
+@import "partials/_twocol_right.css";
+@import "partials/_profile_top.css";
+@import "partials/_notice.css";
+@import "partials/_generic_form.css";
+@import "partials/_calendar.css";
+@import "partials/_form_gender.css";
+@import "partials/_header.css";
+@import "partials/_mobile_menu.css";
+@import "partials/_signup_login.css";
+@import "partials/_footer.css";
+@import "partials/_middle.css";
+@import "partials/_listing.css";
+@import "partials/_page_detail.css";
+@import "partials/_booking.css";
+@import "partials/_pg_howitworks.css";
+@import "partials/_content.css";
+@import "partials/_receipt.css";
+@import "partials/_new.css";
+@import "partials/_pg_about.css";
+.faq-panel .panel .panel-heading a {
+  display: inline-block;
+  width: 100%;
+  border: 2px solid #d6d6d6;
+  background-color: #ffffff;
+  padding: 35px 90px 31px 40px;
+  text-decoration: none;
+  position: relative;
+}
+
+.faq-panel .panel .panel-heading a:after {
+  position: absolute;
+  top: 44px;
+  right: 37px;
+  content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NSIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDQ1IDE3Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InJnNHhhIiB4MT0iMjkuMDEiIHgyPSIxNS45NSIgeTE9IjE2Ljk5IiB5Mj0iLjY2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZWQ1YjMzIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZTEzNjc1Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PGc+PGc+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIxLjEzMiAxNi41OTdMLjU5NiAzLjE5NkMtMS4yMjggMi4wNTcgMS4xNzYtLjE5IDMgMWM2LjM0NSA0LjE0IDEzLjA4MSA4LjY2IDE5LjQ4IDEyLjg1M0MyOC44ODUgOS42NiAzNS42NTUgNS4xNDEgNDIgMWMxLjc0NC0xLjE5IDQuMTg4IDEuMDA1IDIuMzY1IDIuMTk2LTYuODIgNC40NS0xMy42MzggOC45NTEtMjAuNDU3IDEzLjQwMS0uNDQuMjg4LS45MzYuNC0xLjQxLjM4OS0uNDY0LjAxMS0uOTQ1LS4xMDEtMS4zNjYtLjM4OXoiLz48cGF0aCBmaWxsPSJ1cmwoI3JnNHhhKSIgZD0iTTIxLjEzMiAxNi41OTdMLjU5NiAzLjE5NkMtMS4yMjggMi4wNTcgMS4xNzYtLjE5IDMgMWM2LjM0NSA0LjE0IDEzLjA4MSA4LjY2IDE5LjQ4IDEyLjg1M0MyOC44ODUgOS42NiAzNS42NTUgNS4xNDEgNDIgMWMxLjc0NC0xLjE5IDQuMTg4IDEuMDA1IDIuMzY1IDIuMTk2LTYuODIgNC40NS0xMy42MzggOC45NTEtMjAuNDU3IDEzLjQwMS0uNDQuMjg4LS45MzYuNC0xLjQxLjM4OS0uNDY0LjAxMS0uOTQ1LS4xMDEtMS4zNjYtLjM4OXoiLz48L2c+PC9nPjwvc3ZnPg== ");
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded=true] {
+  -webkit-box-shadow: 0 21px 43px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 21px 43px rgba(0, 0, 0, 0.28);
+  background-color: #ffffff;
+  background-image: linear-gradient(8deg, #ff4d1d 0%, #f30e75 100%);
+  border: 0;
+  color: #fff;
+  padding: 37px 92px 33px 40px;
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded=true]:after {
+  content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NSIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDQ1IDE2Ij48Zz48Zz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjMuODUxLjM5NGwyMC41MjIgMTMuMTJjMS44MjMgMS4xMTQtLjU4IDMuMzE0LTIuNDAyIDIuMTVDMzUuNjMgMTEuNjEgMjguODk5IDcuMTg1IDIyLjUwNCAzLjA4Yy02LjQgNC4xMDUtMTMuMTY1IDguNTI5LTE5LjUwNiAxMi41ODItMS43NDMgMS4xNjUtNC4xODUtLjk4NC0yLjM2My0yLjE1QzcuNDQ5IDkuMTU4IDE0LjI2NCA0Ljc1MiAyMS4wNzcuMzk1Yy40NC0uMjgxLjkzNi0uMzkxIDEuNDEtLjM4LjQ2My0uMDExLjk0My4wOTkgMS4zNjQuMzh6Ii8+PC9nPjwvZz48L3N2Zz4= ");
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded=true] i {
+  color: #fff;
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded=true] i i {
+  color: #fff;
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded=true] i i:before {
+  color: #fff;
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded=true] span {
+  color: #fff;
+}
+
+.faq-panel .panel .panel-heading a:hover {
+  text-decoration: none;
+}
+
+.faq-panel .panel .panel-heading a i {
+  margin-right: 20px;
+  font-size: 42px;
+  position: relative;
+  top: 6px;
+  color: #ea3f24;
+}
+
+.faq-panel .panel .panel-heading a i i {
+  margin: 0;
+  font-size: 100%;
+  top: initial;
+  position: initial;
+  color: initial;
+  font-style: normal;
+}
+
+.faq-panel .panel .panel-heading a span {
+  color: #6d6f7e;
+  font-family: "Futura ND Demibold";
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.faq-panel .panel .panel-collapse {
+  padding-bottom: 30px;
+}
+
+.faq-panel .panel-heading .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.faq-panel .panel-heading .panel-title a {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  height: 114px;
+  border: 2px solid #d6d6d6;
+  background-color: #ffffff;
+  padding: 40px 90px 40px 40px;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+.faq-panel .panel-heading .panel-title a .icon {
+  width: auto;
+  text-align: left;
+  margin-right: 20px;
+  float: left;
+}
+.faq-panel .panel-heading .panel-title a .icon img {
+  position: relative;
+  top: -2px;
+  display: none;
+}
+.faq-panel .panel-heading .panel-title a .icon img.colored {
+  display: block;
+}
+.faq-panel .panel-heading .panel-title a .icon + span {
+  line-height: 42px;
+}
+.faq-panel .panel-heading .panel-title a[aria-expanded=true] {
+  padding: 40px 90px 40px 40px;
+}
+.faq-panel .panel-heading .panel-title a[aria-expanded=true] .icon img {
+  display: none;
+}
+.faq-panel .panel-heading .panel-title a[aria-expanded=true] .icon img.white {
+  display: block;
+}
+
+.faq-panel .panel-heading .panel-title a {
+  padding: 40px 90px 40px 100px;
+}
+.faq-panel .panel-heading .panel-title a .icon {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  height: 100%;
+  vertical-align: middle;
+  align-items: center;
+  align-content: center;
+  display: flex;
+}
+.faq-panel .panel-heading .panel-title a .icon img {
+  top: 0px;
+}
+
+.faq-panel .panel-heading .panel-title a[aria-expanded=true] {
+  padding: 40px 90px 40px 100px !important;
+}
+
+/*# sourceMappingURL=app.css.map */

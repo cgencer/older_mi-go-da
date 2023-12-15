@@ -1,0 +1,730 @@
+@font-face {
+    font-family: "Futura ND Bold";
+    src: url("../fonts/FuturaND-Bold.woff2") format("woff2"), url("../fonts/FuturaND-Bold.woff") format("woff"), url("../fonts/FuturaND-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Bold Oblique";
+    src: url("../fonts/FuturaND-BoldOblique.woff2") format("woff2"), url("../fonts/FuturaND-BoldOblique.woff") format("woff"), url("../fonts/FuturaND-BoldOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND";
+    src: url("../fonts/FuturaND-Medium.woff2") format("woff2"), url("../fonts/FuturaND-Medium.woff") format("woff"), url("../fonts/FuturaND-Medium.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Medium Oblique";
+    src: url("../fonts/FuturaND-MediumOblique.woff2") format("woff2"), url("../fonts/FuturaND-MediumOblique.woff") format("woff"), url("../fonts/FuturaND-MediumOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Book Oblique";
+    src: url("../fonts/FuturaNDBook-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDBook-Oblique.woff") format("woff"), url("../fonts/FuturaNDBook-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Book";
+    src: url("../fonts/FuturaNDBook.woff2") format("woff2"), url("../fonts/FuturaNDBook.woff") format("woff"), url("../fonts/FuturaNDBook.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Book SCOsF Oblique";
+    src: url("../fonts/FuturaNDBookSCOsF-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDBookSCOsF-Oblique.woff") format("woff"), url("../fonts/FuturaNDBookSCOsF-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Book SCOsF";
+    src: url("../fonts/FuturaNDBookSCOsF.woff2") format("woff2"), url("../fonts/FuturaNDBookSCOsF.woff") format("woff"), url("../fonts/FuturaNDBookSCOsF.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Bold";
+    src: url("../fonts/FuturaNDCn-Bold.woff2") format("woff2"), url("../fonts/FuturaNDCn-Bold.woff") format("woff"), url("../fonts/FuturaNDCn-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Bold Oblique";
+    src: url("../fonts/FuturaNDCn-BoldOblique.woff2") format("woff2"), url("../fonts/FuturaNDCn-BoldOblique.woff") format("woff"), url("../fonts/FuturaNDCn-BoldOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Medium";
+    src: url("../fonts/FuturaNDCn-Medium.woff2") format("woff2"), url("../fonts/FuturaNDCn-Medium.woff") format("woff"), url("../fonts/FuturaNDCn-Medium.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Medium Oblique";
+    src: url("../fonts/FuturaNDCn-MediumOblique.woff2") format("woff2"), url("../fonts/FuturaNDCn-MediumOblique.woff") format("woff"), url("../fonts/FuturaNDCn-MediumOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Extrabold Oblique";
+    src: url("../fonts/FuturaNDCnExtrabold-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDCnExtrabold-Oblique.woff") format("woff"), url("../fonts/FuturaNDCnExtrabold-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Extrabold";
+    src: url("../fonts/FuturaNDCnExtrabold.woff2") format("woff2"), url("../fonts/FuturaNDCnExtrabold.woff") format("woff"), url("../fonts/FuturaNDCnExtrabold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Light Oblique";
+    src: url("../fonts/FuturaNDCnLight-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDCnLight-Oblique.woff") format("woff"), url("../fonts/FuturaNDCnLight-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Light";
+    src: url("../fonts/FuturaNDCnLight.woff2") format("woff2"), url("../fonts/FuturaNDCnLight.woff") format("woff"), url("../fonts/FuturaNDCnLight.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Light SCOsF Oblique";
+    src: url("../fonts/FuturaNDCnLightSCOsF-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDCnLightSCOsF-Oblique.woff") format("woff"), url("../fonts/FuturaNDCnLightSCOsF-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn Light SCOsF";
+    src: url("../fonts/FuturaNDCnLightSCOsF.woff2") format("woff2"), url("../fonts/FuturaNDCnLightSCOsF.woff") format("woff"), url("../fonts/FuturaNDCnLightSCOsF.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn SCOsF Bold";
+    src: url("../fonts/FuturaNDCnSCOsF-Bold.woff2") format("woff2"), url("../fonts/FuturaNDCnSCOsF-Bold.woff") format("woff"), url("../fonts/FuturaNDCnSCOsF-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn SCOsF Medium";
+    src: url("../fonts/FuturaNDCnSCOsF-Medium.woff2") format("woff2"), url("../fonts/FuturaNDCnSCOsF-Medium.woff") format("woff"), url("../fonts/FuturaNDCnSCOsF-Medium.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Cn SCOsF Medium Oblique";
+    src: url("../fonts/FuturaNDCnSCOsF-MediumOblique.woff2") format("woff2"), url("../fonts/FuturaNDCnSCOsF-MediumOblique.woff") format("woff"), url("../fonts/FuturaNDCnSCOsF-MediumOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Demibold Oblique";
+    src: url("../fonts/FuturaNDDemibold-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDDemibold-Oblique.woff") format("woff"), url("../fonts/FuturaNDDemibold-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Demibold";
+    src: url("../fonts/FuturaNDDemibold.woff2") format("woff2"), url("../fonts/FuturaNDDemibold.woff") format("woff"), url("../fonts/FuturaNDDemibold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND ExtraBold Oblique";
+    src: url("../fonts/FuturaNDExtraBold-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDExtraBold-Oblique.woff") format("woff"), url("../fonts/FuturaNDExtraBold-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND ExtraBold";
+    src: url("../fonts/FuturaNDExtraBold.woff2") format("woff2"), url("../fonts/FuturaNDExtraBold.woff") format("woff"), url("../fonts/FuturaNDExtraBold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Light Oblique";
+    src: url("../fonts/FuturaNDLight-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDLight-Oblique.woff") format("woff"), url("../fonts/FuturaNDLight-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Light";
+    src: url("../fonts/FuturaNDLight.woff2") format("woff2"), url("../fonts/FuturaNDLight.woff") format("woff"), url("../fonts/FuturaNDLight.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Light SCOsF Oblique";
+    src: url("../fonts/FuturaNDLightSCOsF-Oblique.woff2") format("woff2"), url("../fonts/FuturaNDLightSCOsF-Oblique.woff") format("woff"), url("../fonts/FuturaNDLightSCOsF-Oblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND Light SCOsF";
+    src: url("../fonts/FuturaNDLightSCOsF.woff2") format("woff2"), url("../fonts/FuturaNDLightSCOsF.woff") format("woff"), url("../fonts/FuturaNDLightSCOsF.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND SCOsF Bold";
+    src: url("../fonts/FuturaNDSCOsF-Bold.woff2") format("woff2"), url("../fonts/FuturaNDSCOsF-Bold.woff") format("woff"), url("../fonts/FuturaNDSCOsF-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND SCOsF Bold Oblique";
+    src: url("../fonts/FuturaNDSCOsF-BoldOblique.woff2") format("woff2"), url("../fonts/FuturaNDSCOsF-BoldOblique.woff") format("woff"), url("../fonts/FuturaNDSCOsF-BoldOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND SCOsF";
+    src: url("../fonts/FuturaNDSCOsF-Medium.woff2") format("woff2"), url("../fonts/FuturaNDSCOsF-Medium.woff") format("woff"), url("../fonts/FuturaNDSCOsF-Medium.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Futura ND SCOsF Medium Oblique";
+    src: url("../fonts/FuturaNDSCOsF-MediumOblique.woff2") format("woff2"), url("../fonts/FuturaNDSCOsF-MediumOblique.woff") format("woff"), url("../fonts/FuturaNDSCOsF-MediumOblique.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+.content .locale_switcher {
+    display: none;
+}
+
+.locale_switcher a {
+    margin-right: 5px;
+}
+
+.langSwitcher {
+    position: relative;
+    float: right;
+    width: 110px;
+    text-align: center;
+    height: 56px;
+    z-index: 9999;
+}
+
+.ui-tooltip {
+    display: none;
+}
+
+.side-nav .side-nav-inner .side-nav-menu li a {
+    font-weight: 300 !important
+}
+
+.page-container {
+    background-color: #f5f5f5;
+}
+
+
+.userProfileImageBack {
+    background-image: initial !important;
+    width: 93px;
+    height: 93px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0 10px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        float: none;
+    }
+}
+
+h1.welcomeMessage {
+    font-family: "Futura ND Demibold";
+    color: #595e67;
+    font-size: 40px;
+    padding-top: 42px;
+    line-height: 0.8;
+}
+
+h3.welcomeMessage2 {
+    font-family: "Futura ND Book";
+    color: #8b909b;
+    font-size: 22px;
+}
+
+.floatedLeft {
+    float: left;
+}
+
+div.boxItem {
+    /*background-image: url("../images/admin/boxEmptyBack.png");*/
+
+    background-color: #FFFFFF;
+    background: -moz-linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 28%, #FFFFFF 69%, #FFFFFF 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 28%, #FFFFFF 69%, #FFFFFF 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #FFFFFF 0%, #FFFFFF 28%, #FFFFFF 69%, #FFFFFF 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#FFFFFF', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+
+    width: 100%;
+    height: 100%;
+    min-height: 140px;
+    border-radius: 25px;
+    position: relative;
+    float: left;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 40px;
+
+
+}
+
+div.boxItem:hover {
+    /*background-image: url("../images/admin/boxSelectedBack.png") !important;*/
+    background: #fecb48; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #fecb48 0%, #f8a15e 28%, #f16283 69%, #e800b9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #fecb48 0%, #f8a15e 28%, #f16283 69%, #e800b9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #fecb48 0%, #f8a15e 28%, #f16283 69%, #e800b9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fecb48', endColorstr='#e800b9', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+div.activeBox {
+    /*background-image: url("../images/admin/boxSelectedBack.png") !important;*/
+    background: #fecb48; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #fecb48 0%, #f8a15e 28%, #f16283 69%, #e800b9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, #fecb48 0%, #f8a15e 28%, #f16283 69%, #e800b9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, #fecb48 0%, #f8a15e 28%, #f16283 69%, #e800b9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fecb48', endColorstr='#e800b9', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+
+    -webkit-box-shadow: 31px 31px 72px -31px rgba(0, 0, 0, 0.37);
+    -moz-box-shadow: 31px 31px 72px -31px rgba(0, 0, 0, 0.37);
+    box-shadow: 31px 31px 72px -31px rgba(0, 0, 0, 0.37);
+}
+
+div.boxItem > .boxTitleSpan {
+    font-family: "Futura ND";
+    font-size: 18px;
+    color: #b9bdc5;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+div.boxItem > .count {
+    font-family: "Futura ND Light";
+    font-size: 40px;
+    color: #b9bdc5;
+    position: absolute;
+    left: 30px;
+    bottom: 12px;
+}
+
+
+div.activeBox > .boxTitleSpan, div.boxItem:hover > .boxTitleSpan, div.activeBox > .count, div.boxItem:hover > .count {
+    color: #fff !important;
+}
+
+img.boxIcon {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:before, table.dataTable thead .sorting_desc_disabled:after {
+    margin-bottom: 20px;
+}
+
+div.actionTime {
+    background-image: url("../images/admin/waitingApprovalBack.png") !important;
+    width: 96px;
+    height: 30px;
+    padding-left: 40px;
+    padding-top: 3px;
+    margin: 0 auto;
+}
+
+div.actionTime > span {
+    color: #FFF;
+    font-weight: bold;
+}
+
+.dataTableHead {
+    font-family: "Futura ND";
+}
+
+.dataTableBody {
+    font-family: "Futura ND Book";
+}
+
+.dataTableBody a.resLink {
+    color: #595e67 !important;
+    text-decoration: underline;
+}
+
+a > span.detailsLink {
+    font-family: "Futura ND" !important;
+    color: #3b3d40;
+    font-size: 14px
+}
+
+h1.dataTableHeader {
+    font-family: "Futura ND";
+    color: #858890;
+    padding-left: 15px;
+    font-size: 26px;
+    position: absolute;
+    float: left;
+}
+
+.table > thead > tr > th {
+    border-bottom: none !important;
+    border-top: none !important;
+}
+
+
+.page-item.active .page-link {
+    background: linear-gradient(120deg, #ffd359 0%, #ef32c6 100%) !important;
+    border-color: #fff;
+}
+
+.page-link:hover {
+    color: #ef32c6;
+}
+
+.badge {
+    padding: 8px 20px;
+}
+
+.modal-content {
+    border-radius: 25px;
+}
+
+.btn-gradient-success {
+    background: linear-gradient(120deg, #ffd359 0%, #ef32c6 100%) !important;
+    border-color: #fff;
+    border-radius: 0.25rem;
+}
+
+.modal-body p {
+    font-family: "Futura ND Book" !important;
+}
+
+.modal-body button {
+    border-radius: 10px;
+}
+
+.modal-body label {
+    margin-left: 0px;
+}
+
+.fc-toolbar {
+    border: none !important;
+}
+
+.fc {
+    border-radius: 10px;
+}
+
+.fc-widget-header:first-of-type {
+    border: none;
+}
+
+.fc-widget-header {
+    background: #fff;
+}
+
+.fc-widget-header:first-of-type span {
+    font-family: "Futura ND Demibold" !important;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #858890;
+}
+
+.fc-toolbar.fc-header-toolbar h2 {
+    font-family: "Futura ND" !important;
+    font-size: 24px;
+    color: #858890;
+}
+
+.fc-event-container .fc-event {
+    background-color: #e9f4ec !important;
+    color: #858890 !important;
+    border-left: none !important;
+    background-image: url("../images/admin/calenderItemStart.png") !important;
+    background-repeat: no-repeat;
+    background-position: left;
+    line-height: 18px;
+    border-radius: 10px;
+    padding: 0px 0px !important;
+    padding-left: 25px !important;
+
+}
+
+.fc-event-container .fc-event .fc-content {
+    background-image: url("../images/admin/calenderItemEnd.png") !important;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.fc-basic-view .fc-today .fc-day-number {
+    background: #50c531 !important;
+}
+
+.fc-prev-button {
+    background-image: url("../images/admin/calendarLeftArrow.png") !important;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 126px !important;
+    height: 110px !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+.fc-next-button {
+    background-image: url("../images/admin/calendarRightArrow.png") !important;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 126px !important;
+    height: 110px !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+.fc button.fc-state-default {
+
+}
+
+.fc button .fc-icon {
+    display: none;
+}
+
+.fc button:hover {
+    background-color: #fff !important;
+}
+
+.fc-state-hover {
+    background-position: 0 0 !important;
+}
+
+.fc button.fc-state-active {
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.list-media .info .sub-title {
+    max-width: 100%;
+}
+
+.boxItemContainer {
+
+}
+
+.sonata-ba-collapsed-fields .radio,
+.sonata-ba-collapsed-fields .checkbox {
+    margin-left: 20px;
+}
+
+.input-group.date .input-group-addon span {
+    font-size: 25px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+.floating-checkboxes .list-unstyled li {
+    width: 40%;
+}
+
+.fc-basic-view .fc-today .fc-day-number {
+    padding: 0px 16px;
+}
+
+
+/*----------------------------------------
+  18. Page Title
+----------------------------------------*/
+.pagination > li > a {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 0.4rem 0.7rem;
+    margin: 0px 2.5px;
+    color: #8a8a8a;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+.pagination > li > a:hover {
+    color: #24d5d8;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.pagination > li > a:focus {
+    box-shadow: none;
+}
+
+.page-item.disabled .page-link {
+    color: #cacaca;
+    border-color: transparent;
+}
+
+.pagination > li.active > a {
+    background: linear-gradient(120deg, #1dccdf 0%, #1de4bd 100%);
+    border-color: transparent;
+}
+
+
+/*Last Update */
+.header-info-gradient .header {
+    background: #FFFFFF !important;
+    box-shadow: none !important
+}
+
+.side-nav-folded .header .header-container .nav-logo > a .logo-white {
+    background-image: url("../images/logo/logo-smInvert.png") !important
+}
+
+.header-info-gradient .header .header-container ul.nav-left > li > a {
+    color: #8b909b !important;
+}
+
+.header-info-gradient .header .header-container ul.nav-right > li > a {
+    color: #8b909b !important;
+}
+
+.side-nav .side-nav-inner .side-nav-menu {
+    border-right: none !important;
+}
+
+.side-nav .side-nav-inner .side-nav-menu > li > a .icon-holder {
+    font-size: 26px;
+    color: #ef32c6 !important;
+
+    i {
+        position: relative;
+        top: 3px;
+    }
+}
+
+.boxIcon1 {
+    display: none;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.boxHover1:hover .boxIcon1 {
+    display: block;
+}
+
+.boxHover1:hover .boxIcon {
+    display: none;
+}
+
+.boxHover1:hover .activeBox .boxIcon1 {
+    display: block !important;
+}
+
+.boxHover1:hover .activeBox .boxIcon {
+    display: none !important;
+}
+
+.boxHover1 .activeBox .boxIcon {
+    display: none !important;
+}
+
+.boxHover1 .activeBox .boxIcon1 {
+    display: block !important;
+}
+
+.reservationExplanation p {
+    line-height: 10px;
+    font-size: 80%;
+}
+
+
+span.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+span.waitingStatus {
+    background-color: #e49100;
+}
+
+span.waitingText {
+    color: #e49100;
+}
+
+span.approvedStatus {
+    background-color: #50c531;
+}
+
+span.approvedText .langSwitcher {
+    color: #50c531;
+}
+
+span.cancelledStatus {
+    background-color: #d33737;
+}
+
+span.cancelledText {
+    color: #d33737;
+}
+
+/*EndOf Last Update */
+
+img.admin-preview {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+
+/*EndOf Last Update */

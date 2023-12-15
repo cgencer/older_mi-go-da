@@ -1,0 +1,123 @@
+
+
+footer {
+    background-color: #fff;
+}
+
+footer .footer-navigation_wrapper {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+footer .footer-navigation_wrapper ul.footer-navigation {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer .footer-navigation_wrapper ul.footer-navigation > li {
+    list-style: none;
+    float: left;
+    display: inline;
+    margin-left: 3rem;
+    line-height: 9.3rem;
+    font-size: 1.25rem;
+}
+
+footer .footer-navigation_wrapper ul.footer-navigation > li:first-child {
+    margin-left: 0;
+}
+
+footer .footer-navigation_wrapper ul.footer-navigation > li a {
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #999999;
+}
+
+footer .footer-navigation_wrapper ul.footer-navigation > li a.active {
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #e54545;
+}
+
+footer .footer-social_wrapper {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer .footer-social_wrapper ul.footer-social {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    float: right;
+}
+
+footer .footer-social_wrapper ul.footer-social > li {
+    list-style: none;
+    float: left;
+    display: inline;
+    margin-left: 0.625rem;
+    line-height: 9.3rem;
+}
+
+footer .footer-social_wrapper ul.footer-social > li:first-child {
+    margin-left: 0;
+}
+
+footer .footer-social_wrapper ul.footer-social > li a {
+    font-size: 1.25rem;
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #afafaf;
+    padding-left: 1.25rem;
+}
+
+footer .footer-social_wrapper ul.footer-social > li a.active {
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #e54545;
+}
+
+footer .footer-bottom {
+    text-align: center;
+    height: 12.5rem;
+    border-top: 1px solid rgba(237, 237, 237, 0.5);
+    padding-top: 3.125rem;
+    font-size: 0.875rem;
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #999999;
+}
+
+footer .footer-bottom img {
+    height: 3rem;
+}
+
+@media only screen and (max-width: 1023px) {
+    footer .footer-navigation_wrapper ul.footer-navigation {
+        margin-top: 5rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        height: 20rem;
+        gap: unset;
+    }
+    footer .footer-navigation_wrapper ul.footer-navigation li {
+        width: 50%;
+        margin-left: 0;
+        line-height: 5rem;
+    }
+    footer .footer-social_wrapper {
+        text-align: center;
+    }
+    footer .footer-social_wrapper ul.footer-social {
+        float: none;
+        margin: 0 auto;
+    }
+    footer .footer-social_wrapper ul.footer-social li {
+        float: none;
+    }
+    footer .footer-social_wrapper ul.footer-social li a {
+        font-size: 2rem;
+    }
+}

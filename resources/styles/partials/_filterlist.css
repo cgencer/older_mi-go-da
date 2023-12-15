@@ -1,0 +1,71 @@
+.page-two-column .page-two-column-inner .two-column-left .filter-list {
+  margin: 0 10% 1rem;
+  position: relative;
+  font-size: 1.4rem;
+  padding: 0 0 0 1.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul {
+  padding-left: 0;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 1rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li {
+  list-style: none;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=radio], .page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox] {
+  display: none;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=radio] + label, .page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox] + label {
+  display: block;
+  padding-left: 0;
+  min-height: 18px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox] + label {
+  background: url(../images/checkbox.png) right bottom no-repeat;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox] + label:hover {
+  background: url(../images/checkbox.png) right top no-repeat;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox] + label:active {
+  background: url(../images/checkbox.png) right top no-repeat;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox]:checked + label {
+  background: url(../images/checkbox.png) right top no-repeat;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox]:checked + label:active {
+  background: url(../images/checkbox.png) right top no-repeat;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox]:disabled + label {
+  background: none left top no-repeat;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li input[type=checkbox]:disabled:checked + label {
+  background: none left top no-repeat;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li.more-filter {
+  font-size: 0.9rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li.hidden-filter {
+  display: none;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .filter-list ul li label {
+  color: #666666;
+  font-size: 1.1rem;
+  position: relative;
+  width: 100%;
+}

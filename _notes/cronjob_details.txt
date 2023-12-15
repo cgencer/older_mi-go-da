@@ -1,0 +1,9 @@
+"CRON_MODE=1 /usr/bin/php -q /var/www/vhosts/myuser/index.php"
+
+ENV: CRON_MODE
+
+/var/www/vhosts/migoda.com/beta.migoda.com/artisan
+schedule:run
+ * * * * *
+
+ 

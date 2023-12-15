@@ -1,0 +1,12 @@
+<h3>Your payment was not successfull!</h3>
+
+Hi {{ name }}! You have an error in your payment! <br/>
+
+Error : {{ error }} <br/>
+
+To login, go to: <a href="{{ url('homepage') }}">migoda</a>.<br/>
+
+Thanks!<br/><br/>
+
+{# Makes an absolute URL to the /images/logo.png file #}
+<img src="{{ absolute_url(asset('bundles/app/images/migoda.png')) }}">

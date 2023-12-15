@@ -1,0 +1,35 @@
+{
+  "name": "Migoda",
+  "description": "Coupon-based Hotel Reservation System",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-mousewheel": "3.1.13",
+    "select2": "4.0.6-rc.1",
+    "enquire": "2.1.6",
+    "fontawesome": "5.0.13",
+    "bootstrap": "4.0.0-beta.3",
+    "jquery": "3.2.1",
+    "jquery-bridget": "1.0.1",
+    "lightgallery": "1.6.11",
+    "lg-autoplay": "^1.2.1",
+    "lg-fullscreen": "^1.2.1",
+    "lg-pager": "^1.0.2",
+    "lg-thumbnail": "^1.2.1",
+    "lg-video": "^1.3.0",
+    "lg-zoom": "^1.2.1",
+    "lg-hash": "^1.0.4",
+    "lg-share": "^1.2.1",
+    "air-datepicker": "https://github.com/t1m0n/air-datepicker.git#^2.2.3",
+    "bootstrap-datepicker": "https://github.com/uxsolutions/bootstrap-datepicker.git#^1.9.0"
+  }
+}

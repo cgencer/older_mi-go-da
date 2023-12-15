@@ -1,0 +1,1571 @@
+.mgd-signup,
+.mgd-signup-section,
+.mgd-signup-section > .container-fluid,
+.mgd-signup > .mgd-signup-section > .container-fluid > .row,
+.mgd-signup-section__title-wrap {
+    height: 100%;
+}
+
+
+h1, h2, h3, h4, h5, h6, .mgd-btn--small, .mgd-lang-select__item, .mgd-form__link2, .mgd-form__link3 {
+    font-family: 'Roboto';
+}
+
+.mgd-text--600,
+.mgd-text--700 {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.padding-left-none {
+    padding-left: 0;
+}
+
+.padding-right-none {
+    padding-right: 0;
+}
+
+.margin-top--20 {
+    margin-top: 20px;
+}
+
+.margin-top--45 {
+    margin-top: 45px !important;
+}
+
+.margin-top--75 {
+    margin-top: 75px !important;
+}
+
+.margin-top--100 {
+    margin-top: 100px !important;
+}
+
+.margin-top--145 {
+    margin-top: 145px;
+}
+
+.margin-top--165 {
+    margin-top: 165px;
+}
+
+.padding-left--30 {
+    padding-left: 30px !important;
+}
+
+.padding-right--30 {
+    padding-right: 30px !important;
+}
+
+.padding-left--28 {
+    padding-left: 28px;
+}
+
+.padding-left--43 {
+    padding-left: 43px;
+}
+
+.padding-bottom--100 {
+    padding-bottom: 100px;
+}
+
+.padding-bottom--220 {
+    padding-bottom: 230px;
+}
+
+.mgd-text--white {
+    color: white;
+}
+
+.mgd-text--gray {
+    color: #aaaaaa;
+}
+
+.mgd-text--gray2 {
+    color: #d6d6d6;
+}
+
+.mgd-text--gray3 {
+    color: #999999;
+}
+
+.mgd-text--gray4 {
+    color: #939393;
+}
+
+.mgd-text--black {
+    color: #333333;
+}
+
+.mgd-text--black2 {
+    color: #6d6f7e;
+}
+
+.mgd-placeholder--gray2::placeholder {
+    color: #d6d6d6;
+}
+
+.mgd-text--small,
+.mgd-text--size-14 {
+    font-size: 14px;
+}
+
+.mgd-text--size-18 {
+    font-size: 18px;
+}
+
+.mgd-text--size-22 {
+    font-size: 22px;
+}
+
+.mgd-text--size-28 {
+    font-size: 28px;
+}
+
+.mgd-text--size-50 {
+    font-size: 50px;
+}
+
+.mgd-text--size-62 {
+    font-size: 62px;
+}
+
+.mgd-text--500 {
+    font-weight: 500;
+}
+
+.mgd-text--600 {
+    font-weight: 600;
+}
+
+.mgd-text--700 {
+    font-weight: 700;
+}
+
+/************************************************************************
+// Button
+*************************************************************************/
+.mgd-btn {
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.mgd-btn--default {
+    color: white;
+    background-image: linear-gradient(to bottom left, #ef32c6 10%, #ffd259);
+}
+
+.mgd-btn--default:hover {
+    color: white;
+}
+
+.mgd-btn--small {
+    font-size: 16px;
+    padding: 10px 26px;
+}
+
+.mgd-btn--medium {
+    font-size: 18px;
+    padding: 14px 66px;
+}
+
+.mgd-btn--large {
+    font-size: 20px;
+    padding: 18px 84px;
+}
+
+.mgd-btn--shadow {
+    box-shadow: 0 10px 40px rgba(239, 50, 198, 0.3);
+}
+
+/************************************************************************
+// Logo
+*************************************************************************/
+.mgd-logo__img {
+    max-width: 300px;
+}
+
+/************************************************************************
+// Sign up Banner
+*************************************************************************/
+.mgd-signup-section__title {
+    margin-left: 16%;
+    margin-bottom: 13%;
+}
+
+.mgd-signup-section__title-wrap {
+    display: flex;
+    align-items: flex-end;
+}
+
+.mgd-signup-section__title-wrap {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/************************************************************************
+// Sign Up Section
+*************************************************************************/
+.mgd-signup-section {
+    width: 100%;
+}
+
+.mgd-form-wrapper {
+    position: relative;
+    background-color: white;
+}
+
+.mgd-form,
+.mgd-form-wrapper__info,
+.mgd-logo {
+    max-width: 718px;
+    margin: auto;
+}
+
+.mgd-login-nav {
+    float: right;
+    margin-right: 30px;
+}
+
+.mgd-login-nav__ul {
+    display: flex;
+    align-items: center;
+}
+
+.mgd-login-nav__item {
+    float: left;
+    margin-left: 30px;
+}
+
+.mgd-select {
+    border: none;
+}
+
+.form-row-align-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mgd-form__input {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 12px;
+}
+
+.mgd-form__checkbox-wrapper {
+    margin-left: 5px;
+}
+
+.mgd-form__checkbox {
+    display: none;
+}
+
+.mgd-form__checkbox + label {
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+
+.mgd-form__checkbox + label:after {
+    content: "";
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #e5e5e5;
+    width: 22px;
+    height: 22px;
+}
+
+.mgd-form__checkbox:checked + label {
+    color: #99a1a7;
+}
+
+.mgd-form__checkbox:checked + label:after {
+    content: ' \2714';
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #58d432;
+    text-align: center;
+}
+
+.mgd-form__link {
+    position: relative;
+    top: -4px;
+    font-size: 15px;
+    border-bottom: 2px solid #d6d6d6;
+    margin-left: 31px;
+}
+
+.mgd-form__link:hover {
+    color: #d6d6d6;
+    border-bottom: 2px solid #d6d6d6;
+}
+
+.mgd-form__link2 {
+    margin-left: 31px;
+}
+
+.mgd-form__link3 {
+    text-decoration: underline;
+}
+
+.mgd-form__link3:hover {
+    text-decoration: underline;
+}
+
+.mgd-close {
+    float: left;
+    margin-top: 10px;
+}
+
+.mgd-close a {
+    color: #000;
+}
+
+.mgd-close a i {
+    font-size: 21px;
+}
+
+.privacy_policy {
+    margin-left: 35px;
+}
+
+.privacy-policy {
+    margin-top: 45px;
+    margin-bottom: 60px;
+    color: #d6d6d6;
+    font-family: 'futurand', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.privacy-policy a {
+    color: #d6d6d6;
+    font-family: 'futurand', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.privacy-policy .text-underline {
+    text-decoration: underline !important;
+}
+
+.privacy-policy input[type=checkbox] {
+    display: none;
+}
+
+.privacy-policy label {
+    vertical-align: sub;
+}
+
+.privacy-policy input[type=checkbox] + label {
+    background: url("https://www.migoda.com/dmin/assets/images/admin/pp-unchecked.png");
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+    margin: 0;
+    vertical-align: sub;
+}
+
+.privacy-policy input[type=checkbox]:checked + label {
+    background: url("https://www.migoda.com/dmin/assets/images/admin/pp-checked.png");
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+    margin: 0;
+    vertical-align: sub;
+}
+
+/************************************************************************
+// Popup
+*************************************************************************/
+.mgd-popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mgd-popup__window {
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 22px 22px 90px 22px;
+}
+
+.mgd-popup__close {
+    text-align: right;
+}
+
+.mgd-popup__close .fa {
+    cursor: pointer;
+}
+
+.mgd-popup__close a {
+    color: black;
+}
+
+.mgd-popup__img {
+    max-width: 155px;
+}
+
+/************************************************************************
+// Language Dropdown
+*************************************************************************/
+.mgd-lang-select {
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 9px;
+}
+
+.mgd-lang-select:hover .mgd-lang-select__dropdown {
+    display: block;
+}
+
+.mgd-lang-select__item {
+    cursor: pointer;
+}
+
+.mgd-lang-select__dropdown {
+    display: none;
+    background-color: white;
+    border: 2px solid #f0f0f0;
+    padding: 13px 29px;
+    font-size: 14px;
+    position: absolute;
+    top: 41px;
+    right: 0;
+    z-index: 1;
+}
+
+.mgd-lang-select__dropdown > ul:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-left: 2px solid #f0f0f0;
+    border-top: 2px solid #f0f0f0;
+    position: absolute;
+    top: -20px;
+    right: -14px;
+    transform: rotate(45deg);
+}
+
+.mgd-lang-select__dropdown ul {
+    position: relative;
+    list-style: none;
+    padding-left: 0;
+}
+
+.mgd-lang-select__dropdown li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.hide-alert {
+    display: none;
+}
+
+/************************************************************************
+// Responsive
+*************************************************************************/
+@media (min-width: 1500px) {
+    html,
+    body,
+    .mgd-signup,
+    .mgd-signup-section {
+        height: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .mgd-form-wrapper--padding-md {
+        padding: 59px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 767px) {
+    .mgd-signup-section__title h1 {
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    .mgd-lang-select__item {
+        display: table;
+        width: 35px;
+    }
+    .mgd-login-nav__item {
+        float: left;
+        margin-left: 20px;
+    }
+
+    .mgd-login-nav {
+        float: right;
+        margin-right: 0;
+    }
+
+    .mgd-login-nav__ul {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .mgd-signup-section__title {
+        margin-bottom: initial;
+    }
+
+    .mgd-signup-section__title-wrap {
+        height: 300px !important;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .mgd-signup-section__title-wrap {
+        display: none;
+    }
+
+    .mgd-login-nav {
+        float: right !important;
+        margin-right: 0;
+    }
+
+    .mgd-login-nav__item {
+        margin-left: 12px !important;
+        margin-right: 0 !important;
+    }
+
+    .mgd-form-wrapper .margin-top--100 {
+        margin-top: 70px !important;
+    }
+
+    .mgd-form-wrapper .mgd-btn--small {
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+
+    .mgd-form-wrapper--padding-sm {
+        padding: 30px;
+    }
+
+    .mgd-login-nav {
+        float: left;
+    }
+
+    .mgd-login-nav__ul {
+        padding-left: 0;
+    }
+
+    .mgd-login-nav__item {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+
+    .mgd-signup-section__title {
+        margin-left: initial;
+    }
+
+    .mgd-signup-section__title-wrap {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .mgd-signup-section__title h1 {
+        font-size: 6vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .margin-top--75 {
+        margin-top: 50px !important;
+    }
+
+    .mgd-form-wrapper__info .mgd-form-wrapper__info-item {
+        flex: initial;
+        display: inline-block;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .mgd-form-wrapper__close {
+        position: absolute;
+    }
+
+    .mgd-login-nav__ul {
+        padding-left: 0;
+    }
+
+    .padding-right--30 {
+        padding-right: 5px !important;
+    }
+
+    .padding-left--30 {
+        padding-left: 5px !important;
+    }
+
+    .mgd-form__input {
+        font-size: 14px;
+        padding: 9px 9px;
+    }
+
+    html[lang="nl"] .mgd-form__input {
+        font-size: 12px;
+        padding: 9px 9px;
+    }
+
+    .mgd-popup {
+        display: initial;
+        position: initial;
+    }
+
+    .mgd-signup-section__title h1 {
+        font-size: 9vw;
+    }
+}
+
+/* Migoda Hotels Admin Login & Forgot Password*/
+.mgd-signup,
+.mgd-signup-section,
+.mgd-signup-section > .container-fluid,
+.mgd-signup > .mgd-signup-section > .container-fluid > .row,
+.mgd-signup-section__title-wrap {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, .mgd-btn--small, .mgd-lang-select__item, .mgd-form__link2, .mgd-form__link3 {
+    font-family: "Roboto";
+}
+
+.mgd-text--600,
+.mgd-text--700 {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.padding-left-none {
+    padding-left: 0;
+}
+
+.padding-right-none {
+    padding-right: 0;
+}
+
+.margin-top--20 {
+    margin-top: 20px;
+}
+
+.margin-top--45 {
+    margin-top: 45px !important;
+}
+
+.margin-top--75 {
+    margin-top: 75px !important;
+}
+
+.margin-top--100 {
+    margin-top: 100px !important;
+}
+
+.margin-top--145 {
+    margin-top: 145px;
+}
+
+.margin-top--165 {
+    margin-top: 165px;
+}
+
+.padding-left--30 {
+    padding-left: 30px !important;
+}
+
+.padding-right--30 {
+    padding-right: 30px !important;
+}
+
+.padding-left--28 {
+    padding-left: 28px;
+}
+
+.padding-left--43 {
+    padding-left: 43px;
+}
+
+.padding-bottom--100 {
+    padding-bottom: 100px;
+}
+
+.padding-bottom--220 {
+    padding-bottom: 230px;
+}
+
+.mgd-text--white {
+    color: white;
+}
+
+.mgd-text--gray {
+    color: #aaaaaa;
+}
+
+.mgd-text--gray2 {
+    color: #d6d6d6;
+}
+
+.mgd-text--gray3 {
+    color: #999999;
+}
+
+.mgd-text--gray4 {
+    color: #939393;
+}
+
+.mgd-text--black {
+    color: #333333;
+}
+
+.mgd-text--black2 {
+    color: #6d6f7e;
+}
+
+.mgd-placeholder--gray2::-moz-placeholder {
+    color: #d6d6d6;
+}
+
+.mgd-placeholder--gray2:-ms-input-placeholder {
+    color: #d6d6d6;
+}
+
+.mgd-placeholder--gray2::placeholder {
+    color: #d6d6d6;
+}
+
+.mgd-text--small,
+.mgd-text--size-14 {
+    font-size: 14px;
+}
+
+.mgd-text--size-18 {
+    font-size: 18px;
+}
+
+.mgd-text--size-22 {
+    font-size: 22px;
+}
+
+.mgd-text--size-28 {
+    font-size: 28px;
+}
+
+.mgd-text--size-50 {
+    font-size: 50px;
+}
+
+.mgd-text--size-62 {
+    font-size: 62px;
+}
+
+.mgd-text--500 {
+    font-weight: 500;
+}
+
+.mgd-text--600 {
+    font-weight: 600;
+}
+
+.mgd-text--700 {
+    font-weight: 700;
+}
+
+/************************************************************************
+// Button
+*************************************************************************/
+.mgd-btn {
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.mgd-btn--default {
+    color: white;
+    background-image: linear-gradient(to bottom left, #ef32c6 10%, #ffd259);
+}
+
+.mgd-btn--default:hover {
+    color: white;
+}
+
+.mgd-btn--small {
+    font-size: 16px;
+    padding: 10px 26px;
+}
+
+.mgd-btn--medium {
+    font-size: 18px;
+    padding: 14px 66px;
+}
+
+.mgd-btn--large {
+    font-size: 20px;
+    padding: 18px 84px;
+}
+
+.mgd-btn--shadow {
+    box-shadow: 0 10px 40px rgba(239, 50, 198, 0.3);
+}
+
+
+/************************************************************************
+// Logo
+*************************************************************************/
+.mgd-logo__img {
+    max-width: 300px;
+}
+
+
+/************************************************************************
+// Sign up Banner
+*************************************************************************/
+.mgd-signup-section__title {
+    margin-left: 16%;
+    margin-bottom: 13%;
+}
+
+.mgd-signup-section__title-wrap {
+    display: flex;
+    align-items: flex-end;
+}
+
+.mgd-signup-section__title-wrap {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/************************************************************************
+// Sign Up Section
+*************************************************************************/
+.mgd-signup-section {
+    width: 100%;
+}
+
+.mgd-form-wrapper {
+    position: relative;
+    background-color: white;
+}
+
+.mgd-form,
+.mgd-form-wrapper__info,
+.mgd-logo {
+    max-width: 718px;
+    margin: auto;
+}
+
+.mgd-login-nav {
+    float: right;
+    margin-right: 30px;
+}
+
+.mgd-login-nav__ul {
+    display: flex;
+    align-items: center;
+}
+
+.mgd-login-nav__item {
+    float: left;
+    margin-left: 30px;
+}
+
+.mgd-select {
+    border: none;
+}
+
+.form-row-align-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mgd-form__input {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 12px;
+}
+
+.mgd-form__checkbox-wrapper {
+    margin-left: 5px;
+}
+
+.mgd-form__checkbox {
+    display: none;
+}
+
+.mgd-form__checkbox + label {
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+
+.mgd-form__checkbox + label:after {
+    content: "";
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #e5e5e5;
+    width: 22px;
+    height: 22px;
+}
+
+.mgd-form__checkbox:checked + label {
+    color: #99a1a7;
+}
+
+.mgd-form__checkbox:checked + label:after {
+    content: " \2714";
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #58d432;
+    text-align: center;
+}
+
+.mgd-form__link {
+    position: relative;
+    top: -4px;
+    font-size: 15px;
+    border-bottom: 2px solid #d6d6d6;
+    margin-left: 31px;
+}
+
+.mgd-form__link:hover {
+    color: #d6d6d6;
+    border-bottom: 2px solid #d6d6d6;
+}
+
+.mgd-form__link2 {
+    margin-left: 31px;
+}
+
+.mgd-form__link3 {
+    text-decoration: underline;
+}
+
+.mgd-form__link3:hover {
+    text-decoration: underline;
+}
+
+.mgd-close {
+    float: left;
+    margin-top: 10px;
+}
+
+.mgd-close a {
+    color: #000;
+}
+
+.mgd-close a i {
+    font-size: 21px;
+}
+
+.privacy_policy {
+    margin-left: 35px;
+}
+
+.privacy-policy {
+    margin-top: 45px;
+    margin-bottom: 60px;
+    color: #d6d6d6;
+    font-family: "futurand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.privacy-policy a {
+    color: #d6d6d6;
+    font-family: "futurand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.privacy-policy .text-underline {
+    text-decoration: underline !important;
+}
+
+.privacy-policy input[type=checkbox] {
+    display: none;
+}
+
+.privacy-policy label {
+    vertical-align: sub;
+}
+
+.privacy-policy input[type=checkbox] + label {
+    background: url("https://www.migoda.com/admin/assets/images/admin/pp-unchecked.png");
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+    margin: 0;
+    vertical-align: sub;
+}
+
+.privacy-policy input[type=checkbox]:checked + label {
+    background: url("https://www.migoda.com/admin/assets/images/admin/pp-checked.png");
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+    margin: 0;
+    vertical-align: sub;
+}
+
+
+/************************************************************************
+// Popup
+*************************************************************************/
+.mgd-popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mgd-popup__window {
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 22px 22px 90px 22px;
+}
+
+.mgd-popup__close {
+    text-align: right;
+}
+
+.mgd-popup__close .fa {
+    cursor: pointer;
+}
+
+.mgd-popup__close a {
+    color: black;
+}
+
+.mgd-popup__img {
+    max-width: 155px;
+}
+
+
+/************************************************************************
+// Language Dropdown
+*************************************************************************/
+.mgd-lang-select {
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 9px;
+}
+
+.mgd-lang-select:hover .mgd-lang-select__dropdown {
+    display: block;
+}
+
+.mgd-lang-select__item {
+    cursor: pointer;
+}
+
+.mgd-lang-select__dropdown {
+    display: none;
+    background-color: white;
+    border: 2px solid #f0f0f0;
+    padding: 13px 29px;
+    font-size: 14px;
+    position: absolute;
+    top: 41px;
+    right: 0;
+    z-index: 1;
+}
+
+.mgd-lang-select__dropdown > ul:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-left: 2px solid #f0f0f0;
+    border-top: 2px solid #f0f0f0;
+    position: absolute;
+    top: -20px;
+    right: -14px;
+    transform: rotate(45deg);
+}
+
+.mgd-lang-select__dropdown ul {
+    position: relative;
+    list-style: none;
+    padding-left: 0;
+}
+
+.mgd-lang-select__dropdown li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.hide-alert {
+    display: none;
+}
+
+/************************************************************************
+// Responsive
+*************************************************************************/
+@media (min-width: 1500px) {
+    html,
+    body,
+    .mgd-signup,
+    .mgd-signup-section {
+        height: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .mgd-form-wrapper--padding-md {
+        padding: 59px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 767px) {
+    .mgd-signup-section__title h1 {
+        font-size: 5vw;
+    }
+}
+
+@media (max-width: 1100px) {
+    .mgd-lang-select__item {
+        display: table;
+        width: 35px;
+    }
+
+    .mgd-login-nav__item {
+        float: left;
+        margin-left: 20px;
+    }
+
+    .mgd-login-nav {
+        float: right;
+        margin-right: 0;
+    }
+
+    .mgd-login-nav__ul {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .mgd-signup-section__title {
+        margin-bottom: initial;
+    }
+
+    .mgd-signup-section__title-wrap {
+        height: 300px !important;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .mgd-signup-section__title-wrap {
+        display: none;
+    }
+
+    .mgd-login-nav {
+        float: right !important;
+        margin-right: 0;
+    }
+
+    .mgd-login-nav__item {
+        margin-left: 12px !important;
+        margin-right: 0 !important;
+    }
+
+    .mgd-form-wrapper .margin-top--100 {
+        margin-top: 70px !important;
+    }
+
+    .mgd-form-wrapper .mgd-btn--small {
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+
+    .mgd-form-wrapper--padding-sm {
+        padding: 30px;
+    }
+
+    .mgd-login-nav {
+        float: left;
+    }
+
+    .mgd-login-nav__ul {
+        padding-left: 0;
+    }
+
+    .mgd-login-nav__item {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+
+    .mgd-signup-section__title {
+        margin-left: initial;
+    }
+
+    .mgd-signup-section__title-wrap {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .mgd-signup-section__title h1 {
+        font-size: 6vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .margin-top--75 {
+        margin-top: 50px !important;
+    }
+
+    .mgd-form-wrapper__info .mgd-form-wrapper__info-item {
+        flex: initial;
+        display: inline-block;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .mgd-form-wrapper__close {
+        position: absolute;
+    }
+
+    .mgd-login-nav__ul {
+        padding-left: 0;
+    }
+
+    .padding-right--30 {
+        padding-right: 5px !important;
+    }
+
+    .padding-left--30 {
+        padding-left: 5px !important;
+    }
+
+    .mgd-form__input {
+        font-size: 14px;
+        padding: 9px 9px;
+    }
+
+    html[lang=nl] .mgd-form__input {
+        font-size: 12px;
+        padding: 9px 9px;
+    }
+
+    .mgd-popup {
+        display: initial;
+        position: initial;
+    }
+
+    .mgd-signup-section__title h1 {
+        font-size: 9vw;
+    }
+}
+
+
+.app.hotel-auth {
+    .img-logo {
+        display: table;
+        margin: 0 auto;
+        width: auto;
+        max-width: 250px;
+    }
+
+    .btn-gradient-success {
+        background: linear-gradient(120deg, #ffd359 0%, #ef32c6 100%) !important;
+        border-color: #fff;
+        border-radius: 10px;
+    }
+
+    body {
+        font-family: 'futurand', sans-serif;
+    }
+
+    .mgd-text--600, .mgd-text--700 {
+        font-family: "futurand_bold";
+    }
+
+    h1, h2, h3, h4, h5, h6, .mgd-btn--small, .mgd-lang-select__item, .mgd-form__link2, .mgd-form__link3 {
+        font-family: Futura ND Demibold,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    }
+
+    .mgd-signup-section__title h1 {
+        line-height: 70px;
+    }
+
+    .mgd-form .mgd-btn.mgd-btn--default {
+        font-weight: 300;
+        font-family: "futurand", sans-serif;
+    }
+}
+
+/************************************************************************
+   // Responsive
+   *************************************************************************/
+@media (max-width: 1500px) and (min-width: 993px) {
+    .mgd-signup > .mgd-signup-section > .container-fluid > .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .mgd-signup-section__title-wrap {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mgd-signup-section__title-wrap + .padding-right-none {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1500px) {
+    html,
+    body,
+    .mgd-signup,
+    .mgd-signup-section {
+        height: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .mgd-signup {
+        .mgd-form-wrapper--padding-md {
+            padding: 59px;
+        }
+    }
+}
+
+@media (max-width: 992px) and (min-width: 767px) {
+    .mgd-signup {
+        .mgd-signup-section__title h1 {
+            font-size: 5vw;
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .mgd-signup {
+        .mgd-lang-select__item {
+            display: table;
+            width: 35px;
+        }
+
+        .mgd-login-nav__item {
+            float: left;
+            margin-left: 20px;
+        }
+
+        .mgd-login-nav {
+            float: right;
+            margin-right: 0;
+        }
+
+        .mgd-login-nav__ul {
+            padding-left: 0;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .mgd-signup {
+        .mgd-signup-section__title {
+            margin-bottom: initial;
+        }
+
+        .mgd-signup-section__title-wrap {
+            height: 300px !important;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .mgd-signup {
+        .mgd-signup-section__title-wrap {
+            display: none;
+        }
+
+        .mgd-login-nav {
+            float: right !important;
+            margin-right: 0;
+        }
+
+        .mgd-login-nav__item {
+            margin-left: 12px !important;
+            margin-right: 0 !important;
+        }
+
+        .mgd-form-wrapper .margin-top--100 {
+            margin-top: 70px !important;
+        }
+
+        .mgd-form-wrapper .mgd-btn--small {
+            font-size: 14px;
+            padding: 10px 14px;
+        }
+
+        .mgd-form-wrapper--padding-sm {
+            padding: 30px;
+        }
+
+        .mgd-login-nav {
+            float: left;
+        }
+
+        .mgd-login-nav__ul {
+            padding-left: 0;
+        }
+
+        .mgd-login-nav__item {
+            margin-left: 0;
+            margin-right: 30px;
+        }
+
+        .mgd-signup-section__title {
+            margin-left: initial;
+        }
+
+        .mgd-signup-section__title-wrap {
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+    .mgd-signup {
+        .mgd-signup-section__title h1 {
+            font-size: 6vw;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .mgd-signup {
+        .margin-top--75 {
+            margin-top: 50px !important;
+        }
+
+        .mgd-form-wrapper__info .mgd-form-wrapper__info-item {
+            flex: initial;
+            display: inline-block;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .mgd-form-wrapper__close {
+            position: absolute;
+        }
+
+        .mgd-login-nav__ul {
+            padding-left: 0;
+        }
+
+        .padding-right--30 {
+            padding-right: 5px !important;
+        }
+
+        .padding-left--30 {
+            padding-left: 5px !important;
+        }
+
+        .mgd-form__input {
+            font-size: 14px;
+            padding: 9px 9px;
+        }
+
+        html[lang="nl"] .mgd-form__input {
+            font-size: 12px;
+            padding: 9px 9px;
+        }
+
+        .mgd-popup {
+            display: initial;
+            position: initial;
+        }
+
+        .mgd-signup-section__title h1 {
+            font-size: 9vw;
+        }
+    }
+}
+
+html[lang=tr].hotel-auth .hmenu .navbar-nav a {
+    font-family: "futurand_tr" !important;
+}
+
+html[lang=tr].hotel-auth .mgd-text--600,
+html[lang=tr].hotel-auth .mgd-text--700 {
+    font-family: "futurand_bold_tr" !important;
+}
+
+html[lang=tr].hotel-auth .mgd-form__link2,
+html[lang=tr].hotel-auth .mgd-btn,
+html[lang=tr].hotel-auth .mgd-form__link3 {
+    font-family: "futurand_semibold_tr", serif !important;
+}

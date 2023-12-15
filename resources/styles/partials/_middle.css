@@ -1,0 +1,283 @@
+
+.middle-wrapper {
+    border: 1px solid transparent;
+}
+
+.middle-wrapper h2 {
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 6.5rem 0 1rem;
+}
+
+.middle-wrapper .middle-hiw_desc {
+    font-size: 1.33rem;
+}
+
+.middle-wrapper.middle-categories_wrapper h2 {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.middle-wrapper.middle-contact_wrapper h2 {
+    margin-top: 5.2rem;
+    margin-bottom: 3.8rem;
+}
+
+.middle-banner_wrapper {
+    height: 42rem;
+    padding-top: 12.5rem;
+    position: relative;
+}
+
+.middle-banner_wrapper .slide {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    -webkit-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+}
+
+.middle-banner_wrapper .slide.show {
+    opacity: 1;
+}
+
+.middle-banner_wrapper .middle-banner {
+    z-index: 2;
+    position: relative;
+    text-align: center;
+}
+
+.middle-banner_wrapper .middle-banner .search-block_wrapper h1, .middle-banner_wrapper .middle-banner .redeem-block_wrapper h1 {
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.middle-banner_wrapper .middle-banner .search-block_wrapper h2, .middle-banner_wrapper .middle-banner .redeem-block_wrapper h2 {
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #fff;
+    opacity: 0.5;
+}
+
+.middle-banner_wrapper .middle-banner .search-block_wrapper .search-input_wrapper, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .search-input_wrapper {
+    margin-top: 2.25rem;
+    height: 4.5rem;
+    position: relative;
+}
+
+.middle-banner_wrapper .middle-banner .search-block_wrapper .search-input_wrapper form div.input-text > span.location, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .search-input_wrapper form div.input-text > span.location {
+    margin-top: 0;
+}
+
+.middle-banner_wrapper .middle-banner .search-block_wrapper .search-input_wrapper form div.input-text > button.search, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .search-input_wrapper form div.input-text > button.search {
+    width: 7rem;
+    font-size: 2rem;
+    line-height: 2rem;
+    position: absolute;
+}
+
+.middle-banner_wrapper .middle-banner .search-block_wrapper .search-input_wrapper form div.input-text > button.search img, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .search-input_wrapper form div.input-text > button.search img {
+    width: 3rem;
+}
+
+.middle-banner_wrapper .middle-banner .search-block_wrapper .search-input_wrapper form div.input-text > input, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .search-input_wrapper form div.input-text > input {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.middle-banner_wrapper .middle-banner .redeem-block_wrapper {
+    text-align: left;
+}
+
+.middle-banner_wrapper .middle-banner .redeem-block_wrapper h1 {
+    font-size: 4rem;
+}
+
+.middle-banner_wrapper .middle-banner .redeem-block_wrapper .mg-primary-button, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .mg-primary-button__disabled, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .mg-primary-button__passive, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .mobile-menu ul.header-links li.menu-login a, .mobile-menu ul.header-links li.menu-login .middle-banner_wrapper .middle-banner .redeem-block_wrapper a, .middle-banner_wrapper .middle-banner .redeem-block_wrapper .signup-login ul.header-links_mobile li.menu-login a, .signup-login ul.header-links_mobile li.menu-login .middle-banner_wrapper .middle-banner .redeem-block_wrapper a {
+    width: auto;
+    padding: 0.5rem 2rem;
+    margin-top: 1rem;
+    -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.middle-hiw_wrapper {
+    background-color: #fff;
+}
+
+.middle-hiw_wrapper .middle-hiw {
+    padding-bottom: 4.5rem;
+    border-bottom: 1px solid #ededed;
+}
+
+.middle-hiw_wrapper .middle-hiw > div {
+    height: 17.5rem;
+    padding-top: 3rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: #666666;
+}
+
+.middle-hiw_wrapper .middle-hiw > div span {
+    display: block;
+    height: 8rem;
+    color: #e54545;
+}
+
+.middle-hiw_wrapper .middle-hiw > div span.globe img {
+    width: 4.4rem;
+    margin-top: .9rem;
+}
+
+.middle-hiw_wrapper .middle-hiw > div span.ticket img {
+    width: 5.5rem;
+    margin-top: 1.9rem;
+}
+
+.middle-hiw_wrapper .middle-hiw > div span.calendar img {
+    width: 5rem;
+    margin-top: 1.3rem;
+}
+
+.middle-hiw_wrapper .middle-hiw > div h3 {
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.middle-hiw_wrapper .middle-hiw > div p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.middle-hiw_wrapper .middle-hiw > div:hover {
+    border: 1px solid #e54545 !important;
+    -webkit-box-shadow: 0 30px 40px rgba(175, 175, 175, 0.38);
+    box-shadow: 0 30px 40px rgba(175, 175, 175, 0.38);
+}
+
+.middle-categories_wrapper {
+    background-color: #fff;
+    padding-bottom: 8rem;
+}
+
+.middle-categories_wrapper .middle-categories > div {
+    position: relative;
+}
+
+.middle-categories_wrapper .middle-categories > div .category-image img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.middle-categories_wrapper .middle-categories > div .category-content {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    color: #fff;
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.middle-categories_wrapper .middle-categories > div .category-content:before {
+    position: absolute;
+    top: 101%;
+    left: 3px;
+    bottom: 0;
+    right: 3px;
+    margin: auto;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    background-repeat: repeat-x;
+    background-image: linear-gradient(45deg, rgba(225, 55, 115, 0.5), rgba(225, 55, 115, 0.5));
+    background-color: rgba(225, 55, 115, 0.5);
+    outline: none;
+    display: block;
+    content: " ";
+    border-radius: 5px;
+    mix-blend-mode: lighten;
+}
+
+.middle-categories_wrapper .middle-categories > div .category-content h3 {
+    position: relative;
+    display: none;
+}
+
+.middle-categories_wrapper .middle-categories > div .category-content:hover h3 {
+    display: block;
+}
+
+.middle-categories_wrapper .middle-categories > div .category-content span {
+    position: relative;
+    font-size: 3.75rem;
+}
+
+.middle-categories_wrapper .middle-categories > div .category-content span img {
+    height: 4rem;
+}
+
+.middle-categories_wrapper .middle-categories > div:hover .category-content:before {
+    top: 1px;
+}
+
+.middle-contact_wrapper .contact-submit {
+    margin: 3rem auto 8rem;
+}
+
+@media only screen and (max-width: 1023px) {
+    .middle-banner_wrapper {
+        height: 33rem;
+        padding-top: 6rem;
+    }
+    .middle-banner_wrapper .middle-banner .search-block_wrapper h1 {
+        padding: 0 2.5rem;
+        font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+    .middle-banner_wrapper .middle-banner .search-block_wrapper h2 {
+        padding: 0 2.5rem;
+        font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+    .middle-hiw_wrapper .middle-hiw > div {
+        border: 1px solid #e54545 !important;
+    }
+    .middle-categories_wrapper {
+        padding-bottom: 1.25rem;
+    }
+    .middle-contact_wrapper .contact-submit {
+        margin: 3rem auto;
+    }
+    .middle-contact_wrapper .contact-submit button {
+        width: 100%;
+    }
+}

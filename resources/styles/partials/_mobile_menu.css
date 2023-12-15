@@ -1,0 +1,141 @@
+
+.main-content_wrapper {
+    max-width: 1920px;
+    background: #f4f5fa;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mobile-menu {
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 7.6rem;
+    z-index: 10;
+    -webkit-transition: -webkit-transform .3s ease 0s;
+    transition: -webkit-transform .3s ease 0s;
+    transition: transform .3s ease 0s;
+    transition: transform .3s ease 0s, -webkit-transform .3s ease 0s;
+    transition: transform .3s ease 0s, -webkit-transform .3s ease 0s;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.mobile-menu ul.header-navigation {
+    padding: 0 2.5rem;
+}
+
+.mobile-menu ul.header-navigation li {
+    line-height: 6rem;
+    list-style: none;
+}
+
+.mobile-menu ul.header-navigation li a {
+    display: block;
+    font-size: 2.5rem;
+    color: #999999;
+}
+
+.mobile-menu ul.header-navigation li a.active, .mobile-menu ul.header-navigation li a:active, .mobile-menu ul.header-navigation li a:hover {
+    text-decoration: none;
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #e54545;
+}
+
+.mobile-menu ul.header-links {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 2.5rem 2.5rem 0;
+    border-top: 1px solid #ededed;
+}
+
+.mobile-menu ul.header-links li {
+    line-height: 6rem;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.mobile-menu ul.header-links li.menu-login a {
+    height: auto;
+}
+
+.mobile-menu ul.header-links li a {
+    font-size: 1.5rem !important;
+    line-height: 4.5rem !important;
+    width: 100% !important;
+    text-align: center;
+    display: block;
+}
+
+.mobile-menu ul.header-links li.menu-language {
+    text-align: center;
+}
+
+.mobile-menu ul.header-links li.menu-language a {
+    display: inline-block;
+    width: auto !important;
+    line-height: 2.5rem !important;
+}
+
+.mobile-menu ul.header-links li.menu-language a > span {
+    display: none;
+}
+
+.mobile-menu ul.header-links li.menu-language > div {
+    display: inline-block;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    border-left: 1px solid #ededed;
+    line-height: 2.5rem !important;
+}
+
+a.mobile-menu-toggle, a.signup-login_close_mobile {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    font-size: 2.5rem;
+    color: #e54545;
+}
+
+a.mobile-menu-toggle:active, a.mobile-menu-toggle:hover, a.signup-login_close_mobile:active, a.signup-login_close_mobile:hover {
+    color: #e54545;
+}
+
+a.mobile-menu-toggle {
+    top: 0;
+    right: 1rem;
+}
+
+a.mobile-menu-toggle .fa-times {
+    display: none;
+}
+
+html.menu-active {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+body.menu-active {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+body.menu-active .mobile-menu {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    overflow: hidden;
+}
+
+body.menu-active .fa-times {
+    display: initial;
+}
+
+body.menu-active .fa-bars {
+    display: none;
+}

@@ -1,0 +1,86 @@
+
+.mg-primary-button, .mg-primary-button__disabled, .mg-primary-button__passive, .mobile-menu ul.header-links li.menu-login a, .signup-login ul.header-links_mobile li.menu-login a {
+    background-repeat: repeat-x;
+    background-image: linear-gradient(45deg,#e13773,#ec5937);
+    background-color: #ec5937;
+    outline: none;
+    color: #fff;
+    width: 15.5rem;
+    height: auto;
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 3rem;
+    font-size: 1.5rem;
+    right: 0.25rem;
+    top: 0.25rem;
+    border: 2px solid #e54545;
+}
+
+.mg-primary-button__disabled {
+    background: #afafaf none;
+    border: 2px solid #afafaf;
+}
+
+.mg-primary-button__passive {
+    background: #666666 none;
+    border: 2px solid #666666;
+}
+
+.mg-primary-button_intext {
+    height: 4rem;
+}
+
+.mg-primary-button__aligned {
+    position: relative;
+    text-align: left;
+    left: 0;
+    top: 0;
+    padding-left: 5%;
+}
+
+.mg-primary-button__aligned svg {
+    position: absolute;
+    right: 10%;
+    top: 35%;
+}
+
+.mg-secondary-button {
+    border: 2px solid #e54545;
+    color: #e54545;
+    display: inline-block;
+    line-height: 2.5rem;
+    padding: 0 1.4rem;
+    background-color: #fff;
+}
+
+.mg-tertiary-button {
+    color: #fff;
+    background-color: #6d6f7e;
+    display: inline-block;
+    line-height: 3.6rem;
+    padding: 0 1.4rem;
+    font-size: 1rem;
+    width: 14rem;
+    position: relative;
+}
+
+.mg-tertiary-button svg {
+    position: absolute;
+    right: 10%;
+    top: 35%;
+}
+
+.mg-tertiary-button:hover {
+    color: #fff;
+    background-color: #666666;
+}
+
+.mg-tertiary-button_active {
+    background-repeat: repeat-x;
+    background-image: linear-gradient(45deg, #e13773, #ec5937);
+    background-color: #ec5937;
+    outline: none;
+}
+
+.mg-tertiary-button_passive {
+    background-color: #afafaf;
+}

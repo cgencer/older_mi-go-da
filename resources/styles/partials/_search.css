@@ -1,0 +1,47 @@
+.page-two-column .page-two-column-inner .two-column-left h2 {
+    margin: 3.7rem 9% 2rem;
+    position: relative;
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    letter-spacing: -0.1rem;
+    color: #999999;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h2 a {
+    font-size: 0.9rem;
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    position: absolute;
+    bottom: 0;
+    right: 2.2rem;
+    letter-spacing: normal;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h2 a span {
+    margin-left: 1.1rem;
+    font-size: 1.4rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h3 {
+    color: #afafaf;
+    font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 2rem 10% 1rem;
+    position: relative;
+    font-size: 1.4rem;
+    padding: 0 1.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h3.price-title {
+    font-size: 1.2rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h3.price-title > span {
+    font-size: 1rem;
+    float: right;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .search-input_wrapper {
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding: 2rem 0;
+    margin: 0 10%;
+}

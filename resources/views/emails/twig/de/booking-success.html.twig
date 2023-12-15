@@ -1,0 +1,10 @@
+<h3>You've booked!</h3>
+
+Hi {{ name }}! You're successfully booked! <br/>
+
+To login, go to: <a href="{{ url('homepage') }}">migoda</a>.<br/>
+
+Thanks!<br/><br/>
+
+{# Makes an absolute URL to the /images/logo.png file #}
+<img src="{{ absolute_url(asset('bundles/app/images/migoda.png')) }}">

@@ -1,0 +1,157 @@
+.migoda-alert {
+    text-align: left;
+    margin-bottom: 10px;
+
+    .mg-section {
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+}
+
+.g-recaptcha > div {
+    display: table;
+    margin: 0 auto;
+}
+
+.middle-categories_wrapper .middle-categories > div a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.flexyInput {
+    flex: 1;
+}
+
+.doSearchButton {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.floatingButton {
+    position: sticky;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #e13773, #ec5937);
+    background-color: #ec5937;
+    border: 0;
+
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.floatingIsland {
+    margin-top: 1rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left form {
+    position: relative;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .search-input_wrapper button {
+    color: #fff;
+    display: inline-block;
+    line-height: 34px;
+    padding: 0 16px;
+    position: relative;
+    border: 0;
+    margin: 0.25rem 0;
+    background-image: linear-gradient(45deg, #e13773, #ec5937);
+    background-color: #ec5937;
+}
+.middle-hiw_desc .middle-hiw_wrapper .middle-hiw > div {
+    cursor:default !important;
+}
+.switch_signup-login.handButton {
+    cursor:pointer !important;
+}
+.handButton {
+    cursor:pointer !important;
+}
+.signup-login__right input[type=text], .signup-login__right input[type=password] {
+    cursor:pointer !important;
+}
+
+.wish-spinner{
+    font-size: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.payments-card-title{
+
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.booking-details .section-header {
+      margin: 15px 0 30px 0;
+}
+
+.main-content_wrapper .booking-details-outer .booking-details .two-column-right {
+    padding: 15px 10px!important;
+}
+
+#terms_link{
+    font-size: 22px;
+    color: #6d6f7e;
+}
+
+.payment-button{
+    width: 100%;
+    text-align: left;
+}
+
+.payment-button img{
+    width: 3rem;
+    margin: 5px;
+    float: right;
+    vertical-align: middle;
+
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner {
+    padding: 2rem 2rem 2rem 3rem!important;
+}
+
+.extra_subtitle{
+    font-size: 14px !important;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper .blocks-wrapper h5{
+font-size: 12px!important;
+}
+
+.calendar-wrapper .extras .extra .extra_title_payment{
+
+color: #6d6f7e;
+font-family: "Futura ND Demibold";
+font-size: 22px;
+font-weight: 400;
+}
+
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .calendar-wrapper .extras .extra .extra_title_payment{
+    font-size: 22px;
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.booking-details-outer .page-two-column .page-two-column-inner .two-column-right .blocks-left h5{
+    font-size: 14px !important;
+
+}
+
+.waiting-filter  .select2-container--default .select2-selection--single {
+    border: 0;
+    border-bottom: 1px solid #ededed !important;
+}

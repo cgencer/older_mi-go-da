@@ -1,0 +1,178 @@
+/*
+ * Icoomoon
+ */
+@font-face {
+  font-family: "md";
+  src: url("../fonts/icomoon.eot?98p6d01");
+  src: url("../fonts/icomoon.eot?98p6d01#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?98p6d01") format("truetype"), url("../fonts/icomoon.woff?98p6d01") format("woff"), url("../fonts/icomoon.svg?98p6d01#md") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=md-], [class*=" md-"] {
+  font-family: "md" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.md-coupon-change-colored .path1:before {
+  content: "";
+  color: #ea3f24;
+}
+
+.md-coupon-change-colored .path2:before {
+  content: "";
+  margin-left: -1.4228515625em;
+  color: #ea3f24;
+}
+
+.md-coupon-change-colored .path3:before {
+  content: "";
+  margin-left: -1.4228515625em;
+  color: #e13675;
+}
+
+.md-coupon-change-colored .path4:before {
+  content: "";
+  margin-left: -1.4228515625em;
+  color: #e13675;
+}
+
+.md-coupon-change-colored .path5:before {
+  content: "";
+  margin-left: -1.4228515625em;
+  color: #ea3f24;
+}
+
+.md-coupon-change-colored .path6:before {
+  content: "";
+  margin-left: -1.4228515625em;
+  color: #e13675;
+}
+
+.md-coupon-change-colored .path7:before {
+  content: "";
+  margin-left: -1.4228515625em;
+  color: #ea3f24;
+}
+
+.md-coupon-change:before {
+  content: "";
+}
+
+.md-booking-calendar:before {
+  content: "";
+}
+
+.md-coupon-colored .path1:before {
+  content: "";
+  color: #ea3f24;
+}
+
+.md-coupon-colored .path2:before {
+  content: "";
+  margin-left: -1.4521484375em;
+  color: #e13675;
+}
+
+.md-coupon:before {
+  content: "";
+}
+
+.md-arrow-white:before {
+  content: "";
+}
+
+.md-travel-colored .path1:before {
+  content: "";
+  color: #ea3f24;
+}
+
+.md-travel-colored .path2:before {
+  content: "";
+  margin-left: -0.7705078125em;
+  color: #e13675;
+}
+
+.md-travel-colored .path3:before {
+  content: "";
+  margin-left: -0.7705078125em;
+  color: #e13675;
+}
+
+.md-travel:before {
+  content: "";
+}
+
+.md-bed-star-colored .path1:before {
+  content: "";
+  color: #e13675;
+}
+
+.md-bed-star-colored .path2:before {
+  content: "";
+  margin-left: -0.9619140625em;
+  color: #ea3f24;
+}
+
+.md-bed-star:before {
+  content: "";
+}
+
+.md-payment-colored .path1:before {
+  content: "";
+  color: #ea3f24;
+}
+
+.md-payment-colored .path2:before {
+  content: "";
+  margin-left: -1em;
+  color: #e13675;
+}
+
+.md-payment:before {
+  content: "";
+}
+
+::-webkit-input-placeholder {
+  /* Chrome */
+  color: #afafaf !important;
+}
+
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #afafaf !important;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #afafaf !important;
+  opacity: 1;
+}
+
+:-moz-placeholder {
+  /* Firefox 4 - 18 */
+  color: #afafaf !important;
+  opacity: 1;
+}
+
+.mobile-only {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1023px) {
+  .desktop-only {
+    display: none !important;
+  }
+
+  .mobile-only {
+    display: inherit !important;
+  }
+}

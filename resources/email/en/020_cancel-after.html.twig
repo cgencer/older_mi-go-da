@@ -1,0 +1,20 @@
+{% extends '::Email/en/000_base.html.twig' %}
+
+{% block content %}
+
+    <tr>
+        <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:0;word-break:break-word;">
+            <div style="font-family:Arial, sans-serif;font-size:16px;line-height:1;text-align:left;color:#6d6f7e;">
+                <h1 class="header-title">Sorry to hear about your last minute
+                    cancellation ...</h1>
+                <p><br><br></p>
+                <p>Unfortunatelly your cancellation is very late - actually too
+                    late - and beyond the <span class="underlined">free
+                                                            cancellation period</span>.</p>
+                <p>This means we can’t refund your Coupons nor your payment.</p>
+                <p class="strong">Your Migoda Team</p>
+            </div>
+        </td>
+    </tr>
+
+{% endblock %}

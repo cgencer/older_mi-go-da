@@ -1,0 +1,91 @@
+.main-content_wrapper.about-us{
+  background: #FFF;
+}
+.about-us-desc{
+  margin-top: 10%;
+  margin-left: 12%;
+  margin-right: 10%;
+  display: flex;
+  margin: 10% 10% 5% 12%;
+}
+.about-us-desc .col-6:nth-of-type(2){
+  text-align: left;
+}
+.about-us-desc p.bold{
+  font-family: "Futura ND";
+  font-weight: 500;
+  line-height: 27px;
+}
+.about-us-desc h2{
+  color: #6d6f7e;
+  font-family: "Futura ND Demibold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.about-us-desc p{
+  color: #6d6f7e;
+  font-family: "Futura ND Book";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.about-us-desc img{
+    max-width: 100%;
+}
+.about-us-title{
+  text-align: left;
+  background-color: #6d6f7e;
+  background-image: linear-gradient(18deg, #ff4d1d 0%, #f30e75 100%);
+  padding-top: 38px;
+  padding-bottom: 38px;
+  margin-bottom: -5%;
+  margin-top: -5%;
+  color:#fff;
+  box-shadow: 0px 0px 5px #f30e75, 0px 0px 50px #f30e75, 0px 0px 10px #ff4d1d;
+   }
+.about-us-title h2{
+  color: #ffffff;
+  font-family: "Futura ND Light";
+  font-size: 46px;
+  font-weight: 400;
+  margin-left: 30%;
+}
+.about-us-title p{
+  font-family: "Futura ND Demibold";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 43px;
+  margin-left: 30%;
+  margin-bottom: 0;
+}
+.about-us-hero{
+  background-image: url("../images/pages/about-bg.png");
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-size: auto;
+  background-position: center;
+}
+.about-us-hero .mg-section:first-child{
+  margin-top: 43px;
+}
+.about-us-hero h2{
+  color: #ffffff;
+  font-family: "Futura ND Demibold";
+  font-size: 50px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom:20px;
+}
+.about-us-hero p{
+  text-align: left;
+  color: #ffffff;
+  font-family: "Futura ND Book";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}

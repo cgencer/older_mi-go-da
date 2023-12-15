@@ -1,0 +1,37 @@
+@extends('emails.layouts.master')
+@section('content')
+<tr>
+    <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:0;word-break:break-word;">
+        <div style="font-family:Arial, sans-serif;font-size:16px;line-height:1;text-align:left;color:#6d6f7e;">
+            <h1 class="header-title">NOUVELLE DEMANDE <br> DE RÉSERVATION</h1>
+            <p class="strong">Cher (Chère) Partenaire de Migoda Hotel!</p>
+            <p>M.(Mme) [[ guest_name ]], a envoyé une demande de réservation pour séjourner à votre hôtel aux dates suivantes: Du [[ date_checkin ]] au [[ date_checkout ]]. Le prix des repas que vous avez affiché via l’Extranet Migoda comprend la formule en demi-pension avec un prix quotidien de &euro; [[ nightly_price ]]/ personne.</p>
+            <p>Selon votre calendrier que vous gérez via votre compte Extranet, ces dates sont affichées disponibles. </p>
+            <p>Si vous avez de la disponibilité et que vous souhaitez accueillir ces clients - Merci de bien vouloir accepter la réservation!</p>
+            <p>Si votre établissement est complet - ou pour une raison quelconque, les clients Migoda n'ont pas pu venir - Veuillez décliner s'il vous plaît.</p>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td align="center" vertical-align="middle" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+        <table border="0" cellpadding="0" cellspacing="0" role="presentation"
+               style="border-collapse:separate;width:100%;line-height:100%;">
+            <tr>
+                <td align="center" bgcolor="#fa3440" role="presentation" class="main-button-holder"
+                valign="middle"><a href="#" class="main-button"  target="_blank">Accepter / Décliner</a>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td align="left" style="font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:0;word-break:break-word;">
+        <div style="font-family:Arial, sans-serif;font-size:16px;line-height:1;text-align:left;color:#6d6f7e;">
+            <p class="note-text-red">*Vous avez 48 heures pour répondre!</p>
+            <p class="note-text">Une réponse rapide, aidera les clients à finaliser leur voyage et seront impatients de venir dans votre établissement. Si vous ne répondez pas à la demande de réservation dans un délai de 48 heures, vous perderez ce client/ cette opportunité professionnelle.</p>
+        </div>
+    </td>
+</tr>
+
+    @endsection
+

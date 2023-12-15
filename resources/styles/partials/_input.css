@@ -1,0 +1,52 @@
+
+div.input-text {
+    position: relative;
+}
+
+div.input-text > span {
+    position: absolute;
+    left: 0;
+    color: #afafaf;
+    font-size: 1.25rem;
+    line-height: 4.5rem;
+    float: left;
+    margin: 0.25rem 1.5rem;
+}
+
+div.input-text > span img {
+    width: 1.8rem;
+}
+
+div.input-text > input {
+    padding-left: 4.5rem;
+    width: 100%;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    display: block;
+    float: left;
+    margin: 0.25rem 0;
+    font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.25rem;
+    color: #666666;
+    outline: none;
+    border: 1px solid #ededed;
+}
+
+div.input-text > textarea {
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.25rem;
+    padding: 1.5rem 1.5rem 1.5rem 4.5rem;
+    width: 100%;
+    height: 15rem;
+    color: #666666;
+    border: 1px solid #ededed;
+    outline: none;
+    resize: none;
+}
+
+ul.header-links
+{
+  white-space:nowrap;
+  float:left;
+}
+

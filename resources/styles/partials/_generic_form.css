@@ -1,0 +1,111 @@
+
+
+.generic-form .form-input {
+    margin-bottom: 3.2rem;
+}
+
+.generic-form label{
+    margin-bottom: 1rem!important;
+}
+
+.generic-form .bookingButtonLeft{
+    width: 150px!important;
+    margin-right: 10px;
+}
+
+.generic-form .bookingButtonRight{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: inherit!important;
+}
+
+
+.generic-form .form-input input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #ededed;
+    font-size: 1.8rem;
+    font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.generic-form .form-input input[type=checkbox] {
+    width: auto;
+}
+
+.generic-form .form-input-double {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+.generic-form .form-input-double:nth-child(2n) {
+    margin-right: 0;
+}
+
+.generic-form .form-input-triple {
+    float: left;
+    width: 31%;
+    margin-right: 3.5%;
+}
+
+.generic-form .form-input-triple:nth-child(3n) {
+    margin-right: 0;
+}
+
+.generic-form .form-helpers {
+    margin-bottom: 2rem;
+}
+
+.generic-form .form-helpers .left {
+    float: left;
+}
+
+.generic-form .form-helpers .right {
+    float: right;
+}
+
+.generic-form .form-actions {
+    clear: left;
+}
+
+.generic-form .form-actions button {
+    width: 100%;
+    font-size: 1.5rem !important;
+    line-height: 4.5rem !important;
+    text-align: center;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.generic-form .form-actions.form-actions-inline button {
+    display: inline-block;
+    line-height: 4rem !important;
+    padding: 0 1.4rem;
+    font-size: 1rem;
+    width: 24rem;
+    text-align: left;
+    position: relative;
+    font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.generic-form .form-actions.form-actions-inline button svg {
+    position: absolute;
+    right: 10%;
+    top: 35%;
+}
+
+.generic-form.generic-form-smaller-text .form-input input {
+    font-size: 18px;
+}
+
+
+.disable_text_highlighting {
+    -webkit-user-select: none;
+    /* Webkit */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE 10  */
+    /* Currently not supported in Opera but will be soon */
+    user-select: none;
+}

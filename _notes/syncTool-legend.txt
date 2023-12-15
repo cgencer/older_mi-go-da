@@ -1,0 +1,24 @@
+        // Migoda side:
+        // 1. sheet is copied to RAW:SHEETS via this script, updating same entries, with NO CRC!!!
+        // 2. sync sheets coords to RAW:HOTELS via sync script
+        // 3. check RAW:SHEETS hashes against crc(content)
+        // 4. all tainted entries get copied from RAW:SHEETS to DATABASE and then their hash corrected on RAW:SHEETS.
+
+        // Hotels side:
+        // 1. all DATABASE entries are copied to RAW:HOTELS via PanelToRaw
+        // 2. sync sheets dbId's to RAW:SHEETS via sync script
+        // 3. check RAW:HOTELS hashes against crc(content)      if editing occurs: hash value is tainted, at begin its null, again tainted
+        // 4. all tainted entries get copied from RAW:SHEETS to GoogleSheet and marked, afterwards their hash corrected on RAW:HOTELS
+
+
+Panelden değişiklik yapıldığında:	(Panelden değişikliği REVIEW etmek)
+'REVIEW'
+
+Sheet üzerinde düzenleme yapılan:	(REVIEW olanları LIVE etmek)
+'LIVE'
+
+Sheet üzerinde düzenlenen ama veritabanında olmayan:
+'NOT-PRESENT', 'Hotel was not found on the server database; possibly not created yet.'
+
+Database'de olup sheet'e yeni eklenen satırlar:
+'NEW-ON-DB'

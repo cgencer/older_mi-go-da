@@ -1,0 +1,24 @@
+.form-gender .select2-container--default .select2-selection--single, .form-date-of-birth .select2-container--default .select2-selection--single, .form-country .select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 0 solid #ededed;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    font-size: 1.2rem;
+    font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.form-gender .select2-container, .form-date-of-birth .select2-container, .form-country .select2-container {
+    width: 100% !important;
+}
+
+.form-date-of-birth .select2-container {
+    width: 33% !important;
+}
+
+.form-gender .select2-container--default .select2-selection--single, .form-date-of-birth .select2-container--default .select2-selection--single, .form-country .select2-container--default .select2-selection--single {
+    font-size: 1.8rem;
+}
+
+.form-gender .select2-container--default .select2-selection--single .select2-selection__rendered, .form-date-of-birth .select2-container--default .select2-selection--single .select2-selection__rendered, .form-country .select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding-left: 0;
+}

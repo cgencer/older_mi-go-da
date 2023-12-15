@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #acacac;
+      }
+    </style>
+  </defs>
+  <path id="Rectangle_1641_copy_8" data-name="Rectangle 1641 copy 8" class="cls-1" d="M506.343,958H455a4,4,0,0,1-4-4V914a4,4,0,0,1,4-4h51.343L512,915.657,517.657,910H558a4,4,0,0,1,4,4v40a4,4,0,0,1-4,4H517.658L512,952.343,506.344,958ZM511,944v4h2v-4Zm0-6v4h2v-4Zm0-6v4h2v-4Zm0-6v4h2v-4Zm0-6v4h2v-4Z" transform="translate(-451 -910)"/>
+</svg>

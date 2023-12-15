@@ -1,0 +1,52 @@
+business_type=company
+
+business_profile.mcc
+business_profile.url
+business_profile.product_description
+
+tos_acceptance.date
+tos_acceptance.ip
+external_account
+
+company.name
+company.tax_id
+
+directors.first_name
+directors.last_name
+directors.dob.day
+directors.dob.month
+directors.dob.year
+
+company HAS name
+persons HAVE first_name, last_name
+company HAS tax_id
+directors HAS email
+persons HAVE dob.
+
+company.
+directors.				MANY, ALL
+executives.
+owners.					MANY, ALL
+representative.
+company.
+
+representative.relationship.title
+representative.email
+representative.phone
+
+directors.relationship.title
+directors.email
+
+.first_name
+.last_name
+
+.address.line1
+.address.line2
+.address.postal_code
+.address.city
+.address.state
+.address.country
+
+.dob.day
+.dob.month
+.dob.year

@@ -1,0 +1,882 @@
+html {
+    font-size: 0.85rem;
+}
+
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 0.85rem;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    html {
+        font-size: 0.625rem;
+    }
+}
+
+
+
+
+.migoda-alert {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.migoda-alert p {
+    margin-bottom: 0.75rem;
+}
+
+div.input-text {
+    position: relative;
+}
+
+div.input-text > span {
+    position: absolute;
+    left: 0;
+    color: #afafaf;
+    font-size: 1.25rem;
+    line-height: 4.5rem;
+    float: left;
+    margin: 0.25rem 1.5rem;
+}
+
+div.input-text > span img {
+    width: 1.8rem;
+}
+
+div.input-text > input {
+    padding-left: 4.5rem;
+    width: 100%;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    display: block;
+    float: left;
+    margin: 0.25rem 0;
+    font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.25rem;
+    color: #666666;
+    outline: none;
+    border: 1px solid #ededed;
+}
+
+div.input-text > textarea {
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.25rem;
+    padding: 1.5rem 1.5rem 1.5rem 4.5rem;
+    width: 100%;
+    height: 15rem;
+    color: #666666;
+    border: 1px solid #ededed;
+    outline: none;
+    resize: none;
+}
+
+.mg-primary-button, .mg-primary-button__disabled, .mg-primary-button__passive, .mobile-menu ul.header-links li.menu-login a, .signup-login ul.header-links_mobile li.menu-login a {
+    background-repeat: repeat-x;
+    background-image: linear-gradient(45deg, #e13773, #ec5937);
+    background-color: #ec5937;
+    outline: none;
+    color: #fff;
+    width: 15.5rem;
+    height: auto;
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 3rem;
+    font-size: 1.5rem;
+    right: 0.25rem;
+    top: 0.25rem;
+    border: 2px solid #e54545;
+}
+
+.mg-primary-button__disabled {
+    background: #afafaf none;
+    border: 2px solid #afafaf;
+}
+
+.mg-primary-button__passive {
+    background: #666666 none;
+    border: 2px solid #666666;
+}
+
+.mg-primary-button_intext {
+    height: 4rem;
+}
+
+.mg-primary-button__aligned {
+    position: relative;
+    text-align: left;
+    left: 0;
+    top: 0;
+    padding-left: 5%;
+}
+
+.mg-primary-button__aligned svg {
+    position: absolute;
+    right: 10%;
+    top: 35%;
+}
+
+.mg-secondary-button {
+    border: 2px solid #e54545;
+    color: #e54545;
+    display: inline-block;
+    line-height: 2.5rem;
+    padding: 0 1.4rem;
+    background-color: #fff;
+}
+
+.mg-tertiary-button {
+    color: #fff;
+    background-color: #6d6f7e;
+    display: inline-block;
+    line-height: 3.6rem;
+    padding: 0 1.4rem;
+    font-size: 1rem;
+    width: 14rem;
+    position: relative;
+}
+
+.mg-tertiary-button svg {
+    position: absolute;
+    right: 10%;
+    top: 35%;
+}
+
+.mg-tertiary-button:hover {
+    color: #fff;
+    background-color: #666666;
+}
+
+.mg-tertiary-button_active {
+    background-repeat: repeat-x;
+    background-image: linear-gradient(45deg, #e13773, #ec5937);
+    background-color: #ec5937;
+    outline: none;
+}
+
+.mg-tertiary-button_passive {
+    background-color: #afafaf;
+}
+
+@import(stars.scss);
+@import(addcoupons.scss);
+@import(profile.scss);
+
+
+div.input-text > input.validation-error {
+    border: 1px solid #e54545 !important;
+    -webkit-box-shadow: 0 30px 40px rgba(175, 175, 175, 0.38);
+    box-shadow: 0 30px 40px rgba(175, 175, 175, 0.38);
+}
+
+.page-two-column {
+    padding: 5rem 0;
+    text-align: left;
+}
+
+.page-two-column .page-two-column-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fff;
+}
+
+.page-two-column .page-two-column-inner .two-column-left {
+    -webkit-box-flex: 1.2;
+    -ms-flex: 1.2;
+    flex: 1.2;
+    border-right: 1px solid #ededed;
+    position: relative;
+    min-height: 45rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .toggle-filter {
+    display: none;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu {
+    margin-top: 4.35rem;
+    padding-left: 0;
+    font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > a {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    padding: 0 0 0 2.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li.selected {
+    border-left: 0.5rem solid #e54545;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li.selected a {
+    color: #e54545;
+    padding: 0 0 0 2rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu {
+    margin-top: 1rem;
+    padding-left: 0;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu > li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu > li > a {
+    font-size: 1.2rem;
+    line-height: 3rem;
+    padding: 0 0 0 4.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu > li.selected {
+    border-left: 0.5rem solid #e54545;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu > li.selected a {
+    color: #e54545;
+    padding: 0 0 0 4rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h2 {
+    margin: 3.7rem 9% 2rem;
+    position: relative;
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    letter-spacing: -0.1rem;
+    color: #999999;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h2 a {
+    font-size: 0.9rem;
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    position: absolute;
+    bottom: 0;
+    right: 2.2rem;
+    letter-spacing: normal;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h2 a span {
+    margin-left: 1.1rem;
+    font-size: 1.4rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h3 {
+    color: #afafaf;
+    font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 2rem 10% 1rem;
+    position: relative;
+    font-size: 1.4rem;
+    padding: 0 1.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h3.price-title {
+    font-size: 1.2rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left h3.price-title > span {
+    font-size: 1rem;
+    float: right;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .search-input_wrapper {
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding: 2rem 0;
+    margin: 0 10%;
+}
+
+@import(filterlist.scss);
+
+.page-two-column .page-two-column-inner .two-column-right {
+    -webkit-box-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 4.35rem 2%;
+}
+
+.page-two-column .page-two-column-inner .two-column-right h1 {
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0 0 2rem;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.page-two-column .page-two-column-inner .two-column-right h1 span {
+    float: right;
+    font-size: 0.8rem;
+    color: #afafaf;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 0;
+}
+
+.page-two-column .page-two-column-inner .two-column-right h3.submessage {
+    color: #afafaf;
+    margin-bottom: 1.5rem;
+}
+
+@import(profile_top.scss);
+@import(notice.scss);
+@import(generic_form.scss);
+
+
+.disable_text_highlighting {
+    -webkit-user-select: none;
+    /* Webkit */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE 10  */
+    /* Currently not supported in Opera but will be soon */
+    user-select: none;
+}
+@import(calendar.scss);
+
+
+
+.section-header {
+    margin-bottom: 1rem;
+}
+
+.registered {
+    display: none;
+}
+
+body.user_registered .registered {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+body.user_registered .registered .registered--content {
+    background: #fff;
+    max-width: 500px;
+    padding: 5rem;
+    margin: 0 auto;
+    top: 10rem;
+    position: absolute;
+    left: 20rem;
+    right: 20rem;
+    text-align: center;
+}
+
+body.user_registered .registered a.trigger_registered--close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: #e54545;
+    z-index: 101;
+}
+
+body.user_registered .registered a.mg-primary-button, body.user_registered .registered a.mg-primary-button__disabled, body.user_registered .registered a.mg-primary-button__passive, body.user_registered .registered .mobile-menu ul.header-links li.menu-login a, .mobile-menu ul.header-links li.menu-login body.user_registered .registered a, body.user_registered .registered .signup-login ul.header-links_mobile li.menu-login a, .signup-login ul.header-links_mobile li.menu-login body.user_registered .registered a {
+    display: block;
+    width: 100%;
+}
+
+body.user_registered .registered a.mg-primary-button:hover, body.user_registered .registered a.mg-primary-button__disabled:hover, body.user_registered .registered a.mg-primary-button__passive:hover, body.user_registered .registered .mobile-menu ul.header-links li.menu-login a:hover, .mobile-menu ul.header-links li.menu-login body.user_registered .registered a:hover, body.user_registered .registered .signup-login ul.header-links_mobile li.menu-login a:hover, .signup-login ul.header-links_mobile li.menu-login body.user_registered .registered a:hover {
+    color: #fff;
+}
+
+body.user_registered .registered h1 {
+    margin: 1rem 0;
+}
+
+body.user_registered .registered p {
+    color: #666666;
+    margin: 1rem 0 2rem;
+}
+
+@media only screen and (max-width: 1023px) {
+    body.user_registered .registered {
+        background: #fff;
+    }
+    body.user_registered .registered .registered--content {
+        width: 100%;
+        max-width: none;
+        left: 0;
+        right: 0;
+        top: 50%;
+        margin-top: -50%;
+        bottom: 0;
+    }
+    body.user_registered .registered a.trigger_registered--close {
+        font-size: 3rem;
+        position: fixed;
+    }
+    body.user_registered .registered p {
+        font-size: 1.2rem;
+    }
+    #addCouponsModalCenter .modal-body .coupon_field {
+        width: 20px;
+        font-size: 15px;
+    }
+    #addCouponsModalCenter .modal-body .coupon_field:nth-child(4n) {
+        margin-right: 0;
+    }
+    .profile-menu-bottom {
+        position: initial;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .generic-form .form-input-triple,
+    .generic-form .form-input-double {
+        float: none;
+        width: 100%;
+    }
+    .notice ul {
+        padding-left: 0;
+    }
+    .page-two-column .page-two-column-inner {
+        display: block;
+    }
+    .page-two-column .page-two-column-inner .two-column-left {
+        display: block;
+        border-right: none;
+        min-height: unset;
+    }
+    .page-two-column .page-two-column-inner .two-column-left h2 {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .page-two-column .page-two-column-inner .two-column-left h2 a {
+        right: 0;
+    }
+    .page-two-column .page-two-column-inner .two-column-left h3 {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+    }
+    .page-two-column .page-two-column-inner .two-column-left .search-input_wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .page-two-column .page-two-column-inner .two-column-left .filter-list {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+    }
+    .page-two-column .page-two-column-inner .two-column-left-filters .toggle-filter {
+        display: inline-block;
+    }
+    .page-two-column .page-two-column-inner .two-column-left-filters .filter_by {
+        display: none;
+    }
+    .page-two-column .page-two-column-inner .two-column-right {
+        display: block;
+        padding: 0;
+    }
+    .select-style select {
+        padding: 0 1rem;
+    }
+}
+
+.font-roboto {
+    font-family: 'Roboto';
+}
+
+header {
+    background-color: #fff;
+}
+
+header .logo_wrapper {
+    line-height: 7.6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header .logo_wrapper a.header-logo {
+    color: #e54545;
+}
+
+header .logo_wrapper a.header-logo img {
+    height: 3.5rem;
+}
+
+header .header-navigation_wrapper {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header .header-navigation_wrapper ul.header-navigation {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+header .header-navigation_wrapper ul.header-navigation > li {
+    line-height: 7.3rem;
+    list-style: none;
+    float: left;
+    display: inline;
+    margin-left: 4.3rem;
+    font-size: 1.1rem;
+}
+
+header .header-navigation_wrapper ul.header-navigation > li:first-child {
+    margin-left: 0;
+}
+
+header .header-navigation_wrapper ul.header-navigation > li a {
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #999999;
+}
+
+header .header-navigation_wrapper ul.header-navigation > li a.active {
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #e54545;
+}
+
+header .header-links_wrapper {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header .header-links_wrapper .submenu-trigger {
+    position: relative;
+}
+
+header .header-links_wrapper .submenu-trigger > a > span .fa-caret-up {
+    display: none;
+}
+
+header .header-links_wrapper div.arrow_box {
+    display: none;
+    position: absolute;
+    width: 10rem;
+    background: #fff;
+    z-index: 20;
+    right: 0;
+    border: 2px solid #e54545;
+    left: -1rem;
+}
+
+header .header-links_wrapper div.arrow_box > a {
+    padding: 5px 15px;
+    display: block;
+}
+
+header .header-links_wrapper div.arrow_box.active {
+    display: block;
+}
+
+header .header-links_wrapper .arrow_box:after, header .header-links_wrapper .arrow_box:before {
+    bottom: 100%;
+    left: 2rem;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+header .header-links_wrapper .arrow_box:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ffffff;
+    border-width: 7px;
+    margin-left: -7px;
+}
+
+header .header-links_wrapper .arrow_box:before {
+    border-color: rgba(229, 69, 69, 0);
+    border-bottom-color: #e54545;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+header .header-links_wrapper ul.header-links {
+    padding-left: 0;
+    margin-top: 2.6rem;
+    margin-bottom: 0;
+    float: right;
+}
+
+header .header-links_wrapper ul.header-links > li {
+    line-height: 2.6rem;
+    margin-right: 1.25rem;
+    font-size: 1.1rem;
+    list-style: none;
+    float: left;
+    display: inline;
+    margin-left: 0.625rem;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box {
+    width: 20rem;
+    right: -1rem;
+    left: auto;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box .profile-menu-bottom {
+    position: initial;
+    padding: 0;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box .profile-menu-bottom > div.existing-coupons .left h5 {
+    margin: 0;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box .profile-menu-bottom > div.existing-coupons .left a {
+    padding-bottom: 0;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box:after {
+    right: 2.25rem;
+    left: auto;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box:before {
+    right: 2rem;
+    left: auto;
+}
+
+header .header-links_wrapper ul.header-links > li:first-child {
+    margin-left: 0;
+}
+
+header .header-links_wrapper ul.header-links > li a {
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #999999;
+}
+
+header .header-links_wrapper ul.header-links > li a.active {
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #e54545;
+}
+
+.main-content_wrapper {
+    max-width: 1920px;
+    background: #f4f5fa;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+@import(mobile_menu.css);
+@import(signup_login.css);
+@import(footer.css);
+@import(middle_wrapper.css);
+@import(listing.css);
+@import(page_detail.css);
+@import(booking_detail.css);
+@import(booking_complete.css);
+@import(howitworks.css);
+@import(content_page.css);
+@import(receipt.css);
+@import(faq_panel.css);
+
+
+
+
+
+/* New CSS */
+.migoda-alert {
+    text-align: left;
+    margin-bottom: 10px;
+
+    .mg-section {
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+}
+
+.g-recaptcha > div {
+    display: table;
+    margin: 0 auto;
+}
+
+.middle-categories_wrapper .middle-categories > div a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.flexyInput {
+    flex: 1;
+}
+
+.doSearchButton {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.floatingButton {
+    position: sticky;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #e13773, #ec5937);
+    background-color: #ec5937;
+    border: 0;
+
+    &:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper a.add-to-wishlist img {
+    position: relative;
+    top: -2px;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .mg-tertiary-button {
+    text-decoration: none;
+}
+
+.page-two-column .page-two-column-inner .two-column-right .listing-item .listing-item_right .right-bottom-wrapper .mg-tertiary-button img {
+    height: 48px;
+}
+
+.floatingIsland {
+    margin-top: 1rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left form {
+    position: relative;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .search-input_wrapper button {
+    color: #fff;
+    display: inline-block;
+    line-height: 34px;
+    padding: 0 16px;
+    position: relative;
+    border: 0;
+    margin: 0.25rem 0;
+    background-image: linear-gradient(45deg, #e13773, #ec5937);
+    background-color: #ec5937;
+}
+.middle-hiw_desc .middle-hiw_wrapper .middle-hiw > div {
+    cursor:default !important;
+}
+.switch_signup-login.handButton {
+    cursor:pointer !important;
+}
+.handButton {
+    cursor:pointer !important;
+}
+.signup-login__right input[type=text], .signup-login__right input[type=password] {
+    cursor:pointer !important;
+}
+.main-content_wrapper.about-us{
+  background: #FFF;
+}
+.about-us-desc{
+  margin-top: 10%;
+  margin-left: 12%;
+  margin-right: 10%;
+  display: flex;
+  margin: 10% 10% 5% 12%;
+}
+.about-us-desc .col-6:nth-of-type(2){
+  text-align: left;
+}
+.about-us-desc p.bold{
+  font-family: "Futura ND";
+  font-weight: 500;
+  line-height: 27px;
+}
+.about-us-desc h2{
+  color: #6d6f7e;
+  font-family: "Futura ND Demibold";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+.about-us-desc p{
+  color: #6d6f7e;
+  font-family: "Futura ND Book";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+}
+.about-us-title{
+  text-align: left;
+  background-color: #6d6f7e;
+  background-image: linear-gradient(18deg, #ff4d1d 0%, #f30e75 100%);
+  padding-top: 38px;
+  padding-bottom: 38px;
+  margin-bottom: -5%;
+  margin-top: -5%;
+  color:#fff;
+  box-shadow: 0px 0px 5px #f30e75, 0px 0px 50px #f30e75, 0px 0px 10px #ff4d1d;
+   }
+.about-us-title h2{
+  color: #ffffff;
+  font-family: "Futura ND Light";
+  font-size: 46px;
+  font-weight: 400;
+  margin-left: 30%;
+}
+.about-us-title p{
+  font-family: "Futura ND Demibold";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 43px;
+  margin-left: 30%;
+  margin-bottom: 0;
+}
+.about-us-hero{
+  background-image: url("../images/pages/about-bg.png");
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-size: auto;
+  background-position: center;
+}
+.about-us-hero .mg-section:first-child{
+  margin-top: 43px;
+}
+.about-us-hero h2{
+  color: #ffffff;
+  font-family: "Futura ND Demibold";
+  font-size: 50px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom:20px;
+}
+.about-us-hero p{
+  text-align: left;
+  color: #ffffff;
+  font-family: "Futura ND Book";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.user-profile-pic{
+    border: 2px solid #e54545;
+    padding: 3px;
+}

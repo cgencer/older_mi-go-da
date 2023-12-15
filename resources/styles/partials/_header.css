@@ -1,0 +1,323 @@
+
+
+.section-header {
+    margin-bottom: 1rem;
+}
+
+.registered {
+    display: none;
+}
+
+body.user_registered .registered {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+body.user_registered .registered .registered--content {
+    background: #fff;
+    max-width: 500px;
+    padding: 5rem;
+    margin: 0 auto;
+    top: 10rem;
+    position: absolute;
+    left: 20rem;
+    right: 20rem;
+    text-align: center;
+}
+
+body.user_registered .registered a.trigger_registered--close {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: #e54545;
+    z-index: 101;
+}
+
+body.user_registered .registered a.mg-primary-button, body.user_registered .registered a.mg-primary-button__disabled, body.user_registered .registered a.mg-primary-button__passive, body.user_registered .registered .mobile-menu ul.header-links li.menu-login a, .mobile-menu ul.header-links li.menu-login body.user_registered .registered a, body.user_registered .registered .signup-login ul.header-links_mobile li.menu-login a, .signup-login ul.header-links_mobile li.menu-login body.user_registered .registered a {
+    display: block;
+    width: 100%;
+}
+
+body.user_registered .registered a.mg-primary-button:hover, body.user_registered .registered a.mg-primary-button__disabled:hover, body.user_registered .registered a.mg-primary-button__passive:hover, body.user_registered .registered .mobile-menu ul.header-links li.menu-login a:hover, .mobile-menu ul.header-links li.menu-login body.user_registered .registered a:hover, body.user_registered .registered .signup-login ul.header-links_mobile li.menu-login a:hover, .signup-login ul.header-links_mobile li.menu-login body.user_registered .registered a:hover {
+    color: #fff;
+}
+
+body.user_registered .registered h1 {
+    margin: 1rem 0;
+}
+
+body.user_registered .registered p {
+    color: #666666;
+    margin: 1rem 0 2rem;
+}
+
+@media only screen and (max-width: 1023px) {
+    body.user_registered .registered {
+        background: #fff;
+    }
+    body.user_registered .registered .registered--content {
+        width: 100%;
+        max-width: none;
+        left: 0;
+        right: 0;
+        top: 50%;
+        margin-top: -50%;
+        bottom: 0;
+    }
+    body.user_registered .registered a.trigger_registered--close {
+        font-size: 3rem;
+        position: fixed;
+    }
+    body.user_registered .registered p {
+        font-size: 1.2rem;
+    }
+    #addCouponsModalCenter .modal-body .coupon_field {
+        width: 20px;
+        font-size: 15px;
+    }
+    #addCouponsModalCenter .modal-body .coupon_field:nth-child(4n) {
+        margin-right: 0;
+    }
+    .profile-menu-bottom {
+        position: initial;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .generic-form .form-input-triple,
+    .generic-form .form-input-double {
+        float: none;
+        width: 100%;
+    }
+    .notice ul {
+        padding-left: 0;
+    }
+    .page-two-column .page-two-column-inner {
+        display: block;
+    }
+    .page-two-column .page-two-column-inner .two-column-left {
+        display: block;
+        border-right: none;
+        min-height: unset;
+    }
+    .page-two-column .page-two-column-inner .two-column-left h2 {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .page-two-column .page-two-column-inner .two-column-left h2 a {
+        right: 0;
+    }
+    .page-two-column .page-two-column-inner .two-column-left h3 {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+    }
+    .page-two-column .page-two-column-inner .two-column-left .search-input_wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .page-two-column .page-two-column-inner .two-column-left .filter-list {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+    }
+    .page-two-column .page-two-column-inner .two-column-left-filters .toggle-filter {
+        display: inline-block;
+    }
+    .page-two-column .page-two-column-inner .two-column-left-filters .filter_by {
+        display: none;
+    }
+    .page-two-column .page-two-column-inner .two-column-right {
+        display: block;
+        padding: 0;
+    }
+    .select-style select {
+        padding: 0 1rem;
+    }
+}
+
+.font-roboto {
+    font-family: 'Roboto';
+}
+
+header {
+    background-color: #fff;
+}
+
+header .logo_wrapper {
+    line-height: 7.6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header .logo_wrapper a.header-logo {
+    color: #e54545;
+}
+
+header .logo_wrapper a.header-logo img {
+    height: 3.5rem;
+}
+
+header .header-navigation_wrapper {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header .header-navigation_wrapper ul.header-navigation {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+header .header-navigation_wrapper ul.header-navigation > li {
+    line-height: 7.3rem;
+    list-style: none;
+    float: left;
+    display: inline;
+    margin-left: 4.3rem;
+    font-size: 1.1rem;
+}
+
+header .header-navigation_wrapper ul.header-navigation > li:first-child {
+    margin-left: 0;
+}
+
+header .header-navigation_wrapper ul.header-navigation > li a {
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #999999;
+}
+
+header .header-navigation_wrapper ul.header-navigation > li a.active {
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #e54545;
+}
+
+header .header-links_wrapper {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header .header-links_wrapper .submenu-trigger {
+    position: relative;
+}
+
+header .header-links_wrapper .submenu-trigger > a > span .fa-caret-up {
+    display: none;
+}
+
+header .header-links_wrapper div.arrow_box {
+    display: none;
+    position: absolute;
+    width: 10rem;
+    background: #fff;
+    z-index: 20;
+    right: 0;
+    border: 2px solid #e54545;
+    left: -1rem;
+}
+
+header .header-links_wrapper div.arrow_box > a {
+    padding: 5px 15px;
+    display: block;
+}
+
+header .header-links_wrapper div.arrow_box.active {
+    display: block;
+}
+
+header .header-links_wrapper .arrow_box:after, header .header-links_wrapper .arrow_box:before {
+    bottom: 100%;
+    left: 2rem;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+header .header-links_wrapper .arrow_box:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ffffff;
+    border-width: 7px;
+    margin-left: -7px;
+}
+
+header .header-links_wrapper .arrow_box:before {
+    border-color: rgba(229, 69, 69, 0);
+    border-bottom-color: #e54545;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+header .header-links_wrapper ul.header-links {
+    padding-left: 0;
+    margin-top: 2.6rem;
+    margin-bottom: 0;
+    float: right;
+}
+
+header .header-links_wrapper ul.header-links > li {
+    line-height: 2.6rem;
+    font-size: 1.1rem;
+    list-style: none;
+    float: left;
+    display: inline;
+    margin-left: 0.625rem;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box {
+    width: 20rem;
+    right: -1rem;
+    left: auto;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box .profile-menu-bottom {
+    position: initial;
+    padding: 0;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box .profile-menu-bottom > div.existing-coupons .left h5 {
+    margin: 0;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box .profile-menu-bottom > div.existing-coupons .left a {
+    padding-bottom: 0;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box:after {
+    right: 2.25rem;
+    left: auto;
+}
+
+header .header-links_wrapper ul.header-links > li.menu-profile div.arrow_box:before {
+    right: 2rem;
+    left: auto;
+}
+
+header .header-links_wrapper ul.header-links > li:first-child {
+    margin-left: 0;
+}
+
+header .header-links_wrapper ul.header-links > li a {
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #999999;
+
+}
+
+header .header-links_wrapper ul.header-links > li a.active {
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #e54545;
+}

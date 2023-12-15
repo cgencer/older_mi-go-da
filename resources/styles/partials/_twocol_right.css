@@ -1,0 +1,29 @@
+
+.page-two-column .page-two-column-inner .two-column-right {
+    -webkit-box-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 4.35rem 2%;
+}
+
+.page-two-column .page-two-column-inner .two-column-right h1 {
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0 0 2rem;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.page-two-column .page-two-column-inner .two-column-right h1 span {
+    float: right;
+    font-size: 0.8rem;
+    color: #afafaf;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 0;
+}
+
+.page-two-column .page-two-column-inner .two-column-right h3.submessage {
+    color: #afafaf;
+    margin-bottom: 1.5rem;
+}

@@ -1,0 +1,11 @@
+<h3>Your reservation is approved!</h3>
+
+Hi {{ name }}! Your reservation is approved! Now you can proceed with payment! <br/>
+
+To login, go to: <a href="{{ url('homepage') }}">migoda</a>.<br/>
+To proceed with your reservation, go to <a href="{{ url('payment', {'reservation_guid': reservation_guid}) }}">payment</a>.<br/>
+
+Thanks!<br/><br/>
+
+{# Makes an absolute URL to the /images/logo.png file #}
+<img src="{{ absolute_url(asset('bundles/app/images/migoda.png')) }}">

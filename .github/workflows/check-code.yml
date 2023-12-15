@@ -1,0 +1,91 @@
+name: Check Code
+
+on:
+  pull_request:
+    branches: [ master, production ]
+
+jobs:
+  build-js-css:
+    name: Build Js/Css
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1
+      - name: Yarn Build
+        run: |
+          yarn install
+          yarn prod
+          cat public/mix-manifest.json
+      - name: Upload build files
+        uses: actions/upload-artifact@v1
+        with:
+          name: assets
+          path: public
+  test-code:
+    runs-on: ubuntu-18.04
+    container:
+      image: kirschbaumdevelopment/laravel-test-runner:7.4
+    needs: build-js-css
+
+    services:
+      mysql:
+        image: mysql:5.7
+        env:
+          MYSQL_ALLOW_EMPTY_PASSWORD: yes
+          MYSQL_DATABASE: test
+        ports:
+          - 33306:3306
+        options: --health-cmd="mysqladmin ping" --health-interval=10s --health-timeout=5s --health-retries=3
+    env:
+      PHP_VERSION: '7.4'
+    name: Test PHP & Code
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ env.PHP_VERSION }}
+          extensions: bcmath, ctype, dom, fileinfo, intl, gd, json, mbstring, pdo, pdo_sqlite, openssl, sqlite, xml, zip
+        env:
+          runner: ubuntu-18.04
+
+      - name: Validate composer.json and composer.lock
+        run: composer validat
+      - name: Get composer cache directory
+        id: composercache
+        run: echo "::set-output name=dir::$(composer config cache-files-dir)"
+
+      - name: Cache Composer packages
+        id: composer-cache
+        uses: actions/cache@v2
+        with:
+          path: ${{ steps.composercache.outputs.dir }}
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: ${{ runner.os }}-composer-
+
+      - name: Install composer packages
+        run: php composer.phar install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+
+      - name: Create Env File
+        run: php -r "file_exists('.env') || copy('.env.test', '.env');"
+
+      - name: Bootstrap Cache Directory
+        run: |
+          php -r "file_exists('bootstrap/cache') || mkdir('bootstrap/cache');"
+
+      - name: Directory Permissions
+        run: chmod -R 777 storage bootstrap/cache
+
+      - name: Migrate
+        run: php artisan migrate
+
+      #      - name: DB Import
+      #        run: |
+      #          mysql -h mysql --port 3306 --user="root" --database="test" < "./database/db.sql"
+
+      - name: Generate key
+        run: php artisan key:generate
+
+      - name: Tests Coverage
+        run: vendor/bin/pest

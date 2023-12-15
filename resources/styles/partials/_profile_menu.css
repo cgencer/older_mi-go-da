@@ -1,0 +1,159 @@
+
+.profile-menu{
+    min-width: 330px;
+}
+
+.profile-menu-bottom {
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  width: 100%;
+}
+
+.profile-menu-bottom > div {
+  height: 5.5rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #f4f5fa;
+  position: relative;
+}
+
+.profile-menu-bottom > div .left h5 {
+  color: #666666;
+}
+
+.profile-menu-bottom > div .left a {
+  text-decoration: underline;
+}
+
+.profile-menu-bottom > div .coupon-box-inner {
+  float: right;
+  line-height: 3.2rem;
+  width: 9rem;
+  font-size: 1.8rem;
+  color: white;
+  padding-right: 0.4rem;
+  text-align: right;
+  height: 5rem;
+  position: absolute;
+  right: 0;
+  top: 0.5rem;
+  background: url("../images/coupon-active.png") no-repeat top left transparent;
+  background-size: contain;
+}
+
+.profile-menu-bottom > div .coupon-box-inner .inner {
+  width: 3.9rem;
+  text-align: center;
+  float: right;
+  line-height: 4.5rem;
+}
+
+.profile-menu-bottom > div.used-coupons .coupon-box-inner {
+  background: url("../images/coupon-passive.png") no-repeat top left transparent;
+  background-size: contain;
+}
+
+.profile-menu-bottom > div.existing-coupons .left a {
+  background: url("../images/coupon-active-add.png") no-repeat left -1px transparent;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  color: #e54545;
+  text-decoration: underline;
+}
+
+div.input-text > input.validation-error {
+  border: 1px solid #e54545 !important;
+  -webkit-box-shadow: 0 30px 40px rgba(175, 175, 175, 0.38);
+  box-shadow: 0 30px 40px rgba(175, 175, 175, 0.38);
+}
+
+.page-two-column {
+  padding: 5rem 0;
+  text-align: left;
+}
+
+.page-two-column .page-two-column-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+}
+
+.page-two-column .page-two-column-inner .two-column-left {
+  -webkit-box-flex: 1.2;
+  -ms-flex: 1.2;
+  flex: 1.2;
+  border-right: 1px solid #ededed;
+  position: relative;
+  min-height: 45rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left .toggle-filter {
+  display: none;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu {
+    margin-top: 4.35rem;
+    padding-left: 0;
+    font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > a {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    padding: 0 0 0 2.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li.selected > a{
+    border-left: 0.5rem solid #e54545;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li.selected a {
+    color: #e54545;
+    padding: 0 0 0 2rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu {
+    margin-top: 1rem;
+    padding-left: 0;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu > li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu > li > a {
+    font-size: 1.2rem;
+    line-height: 3rem;
+    padding: 0 0 0 4.5rem;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu > li.selected > a {
+    border-left: 0.5rem solid #e54545;
+}
+
+.page-two-column .page-two-column-inner .two-column-left ul.profile-menu > li > ul.profile-sub-menu > li.selected a {
+    color: #e54545;
+    padding: 0 0 0 4rem;
+}
+
+.futura-bolder{
+    font-family: 'Futura ND Bold';
+}
+
+
+@media screen and (max-width: 1366px){
+    .content-page .pages-title{
+        padding-left: 40px!important;
+    }
+    .content-page .pages-content{
+        padding: 40px!important;
+    }
+}

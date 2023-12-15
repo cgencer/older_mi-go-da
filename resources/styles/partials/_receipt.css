@@ -1,0 +1,153 @@
+
+.receipt-content {
+    color: #afafaf;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
+    margin: 1rem 0;
+}
+
+.receipt-content .middle_left {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 1px solid #ededed;
+    padding: 1.2rem 0;
+}
+
+.receipt-content .middle_right_top {
+    padding: 1rem;
+    border: 1px solid #ededed;
+}
+
+.receipt-content .middle_right_top .total_row_twolines {
+    background-color: #ededed;
+}
+
+.receipt-content .middle_right_bottom {
+    padding: 1rem;
+    border: 1px solid #ededed;
+}
+
+.receipt-content .bottom_right img {
+    float: right;
+    width: 13rem;
+    opacity: 0.8;
+}
+
+.receipt-content .calendar-wrapper {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+}
+
+.receipt-content .calendar-wrapper .blocks-wrapper {
+    color: #999999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    padding: 1.5em 0;
+    margin: 0 2em;
+    border-bottom: 1px solid #ededed;
+}
+
+.receipt-content .calendar-wrapper .blocks-wrapper > div {
+    width: 50%;
+}
+
+.receipt-content .calendar-wrapper .blocks-wrapper h5 {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.receipt-content .calendar-wrapper .blocks-wrapper h4 {
+    font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.3rem;
+    margin: 0;
+    padding-top: 0.5rem;
+}
+
+.receipt-content .calendar-wrapper .blocks-wrapper .blocks-right {
+    border-left: 1px solid #ededed;
+    padding-left: 2rem;
+}
+
+.receipt-content .calendar-wrapper .extras {
+    margin: 0 2rem;
+    padding: 0.7rem 0;
+}
+
+.receipt-content .calendar-wrapper .extras .extra {
+    color: #666666;
+}
+
+.receipt-content .calendar-wrapper .extras .extra .extra_price {
+    font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+.receipt-content .calendar-wrapper .extras .extra .extra_title {
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.receipt-content .calendar-wrapper .extras .extra .extra_title .extra_subtitle {
+    font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.receipt-content .calendar-wrapper .extras#total_price .extra .extra_title {
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.7rem;
+}
+
+.receipt-content .calendar-wrapper .extras#total_price .extra .extra_price {
+    font-family: "Futura ND Book", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.receipt-content .total_blocks {
+    font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.receipt-content .total_blocks > h3, .receipt-content .total_blocks > div {
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+}
+
+.receipt-content .total_blocks h3 {
+    color: #666666;
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.receipt-content .total_blocks .total_row .right {
+    float: right;
+}
+
+.receipt-content .total_blocks .total_row .right.right_larger {
+    font-size: 2rem;
+}
+
+.receipt-content .total_blocks .total_row.total_row_twolines .top, .receipt-content .total_blocks .total_row.total_row_twolines .bottom {
+    display: block;
+}
+
+.receipt-content .total_blocks .total_row.total_row_twolines .top {
+    font-size: 1rem;
+}
+
+.receipt-content .total_blocks .total_row.total_row_twolines .top.top_bolder {
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color: #666666;
+}
+
+.receipt-content .total_blocks .total_row.total_row_twolines .bottom {
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 1023px) {
+    .receipt-content {
+        grid-template-columns: 1fr;
+    }
+}

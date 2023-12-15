@@ -1,0 +1,23 @@
+
+.how-it-works {
+    padding: 10em 0;
+    background: url("../images/pages/how-it-works_bg.png") no-repeat top center #fff;
+    border-bottom: 1px solid rgba(237, 237, 237, 0.5);
+}
+
+.how-it-works .content-image {
+    width: 100%;
+    max-width: 1391px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1023px) {
+    .how-it-works {
+        background: url("../images/pages/how-it-works_mobile_bg.png") no-repeat top center #fff;
+        background-size: contain;
+    }
+    .how-it-works .content-image {
+        width: 100%;
+        max-width: 720px;
+    }
+}

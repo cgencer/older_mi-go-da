@@ -1,0 +1,318 @@
+
+.faq-panel .panel .panel-heading a {
+    display: inline-block;
+    width: 100%;
+    border: 2px solid #d6d6d6;
+    background-color: #ffffff;
+    padding: 35px 90px 31px 40px;
+    text-decoration: none;
+    position: relative;
+}
+
+.faq-panel .panel .panel-heading a:after {
+    position: absolute;
+    top: 44px;
+    right: 37px;
+    content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NSIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDQ1IDE3Ij48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InJnNHhhIiB4MT0iMjkuMDEiIHgyPSIxNS45NSIgeTE9IjE2Ljk5IiB5Mj0iLjY2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjZWQ1YjMzIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZTEzNjc1Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PGc+PGc+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIxLjEzMiAxNi41OTdMLjU5NiAzLjE5NkMtMS4yMjggMi4wNTcgMS4xNzYtLjE5IDMgMWM2LjM0NSA0LjE0IDEzLjA4MSA4LjY2IDE5LjQ4IDEyLjg1M0MyOC44ODUgOS42NiAzNS42NTUgNS4xNDEgNDIgMWMxLjc0NC0xLjE5IDQuMTg4IDEuMDA1IDIuMzY1IDIuMTk2LTYuODIgNC40NS0xMy42MzggOC45NTEtMjAuNDU3IDEzLjQwMS0uNDQuMjg4LS45MzYuNC0xLjQxLjM4OS0uNDY0LjAxMS0uOTQ1LS4xMDEtMS4zNjYtLjM4OXoiLz48cGF0aCBmaWxsPSJ1cmwoI3JnNHhhKSIgZD0iTTIxLjEzMiAxNi41OTdMLjU5NiAzLjE5NkMtMS4yMjggMi4wNTcgMS4xNzYtLjE5IDMgMWM2LjM0NSA0LjE0IDEzLjA4MSA4LjY2IDE5LjQ4IDEyLjg1M0MyOC44ODUgOS42NiAzNS42NTUgNS4xNDEgNDIgMWMxLjc0NC0xLjE5IDQuMTg4IDEuMDA1IDIuMzY1IDIuMTk2LTYuODIgNC40NS0xMy42MzggOC45NTEtMjAuNDU3IDEzLjQwMS0uNDQuMjg4LS45MzYuNC0xLjQxLjM4OS0uNDY0LjAxMS0uOTQ1LS4xMDEtMS4zNjYtLjM4OXoiLz48L2c+PC9nPjwvc3ZnPg== ");
+}
+.faq-panel .panel .panel-heading a[aria-expanded="true"] {
+    -webkit-box-shadow: 0 21px 43px rgba(0, 0, 0, 0.28);
+    box-shadow: 0 21px 43px rgba(0, 0, 0, 0.28);
+    background-color: #ffffff;
+    background-image: linear-gradient(8deg, #ff4d1d 0%, #f30e75 100%);
+    border: 0;
+    color: #fff;
+    padding: 37px 92px 33px 40px;
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded="true"]:after {
+    content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NSIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDQ1IDE2Ij48Zz48Zz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMjMuODUxLjM5NGwyMC41MjIgMTMuMTJjMS44MjMgMS4xMTQtLjU4IDMuMzE0LTIuNDAyIDIuMTVDMzUuNjMgMTEuNjEgMjguODk5IDcuMTg1IDIyLjUwNCAzLjA4Yy02LjQgNC4xMDUtMTMuMTY1IDguNTI5LTE5LjUwNiAxMi41ODItMS43NDMgMS4xNjUtNC4xODUtLjk4NC0yLjM2My0yLjE1QzcuNDQ5IDkuMTU4IDE0LjI2NCA0Ljc1MiAyMS4wNzcuMzk1Yy40NC0uMjgxLjkzNi0uMzkxIDEuNDEtLjM4LjQ2My0uMDExLjk0My4wOTkgMS4zNjQuMzh6Ii8+PC9nPjwvZz48L3N2Zz4= ");
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded="true"] i {
+    color: #fff;
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded="true"] i i {
+    color: #fff;
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded="true"] i i:before {
+    color: #fff;
+}
+
+.faq-panel .panel .panel-heading a[aria-expanded="true"] span {
+    color: #fff;
+}
+
+.faq-panel .panel .panel-heading a:hover {
+    text-decoration: none;
+}
+
+.faq-panel .panel .panel-heading a i {
+    margin-right: 20px;
+    font-size: 42px;
+    position: relative;
+    top: 6px;
+    color: #ea3f24;
+}
+
+.faq-panel .panel .panel-heading a i i {
+    margin: 0;
+    font-size: 100%;
+    top: initial;
+    position: initial;
+    color: initial;
+    font-style: normal;
+}
+
+.faq-panel .panel .panel-heading a span {
+    color: #6d6f7e;
+    font-family: "Futura ND Demibold";
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.faq-panel .panel .panel-collapse {
+    padding-bottom: 30px;
+}
+
+.faq-panel .panel-heading {
+    .panel-title {
+        margin-top: 0;
+        margin-bottom: 0;
+
+        a {
+            width: 100%;
+            display: inline-block;
+            position: relative;
+            height: 114px;
+            border: 2px solid #d6d6d6;
+            background-color: #ffffff;
+            padding: 40px 90px 40px 40px;
+            margin-top: 0;
+            margin-bottom: 28px;
+
+            .icon {
+                width: auto;
+                text-align: left;
+                margin-right: 20px;
+                float: left;
+
+                img {
+                    position: relative;
+                    top: -2px;
+                    display: none;
+
+                    &.colored {
+                        display: block;
+                    }
+                }
+
+                & + span {
+                    line-height: 42px;
+                }
+            }
+
+            &[aria-expanded=true] {
+                padding: 40px 90px 40px 40px;
+
+                .icon {
+                    img {
+                        display: none;
+
+                        &.white {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.faq-panel .panel-heading .panel-title a {
+    padding: 34px 90px 45px 100px;
+
+    .icon {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        height: 100%;
+        vertical-align: middle;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        img{
+            top: 0px;
+        }
+    }
+}
+.faq-panel .panel-heading .panel-title a[aria-expanded="true"] {
+    padding: 36px 90px 43px 100px !important;
+}
+
+/*Yenisi*/
+
+.faq-panel2 .panel .panel-heading a {
+    display: inline-block;
+    width: 100%;
+    border: 2px solid #d6d6d6;
+    background-color: red;
+    padding: 35px 90px 31px 40px;
+    text-decoration: none;
+    position: relative;
+}
+
+
+.faq-panel2 .panel-body p {
+    font-family: 'Futura ND Book';
+    font-weight: 100;
+}
+
+.faq-panel2 .panel .panel-heading a:after {
+    position: absolute;
+    right: 37px;
+    top: 17px;
+    font-size: 14px;
+    color: #6e6f7e;
+    font-family: "FontAwesome";
+    content: '\F078';
+}
+.faq-panel2 .panel .panel-heading a[aria-expanded="true"] {
+    background-color: #ffffff;
+    border: 0;
+    color: #000;
+    padding: 10px 0px 10px 0px;
+}
+
+.faq-panel2 .panel .panel-heading a[aria-expanded="true"]:after {
+    content: '\F077';
+}
+
+.faq-panel2 .panel .panel-heading a[aria-expanded="true"] i {
+    color: #fff;
+}
+
+.faq-panel2 .panel .panel-heading a[aria-expanded="true"] i i {
+    color: #fff;
+}
+
+.faq-panel2 .panel .panel-heading a[aria-expanded="true"] i i:before {
+    color: #fff;
+}
+
+.faq-panel2 .panel .panel-heading a[aria-expanded="true"] span {
+    color: #6d6f7e;
+}
+
+.faq-panel2 .panel .panel-heading a:hover {
+    text-decoration: none;
+}
+
+.faq-panel2 .panel .panel-heading a i {
+    margin-right: 20px;
+    font-size: 42px;
+    position: relative;
+    top: 6px;
+    color: #ea3f24;
+}
+
+.faq-panel2 .panel .panel-heading a i i {
+    margin: 0;
+    font-size: 100%;
+    top: initial;
+    position: initial;
+    color: initial;
+    font-style: normal;
+}
+
+.faq-panel2 .panel .panel-heading a span {
+    color: #999999;
+    font-family: Futura ND ,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 22px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.faq-panel2 .panel .panel-collapse {
+    padding-bottom: 30px;
+}
+
+.faq-panel2 .panel-heading {
+    .panel-title {
+        margin-top: 0;
+        margin-bottom: 0;
+
+        a {
+            width: 100%;
+            display: inline-block;
+            position: relative;
+            height: 50px;
+            border: none;
+            border-bottom: 1px solid rgba(56,74,211,0.2) !important;
+            background-color: #ffffff;
+            padding: 10px 0px 10px 0px;
+            margin-top: 0;
+
+            .icon {
+                width: auto;
+                text-align: left;
+                margin-right: 20px;
+                float: left;
+
+                img {
+                    position: relative;
+                    top: -2px;
+                    display: none;
+
+                    &.colored {
+                        display: block;
+                    }
+                }
+
+                & + span {
+                    line-height: 42px;
+                }
+            }
+
+            &[aria-expanded=true] {
+                padding: 10px 0px 10px 0px;
+
+                a {
+                    color: #000;
+                }
+
+                .icon {
+                    img {
+                        display: none;
+
+                        &.white {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.faq-panel2 .panel-heading .panel-title a {
+
+
+    .icon {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        height: 100%;
+        vertical-align: middle;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        img{
+            top: 0px;
+        }
+    }
+}
+/*Yenisi*/

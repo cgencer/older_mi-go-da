@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="add_icon" data-name="add icon" class="cls-1" d="M1557,938v-8h-8a1,1,0,1,1,0-2h8v-8a1,1,0,0,1,2,0v8h8a1,1,0,1,1,0,2h-8v8a1,1,0,0,1-2,0Z" transform="translate(-1548 -919)"/>
+</svg>

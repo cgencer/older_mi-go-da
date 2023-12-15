@@ -1,0 +1,333 @@
+.signup-login {
+    -webkit-transition: -webkit-transform .3s ease 0s;
+    transition: -webkit-transform .3s ease 0s;
+    transition: transform .3s ease 0s;
+    transition: transform .3s ease 0s, -webkit-transform .3s ease 0s;
+    transition: transform .3s ease 0s, -webkit-transform .3s ease 0s;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-color: #fff;
+}
+
+.signup-login ul.header-links_mobile {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 2.5rem 2.5rem 0;
+    left: 0;
+    right: 0;
+}
+
+.signup-login ul.header-links_mobile li {
+    line-height: 6rem;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.signup-login ul.header-links_mobile li.menu-login a {
+    height: auto;
+}
+
+.signup-login ul.header-links_mobile li a {
+    font-size: 1.5rem !important;
+    line-height: 4.5rem !important;
+    width: 100% !important;
+    text-align: center;
+    display: block;
+}
+
+.signup-login ul.header-links_mobile li.menu-language {
+    text-align: center;
+}
+
+.signup-login ul.header-links_mobile li.menu-language a {
+    display: inline-block;
+    width: auto !important;
+    line-height: 2.5rem !important;
+}
+
+.signup-login ul.header-links_mobile li.menu-language a>span {
+    display: none;
+}
+
+.signup-login ul.header-links_mobile li.menu-language>div {
+    display: inline-block;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    border-left: 1px solid #ededed;
+    line-height: 2.5rem !important;
+}
+
+.signup-login .signup-login_close_desktop {
+    float: left;
+    margin-top: 2.6rem;
+    line-height: 2.6rem;
+}
+
+.signup-login .signup-login__left {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: url("../images/pages/signup-leftimg.png") no-repeat center left transparent;
+    width: 100%;
+}
+
+.signup-login .signup-login__left h3 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: "Futura ND Demibold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    top: 10%;
+    position: fixed;
+    left: 10rem;
+}
+
+.signup-login .signup-login__right {
+    z-index: 3;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: none;
+    padding: 0;
+}
+
+.signup-login .signup-login__right .signup-login__right-empty {
+    -webkit-box-flex: 10;
+    -ms-flex: 10;
+    flex: 10;
+}
+
+.signup-login .signup-login__right .signup-login__right-content {
+    -webkit-box-flex: 5;
+    -ms-flex: 5;
+    flex: 5;
+    background: #fff;
+    overflow-y: scroll;
+    padding-top: 5rem;
+}
+
+.signup-login .signup-login__form_wrapper {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.signup-login .signup-login__form_wrapper .signup-login__logo {
+    display: block;
+    margin-bottom: 3rem;
+}
+
+.signup-login .signup-login__form_wrapper .login_form,
+.signup-login .signup-login__form_wrapper .signup_form,
+.signup-login .signup-login__form_wrapper .forgotten_form {
+    width: 100%;
+    text-align: left;
+}
+
+.signup-login .signup-login__form_wrapper .login_form input,
+.signup-login .signup-login__form_wrapper .signup_form input,
+.signup-login .signup-login__form_wrapper .forgotten_form input {
+    background: none;
+}
+
+.signup-login .signup-login__form_wrapper .login_form .another-coupon-action,
+.signup-login .signup-login__form_wrapper .signup_form .another-coupon-action,
+.signup-login .signup-login__form_wrapper .forgotten_form .another-coupon-action {
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.signup-login .signup-login__form_wrapper .login_form .another-coupon-action a,
+.signup-login .signup-login__form_wrapper .signup_form .another-coupon-action a,
+.signup-login .signup-login__form_wrapper .forgotten_form .another-coupon-action a {
+    color: #e54545;
+    font-size: 1.1rem;
+}
+
+html.signup-active,
+html.login-active,
+html.forgotten-active {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+body.signup-active,
+body.login-active,
+body.forgotten-active {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+}
+
+body.signup-active .signup-login,
+body.login-active .signup-login,
+body.forgotten-active .signup-login {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    overflow: auto;
+}
+
+body.login-active .signup_form {
+    display: none;
+}
+
+body.login-active .forgotten_form {
+    display: none;
+}
+
+body.login-active .signup_message {
+    display: none;
+}
+
+body.signup-active .login_form {
+    display: none;
+}
+
+body.signup-active .forgotten_form {
+    display: none;
+}
+
+body.signup-active .login_message {
+    display: none;
+}
+
+body.forgotten-active .login_form {
+    display: none;
+}
+
+body.forgotten-active .signup_form {
+    display: none;
+}
+
+body.forgotten-active .signup_message {
+    display: none;
+}
+
+.terms-input-group label {
+    color: #999999;
+}
+
+
+.terms-input-group a {
+    text-decoration: underline;
+}
+
+.minimum-pass-length{
+    font-family: "Futura ND Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 1023px) {
+    header {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 9;
+    }
+
+    .main-content_wrapper {
+        margin-top: 7.6rem;
+    }
+
+    .logo_wrapper {
+        width: 100%;
+    }
+
+    .signup-login .signup-login_close_mobile {
+        top: 2rem;
+        right: 1rem;
+    }
+
+    .signup-login .signup-login__left {
+        display: none;
+    }
+
+    .signup-login .signup-login__right {
+        display: block;
+    }
+
+    .signup-login .signup-login__right .signup-login__right-empty {
+        display: none;
+    }
+
+    .signup-login .signup-login__right .signup-login__right-content {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 5rem;
+    }
+
+    .signup-login .signup-login__form_wrapper {
+        width: auto;
+        padding-top: 0;
+        margin-top: 0;
+        position: initial;
+        top: auto;
+        bottom: auto;
+    }
+
+    .signup-login .signup-login__form_wrapper .login_form,
+    .signup-login .signup-login__form_wrapper .signup_form,
+    .signup-login .signup-login__form_wrapper .forgotten_form {
+        padding: 0 4rem;
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    header .header-navigation_wrapper ul.header-navigation>li {
+        margin-left: 2rem;
+    }
+
+    header .header-links_wrapper.mg-span_3_of_12 {
+        width: 32.5%;
+    }
+
+    header .header-navigation_wrapper.mg-span_6_of_12 {
+        width: 40%;
+    }
+
+    header>div {
+        zoom: 0.9 !important;
+    }
+
+    header .header-links_wrapper ul.header-links>li {
+        margin-right: 1.25rem;
+    }
+}
+
+@media all and (max-width: 1600px) {
+    .signup-login .signup-login__left {
+        background-size: contain;
+    }
+}
+
+@media all and (max-width: 1333px) and (max-height:550px) {
+    .signup-login__left {
+        min-height: 850px;
+    }
+}
+
+@media only screen and (min-height: 767px) and (min-width: 1023px) {
+    .signup-login__right-content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding-top: 0;
+    }
+}
