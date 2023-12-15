@@ -1,13 +1,3 @@
-<p align="center"><a href="https://migoda.com" target="_blank"><img src="https://migoda.com/front/assets/images/logo-header.png"></a></p>
-
-<p align="center">
-<a href="https://beta.migoda.com"><img src="https://github.com/pars-design/migoda/workflows/CI%20Code%20Checks/badge.svg?branch=master" alt="Beta Status"></a>
-<a href="https://migoda.com"><img src="https://github.com/pars-design/migoda/workflows/CI%20&%20CD/badge.svg" alt="Production Status"></a>
-</p>
-
-
----
-
 ### Kurulum
 
 - **".env.example"** dosyasının bir kopyasını **".env"** olarak oluşturunuz.
